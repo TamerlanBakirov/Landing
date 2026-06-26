@@ -1,6 +1,6 @@
 {
   "name": "ai-web-agency",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "description": "Autonomous Multi-Agent AI Web Agency",
   "scripts": {
@@ -16,6 +16,6 @@
     "status": "node scripts/status.js"
   },
   "dependencies": {
-    "playwright": "^1.40.0"
+    "nodemailer": "^6.9.0"
   }
 }
