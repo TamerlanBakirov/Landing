@@ -1,8 +1,28 @@
 import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLeadsByStage } from '../lib/state.js';
+import { loadEnv } from '../lib/env.js';
 import { existsSync } from 'fs';
+import { createTransport } from 'nodemailer';
+
+loadEnv();
 
 const config = loadConfig();
 const DAILY_LIMIT = config.goals.daily_outreach_limit;
+
+function getMailTransport() {
+  const host = process.env.SMTP_HOST;
+  const port = parseInt(process.env.SMTP_PORT || '587');
+  const user = process.env.SMTP_USER;
+  const pass = process.env.SMTP_PASS;
+
+  if (!host || !user || !pass) return null;
+
+  return createTransport({
+    host,
+    port,
+    secure: port === 465,
+    auth: { user, pass }
+  });
+}
 
 function loadCampaignLog() {
   return loadJSON('database/campaigns.json', {
@@ -29,109 +49,30 @@ function isDuplicate(log, leadId) {
   return log.messages.some(m => m.lead_id === leadId);
 }
 
-function generateEmailTemplate(lead, diagnosis) {
+function generateEmailContent(lead, diagnosis) {
   const outreach = diagnosis?.outreach_message || {};
   const pkg = diagnosis?.recommendation || {};
 
-  return {
-    channel: 'email',
-    to: lead.email,
-    subject: outreach.subject_en || `Website proposal for ${lead.name}`,
-    body: `Dear ${lead.name} team,
-
-${outreach.opening || `I came across your business while researching ${lead.category} services in ${lead.city}.`}
-
-${outreach.value_proposition || `I help local businesses like yours get more customers through modern, mobile-friendly websites.`}
-
-${outreach.offer || `I've prepared a custom preview of what your new website could look like.`}
-
-${outreach.package_mention || `Starting from just €${config.pricing.packages[0].price}, you can have a professional online presence.`}
-
-${outreach.cta || `Would you be open to a quick 15-minute Google Meet call? Just reply and I'll send you a meeting invite.`}
-
-Best regards,
-AI Web Agency
-${config.agency.owner_email}
-
-P.S. I've attached a preview of your potential new website. No obligation - just wanted to show you what's possible.`,
-    body_hu: `Kedves ${lead.name} csapata!
+  const subject = outreach.subject_hu || `Weboldal ajánlat - ${lead.name}`;
+  const body = outreach.body_hu || `Kedves ${lead.name} csapata!
 
 ${lead.website
   ? `Megnéztem a weboldalukat, és észrevettem néhány területet, ahol hatékonyabban szolgálhatná az üzletüket.`
-  : `Észrevettem, hogy a ${lead.name}-nak még nincs modern weboldala. A mai digitális világban ez azt jelenti, hogy potenciális ügyfelek nem találják meg Önöket online.`}
+  : `Észrevettem, hogy a ${lead.name}-nak még nincs modern weboldala.`}
 
-Modern, mobilbarát weboldalakat készítek ${lead.category} vállalkozásoknak Magyarországon. Ügyfeleim jellemzően 40-85%-kal több online megkeresést kapnak az új oldal indítása után.
+Modern, mobilbarát weboldalakat készítek ${lead.category} vállalkozásoknak Magyarországon.
 
-Készítettem egy egyedi előnézetet arról, hogyan nézhetne ki az Önök új weboldala - kötelezettség nélkül.
+Készítettem egy egyedi előnézetet - kötelezettség nélkül.
 
 ${pkg.name ? `${pkg.name} csomagunk (€${pkg.price}) tartalmazza: ${(pkg.features || []).slice(0, 3).join(', ')}.` : ''}
 
-Nyitottak lennének egy gyors 15 perces Google Meet beszélgetésre? Válaszoljon erre az üzenetre, és küldök egy meghívót.
+Nyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?
 
 Üdvözlettel,
 AI Web Agency
-${config.agency.owner_email}
+${config.agency.owner_email}`;
 
-UI.: Csatoltam az Önök potenciális új weboldalának előnézetét. Semmi kötelezettség - csak szerettem volna megmutatni a lehetőségeket.`
-  };
-}
-
-function generateLinkedInTemplate(lead, diagnosis) {
-  const pkg = diagnosis?.recommendation || {};
-
-  return {
-    channel: 'linkedin',
-    target: lead.name,
-    connection_note: `Hi! I specialize in creating websites for ${lead.category} businesses in ${lead.city}. I'd love to connect and share some ideas for ${lead.name}.`,
-    follow_up: `Thanks for connecting! I noticed ${lead.website ? 'your website could be working harder for you' : `${lead.name} doesn't have a website yet`}. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached.`
-  };
-}
-
-function generateWhatsAppTemplate(lead, diagnosis) {
-  return {
-    channel: 'whatsapp',
-    to: lead.phone,
-    message_hu: `Szia! 👋
-
-Weboldal készítő vagyok, és ${lead.city}-i ${lead.category} vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.
-
-Készítettem egy ingyenes előnézetet a ${lead.name} számára - érdekli?
-
-Kötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!
-
-Üdv, AI Web Agency`,
-    message_en: `Hi! 👋
-
-I create modern websites for ${lead.category} businesses in ${lead.city}.
-
-I prepared a free website preview for ${lead.name} - interested?
-
-No-obligation 15min Google Meet consultation - just reply and I'll send the invite!
-
-Best, AI Web Agency`
-  };
-}
-
-function generateInstagramDMTemplate(lead) {
-  return {
-    channel: 'instagram',
-    target: lead.name,
-    message: `Hi ${lead.name} team! 🙌
-
-Love what you're doing in ${lead.city}! I create modern websites for local businesses and I think an upgraded online presence could really help grow your ${lead.category} business.
-
-I actually made a free preview of what your new site could look like. Want to see it?
-
-No commitment, just thought you'd appreciate it! 😊`
-  };
-}
-
-function selectBestChannel(lead) {
-  if (lead.email) return 'email';
-  if (lead.phone) return 'whatsapp';
-  if (lead.social_links?.some(l => l.includes('instagram'))) return 'instagram';
-  if (lead.social_links?.some(l => l.includes('linkedin'))) return 'linkedin';
-  return 'email';
+  return { subject, body };
 }
 
 export function preparePitch(lead) {
@@ -142,24 +83,18 @@ export function preparePitch(lead) {
   console.log(`[Pitcher] Preparing outreach for: ${lead.name}`);
   logAction('pitcher', 'prepare_start', { name: lead.name });
 
-  const bestChannel = selectBestChannel(lead);
+  const email = generateEmailContent(lead, diagnosis);
 
   const pitch = {
     lead_id: lead.id,
     business_name: lead.name,
     city: lead.city,
     prepared_at: new Date().toISOString(),
-    recommended_channel: bestChannel,
-    channels: {
-      email: lead.email ? generateEmailTemplate(lead, diagnosis) : null,
-      linkedin: generateLinkedInTemplate(lead, diagnosis),
-      whatsapp: lead.phone ? generateWhatsAppTemplate(lead, diagnosis) : null,
-      instagram: generateInstagramDMTemplate(lead)
-    },
+    email_to: lead.email || lead.phone || '',
+    subject: email.subject,
+    body: email.body,
     attachments: {
       website_preview: existsSync(`projects/${slug}/index.html`) ? `projects/${slug}/index.html` : null,
-      video_frames: existsSync(`projects/${slug}/video-frames`) ? `projects/${slug}/video-frames` : null,
-      screenshots: existsSync(`projects/${slug}/screenshots`) ? `projects/${slug}/screenshots` : null,
       diagnosis_report: diagnosis ? `database/diagnosis/${slug}.json` : null
     },
     status: 'ready_to_send'
@@ -169,7 +104,6 @@ export function preparePitch(lead) {
 
   logAction('pitcher', 'prepare_complete', {
     name: lead.name,
-    channel: bestChannel,
     has_email: !!lead.email,
     has_phone: !!lead.phone
   });
@@ -177,7 +111,32 @@ export function preparePitch(lead) {
   return pitch;
 }
 
-export function sendPitch(lead, pitch) {
+async function sendEmail(transport, pitch, lead) {
+  if (!lead.email) {
+    console.log(`[Pitcher] No email for ${lead.name}, skipping email send`);
+    return false;
+  }
+
+  const mailOptions = {
+    from: `"AI Web Agency" <${process.env.SMTP_USER}>`,
+    to: lead.email,
+    subject: pitch.subject,
+    text: pitch.body
+  };
+
+  const slug = slugify(lead.name);
+  if (pitch.attachments.website_preview) {
+    mailOptions.attachments = [{
+      filename: `${slug}-website-preview.html`,
+      path: pitch.attachments.website_preview
+    }];
+  }
+
+  await transport.sendMail(mailOptions);
+  return true;
+}
+
+export async function sendPitch(lead, pitch) {
   let log = loadCampaignLog();
   log = resetDailyCounterIfNeeded(log);
 
@@ -193,19 +152,30 @@ export function sendPitch(lead, pitch) {
     return false;
   }
 
+  const transport = getMailTransport();
+  let emailSent = false;
+
+  if (transport && lead.email) {
+    try {
+      emailSent = await sendEmail(transport, pitch, lead);
+      console.log(`[Pitcher] Email sent to ${lead.email} for ${lead.name}`);
+    } catch (err) {
+      console.error(`[Pitcher] Email send failed for ${lead.name}: ${err.message}`);
+      logAction('pitcher', 'email_error', { name: lead.name, error: err.message });
+    }
+  } else if (!transport) {
+    console.log(`[Pitcher] SMTP not configured. Pitch saved but not sent.`);
+  }
+
   const message = {
     lead_id: lead.id,
     business_name: lead.name,
     city: lead.city,
-    channel: pitch.recommended_channel,
+    channel: lead.email ? 'email' : 'queued',
     sent_at: new Date().toISOString(),
-    status: 'pending_approval',
-    pitch_summary: {
-      channel: pitch.recommended_channel,
-      to: pitch.channels[pitch.recommended_channel]?.to || lead.name,
-      subject: pitch.channels.email?.subject || `Outreach to ${lead.name}`,
-      has_attachments: Object.values(pitch.attachments).some(v => v !== null)
-    }
+    status: emailSent ? 'sent' : 'pending_manual',
+    subject: pitch.subject,
+    to: lead.email || 'N/A'
   };
 
   log.messages.push(message);
@@ -215,21 +185,22 @@ export function sendPitch(lead, pitch) {
   updateLead(lead.name, lead.city, {
     stage: 'pitched',
     pitched_at: new Date().toISOString(),
-    pitch_channel: pitch.recommended_channel
+    pitch_channel: emailSent ? 'email_sent' : 'pending_manual',
+    email_sent: emailSent
   });
 
-  console.log(`[Pitcher] Pitch ready for ${lead.name} via ${pitch.recommended_channel} (${log.sent_today}/${DAILY_LIMIT} today)`);
-  logAction('pitcher', 'pitch_queued', {
+  console.log(`[Pitcher] ${lead.name}: ${emailSent ? 'Email sent' : 'Saved (manual send needed)'} (${log.sent_today}/${DAILY_LIMIT} today)`);
+  logAction('pitcher', 'pitch_complete', {
     name: lead.name,
-    channel: pitch.recommended_channel,
+    email_sent: emailSent,
     daily_count: log.sent_today
   });
 
   return true;
 }
 
-export function runPitcher() {
-  console.log('[Pitcher] Starting outreach preparation...');
+export async function runPitcher() {
+  console.log('[Pitcher] Starting outreach...');
   logAction('pitcher', 'run_start');
 
   const leads = getLeadsByStage('checked');
@@ -243,7 +214,7 @@ export function runPitcher() {
       const pitch = preparePitch(lead);
       prepared++;
 
-      const didSend = sendPitch(lead, pitch);
+      const didSend = await sendPitch(lead, pitch);
       if (didSend) sent++;
 
       if (sent >= DAILY_LIMIT) {
@@ -256,7 +227,7 @@ export function runPitcher() {
     }
   }
 
-  console.log(`[Pitcher] Complete. Prepared: ${prepared}, Queued: ${sent}`);
+  console.log(`[Pitcher] Complete. Prepared: ${prepared}, Sent: ${sent}`);
   logAction('pitcher', 'run_complete', { prepared, sent, total: leads.length });
 }
 

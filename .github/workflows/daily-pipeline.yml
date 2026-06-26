@@ -1,0 +1,39 @@
+name: Daily Pipeline
+
+on:
+  schedule:
+    # Every day at 7:00 UTC (9:00 Budapest time)
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run full pipeline
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: node scripts/orchestrator.js --full-pipeline
+
+      - name: Commit updated data
+        run: |
+          git config user.name "AI Web Agency Bot"
+          git config user.email "tamerlan858@gmail.com"
+          git add database/ projects/
+          git diff --staged --quiet || git commit -m "Daily pipeline run $(date +%Y-%m-%d)"
+          git push
