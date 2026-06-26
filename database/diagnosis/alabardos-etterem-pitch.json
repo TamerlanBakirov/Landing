@@ -1,0 +1,34 @@
+{
+  "lead_id": "alabardos-etterem-miskolc",
+  "business_name": "Alabárdos Étterem",
+  "city": "Miskolc",
+  "prepared_at": "2026-06-25T19:50:06.658Z",
+  "recommended_channel": "whatsapp",
+  "channels": {
+    "email": null,
+    "linkedin": {
+      "channel": "linkedin",
+      "target": "Alabárdos Étterem",
+      "connection_note": "Hi! I specialize in creating websites for restaurant businesses in Miskolc. I'd love to connect and share some ideas for Alabárdos Étterem.",
+      "follow_up": "Thanks for connecting! I noticed Alabárdos Étterem doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
+    },
+    "whatsapp": {
+      "channel": "whatsapp",
+      "to": "+36 46 234 567",
+      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Miskolc-i restaurant vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Alabárdos Étterem számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
+      "message_en": "Hi! 👋\n\nI create modern websites for restaurant businesses in Miskolc.\n\nI prepared a free website preview for Alabárdos Étterem - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
+    },
+    "instagram": {
+      "channel": "instagram",
+      "target": "Alabárdos Étterem",
+      "message": "Hi Alabárdos Étterem team! 🙌\n\nLove what you're doing in Miskolc! I create modern websites for local businesses and I think an upgraded online presence could really help grow your restaurant business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
+    }
+  },
+  "attachments": {
+    "website_preview": "projects/alabardos-etterem/index.html",
+    "video_frames": null,
+    "screenshots": null,
+    "diagnosis_report": "database/diagnosis/alabardos-etterem.json"
+  },
+  "status": "ready_to_send"
+}

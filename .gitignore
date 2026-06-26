@@ -1,0 +1,8 @@
+node_modules/
+database/screenshots/
+database/logs/
+projects/*/video-frames/
+projects/*/screenshots/
+*.png
+*.mp4
+.env

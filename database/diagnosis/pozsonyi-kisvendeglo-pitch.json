@@ -1,0 +1,34 @@
+{
+  "lead_id": "pozsonyi-kisvendeglo-budapest",
+  "business_name": "Pozsonyi Kisvendéglő",
+  "city": "Budapest",
+  "prepared_at": "2026-06-25T19:49:35.296Z",
+  "recommended_channel": "whatsapp",
+  "channels": {
+    "email": null,
+    "linkedin": {
+      "channel": "linkedin",
+      "target": "Pozsonyi Kisvendéglő",
+      "connection_note": "Hi! I specialize in creating websites for restaurant businesses in Budapest. I'd love to connect and share some ideas for Pozsonyi Kisvendéglő.",
+      "follow_up": "Thanks for connecting! I noticed Pozsonyi Kisvendéglő doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
+    },
+    "whatsapp": {
+      "channel": "whatsapp",
+      "to": "+36 1 456 7890",
+      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Budapest-i restaurant vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Pozsonyi Kisvendéglő számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
+      "message_en": "Hi! 👋\n\nI create modern websites for restaurant businesses in Budapest.\n\nI prepared a free website preview for Pozsonyi Kisvendéglő - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
+    },
+    "instagram": {
+      "channel": "instagram",
+      "target": "Pozsonyi Kisvendéglő",
+      "message": "Hi Pozsonyi Kisvendéglő team! 🙌\n\nLove what you're doing in Budapest! I create modern websites for local businesses and I think an upgraded online presence could really help grow your restaurant business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
+    }
+  },
+  "attachments": {
+    "website_preview": "projects/pozsonyi-kisvendeglo/index.html",
+    "video_frames": null,
+    "screenshots": null,
+    "diagnosis_report": "database/diagnosis/pozsonyi-kisvendeglo.json"
+  },
+  "status": "ready_to_send"
+}

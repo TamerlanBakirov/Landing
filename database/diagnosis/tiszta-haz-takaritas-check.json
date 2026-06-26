@@ -1,0 +1,26 @@
+{
+  "business_name": "Tiszta Ház Takarítás",
+  "city": "Budapest",
+  "checked_at": "2026-06-25T19:49:34.969Z",
+  "confidence": 93,
+  "spam_score": 100,
+  "passed": true,
+  "issues": [
+    {
+      "field": "personalization",
+      "severity": "warning",
+      "message": "Placeholder text found - update before sending"
+    },
+    {
+      "field": "grammar",
+      "severity": "minor",
+      "message": "Excessive capitalization detected"
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "warnings": 1,
+    "minor": 1,
+    "total": 2
+  }
+}

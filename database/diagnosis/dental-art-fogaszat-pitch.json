@@ -1,0 +1,34 @@
+{
+  "lead_id": "dental-art-fogaszat-budapest",
+  "business_name": "Dental Art Fogászat",
+  "city": "Budapest",
+  "prepared_at": "2026-06-25T19:49:35.315Z",
+  "recommended_channel": "whatsapp",
+  "channels": {
+    "email": null,
+    "linkedin": {
+      "channel": "linkedin",
+      "target": "Dental Art Fogászat",
+      "connection_note": "Hi! I specialize in creating websites for dentist businesses in Budapest. I'd love to connect and share some ideas for Dental Art Fogászat.",
+      "follow_up": "Thanks for connecting! I noticed Dental Art Fogászat doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
+    },
+    "whatsapp": {
+      "channel": "whatsapp",
+      "to": "+36 1 789 0123",
+      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Budapest-i dentist vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Dental Art Fogászat számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
+      "message_en": "Hi! 👋\n\nI create modern websites for dentist businesses in Budapest.\n\nI prepared a free website preview for Dental Art Fogászat - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
+    },
+    "instagram": {
+      "channel": "instagram",
+      "target": "Dental Art Fogászat",
+      "message": "Hi Dental Art Fogászat team! 🙌\n\nLove what you're doing in Budapest! I create modern websites for local businesses and I think an upgraded online presence could really help grow your dentist business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
+    }
+  },
+  "attachments": {
+    "website_preview": "projects/dental-art-fogaszat/index.html",
+    "video_frames": null,
+    "screenshots": null,
+    "diagnosis_report": "database/diagnosis/dental-art-fogaszat.json"
+  },
+  "status": "ready_to_send"
+}
