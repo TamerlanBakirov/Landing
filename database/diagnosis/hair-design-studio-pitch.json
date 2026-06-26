@@ -1,0 +1,34 @@
+{
+  "lead_id": "hair-design-studio-budapest",
+  "business_name": "Hair Design Studio",
+  "city": "Budapest",
+  "prepared_at": "2026-06-25T19:49:35.344Z",
+  "recommended_channel": "whatsapp",
+  "channels": {
+    "email": null,
+    "linkedin": {
+      "channel": "linkedin",
+      "target": "Hair Design Studio",
+      "connection_note": "Hi! I specialize in creating websites for hair salon businesses in Budapest. I'd love to connect and share some ideas for Hair Design Studio.",
+      "follow_up": "Thanks for connecting! I noticed Hair Design Studio doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
+    },
+    "whatsapp": {
+      "channel": "whatsapp",
+      "to": "+36 70 567 8901",
+      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Budapest-i hair salon vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Hair Design Studio számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
+      "message_en": "Hi! 👋\n\nI create modern websites for hair salon businesses in Budapest.\n\nI prepared a free website preview for Hair Design Studio - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
+    },
+    "instagram": {
+      "channel": "instagram",
+      "target": "Hair Design Studio",
+      "message": "Hi Hair Design Studio team! 🙌\n\nLove what you're doing in Budapest! I create modern websites for local businesses and I think an upgraded online presence could really help grow your hair salon business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
+    }
+  },
+  "attachments": {
+    "website_preview": "projects/hair-design-studio/index.html",
+    "video_frames": null,
+    "screenshots": null,
+    "diagnosis_report": "database/diagnosis/hair-design-studio.json"
+  },
+  "status": "ready_to_send"
+}

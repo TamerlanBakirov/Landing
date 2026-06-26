@@ -1,0 +1,76 @@
+{
+  "business_name": "Flaska Vendéglő",
+  "city": "Debrecen",
+  "category": "restaurant",
+  "generated_at": "2026-06-25T19:48:43.293Z",
+  "current_state": {
+    "has_website": true,
+    "website_url": "http://flaska.hu",
+    "design_era": "unknown",
+    "loading_speed": "unknown",
+    "loading_time_ms": 0,
+    "mobile_responsive": false,
+    "ssl_secured": false
+  },
+  "seo_audit": {
+    "title": "Missing",
+    "meta_description": false,
+    "h1_present": false,
+    "images_count": 0,
+    "analytics_present": false
+  },
+  "issues": [
+    "No SSL certificate (HTTP only)",
+    "Likely not optimized for mobile devices",
+    "Missing modern SEO optimization",
+    "No analytics tracking detected",
+    "Could benefit from professional redesign",
+    "Missing call-to-action buttons",
+    "No integrated booking or contact system"
+  ],
+  "strengths": [
+    "Strong Google rating: 4.2",
+    "Good review count: 189",
+    "Has phone contact"
+  ],
+  "score_breakdown": {
+    "total_issues": 7,
+    "critical_issues": 1,
+    "estimated_conversion_increase": "56%"
+  },
+  "recommendation": {
+    "package": "Standard",
+    "price": 799,
+    "currency": "EUR",
+    "features": [
+      "5-page professional website",
+      "Mobile responsive",
+      "Contact form + booking",
+      "Google Maps integration",
+      "Full SEO optimization",
+      "Social media integration",
+      "3 revision rounds",
+      "1 month support"
+    ],
+    "delivery_days": 10,
+    "roi_estimate": "With a modern website, Flaska Vendéglő could see up to 56% more customer inquiries."
+  },
+  "outreach_message": {
+    "subject_hu": "Weboldal ajánlat - Flaska Vendéglő",
+    "subject_en": "Website proposal for Flaska Vendéglő",
+    "greeting_hu": "Kedves Flaska Vendéglő csapata!",
+    "greeting_en": "Dear Flaska Vendéglő team,",
+    "opening_hu": "Megnéztem a weboldalukat és néhány fejlesztési lehetőséget találtam: no ssl certificate (http only), likely not optimized for mobile devices, missing modern seo optimization.",
+    "opening_en": "I visited your website and noticed a few areas where it could work harder for your business — no ssl certificate (http only), likely not optimized for mobile devices, missing modern seo optimization.",
+    "value_proposition_hu": "Modern, mobilbarát weboldalakat készítek restaurant vállalkozásoknak Magyarországon. Ügyfeleim jellemzően 56%-kal több online megkeresést kapnak az új oldal indítása után.",
+    "value_proposition_en": "I specialize in creating modern, mobile-friendly websites for restaurant businesses in Hungary. My clients typically see a 56% increase in online inquiries after launching their new site.",
+    "offer_hu": "Készítettem egy egyedi előnézetet arról, hogyan nézhetne ki az Önök új weboldala. Szívesen megmutatnám - kötelezettség nélkül.",
+    "offer_en": "I've prepared a custom preview of what your new website could look like. I'd love to show it to you — no obligation, just a quick look.",
+    "package_mention_hu": "Standard csomagunk (€799) tartalmazza: 5-page professional website, Mobile responsive, Contact form + booking, Google Maps integration.",
+    "package_mention_en": "My Standard package (€799) includes: 5-page professional website, Mobile responsive, Contact form + booking, Google Maps integration.",
+    "cta_hu": "Nyitottak lennének egy gyors 15 perces hívásra ezen a héten? Válaszoljon erre az üzenetre, és küldök egy Google Meet meghívót a megbeszélt időpontra.",
+    "cta_en": "Would you be open to a quick 15-minute call this week? Just reply to this message and I'll send you a Google Meet invite for a time that works.",
+    "closing_hu": "Üdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
+    "closing_en": "Best regards,\nAI Web Agency\ntamerlan858@gmail.com"
+  }
+}

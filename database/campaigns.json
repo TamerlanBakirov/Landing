@@ -1,0 +1,426 @@
+{
+  "sent_today": 30,
+  "last_reset": "2026-06-25",
+  "messages": [
+    {
+      "lead_id": "kis-pipa-etterem-budapest",
+      "business_name": "Kis Pipa Étterem",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.289Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 1 234 5678",
+        "subject": "Outreach to Kis Pipa Étterem",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "pozsonyi-kisvendeglo-budapest",
+      "business_name": "Pozsonyi Kisvendéglő",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.299Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 1 456 7890",
+        "subject": "Outreach to Pozsonyi Kisvendéglő",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "borbirosag-etterem-budapest",
+      "business_name": "Borbíróság Étterem",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.308Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 123 4567",
+        "subject": "Outreach to Borbíróság Étterem",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "dental-art-fogaszat-budapest",
+      "business_name": "Dental Art Fogászat",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.318Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 1 789 0123",
+        "subject": "Outreach to Dental Art Fogászat",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "feher-fogaszat-budapest",
+      "business_name": "Fehér Fogászat",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.327Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 20 345 6789",
+        "subject": "Outreach to Fehér Fogászat",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "szepsegszalon-dora-budapest",
+      "business_name": "Szépségszalon Dóra",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.337Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 456 7890",
+        "subject": "Outreach to Szépségszalon Dóra",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "hair-design-studio-budapest",
+      "business_name": "Hair Design Studio",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.347Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 70 567 8901",
+        "subject": "Outreach to Hair Design Studio",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "gyors-szerviz-autojavito-budapest",
+      "business_name": "Gyors Szerviz Autójavító",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.357Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 1 234 5679",
+        "subject": "Outreach to Gyors Szerviz Autójavító",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "mestergarazs-kft-budapest",
+      "business_name": "MesterGarázs Kft.",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.367Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 789 0123",
+        "subject": "Outreach to MesterGarázs Kft.",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "gyors-vizszerelo-szolgalat-budapest",
+      "business_name": "Gyors Vízszerelő Szolgálat",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.377Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 567 8903",
+        "subject": "Outreach to Gyors Vízszerelő Szolgálat",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "megbizhato-vizszereles-budapest",
+      "business_name": "Megbízható Vízszerelés",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.386Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 70 678 9013",
+        "subject": "Outreach to Megbízható Vízszerelés",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "kovacs-pekseg-budapest",
+      "business_name": "Kovács Pékség",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.396Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 1 345 6780",
+        "subject": "Outreach to Kovács Pékség",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "artizan-pekmuhely-budapest",
+      "business_name": "Artizán Pékműhely",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.405Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 456 7891",
+        "subject": "Outreach to Artizán Pékműhely",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "regi-idok-peksege-budapest",
+      "business_name": "Régi Idők Péksége",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.415Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 20 567 8902",
+        "subject": "Outreach to Régi Idők Péksége",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "fitlife-edzoterem-budapest",
+      "business_name": "FitLife Edzőterem",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.424Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 1 456 7891",
+        "subject": "Outreach to FitLife Edzőterem",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "szep-pillanatok-foto-budapest",
+      "business_name": "Szép Pillanatok Fotó",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.434Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 890 1235",
+        "subject": "Outreach to Szép Pillanatok Fotó",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "fotoart-studio-budapest",
+      "business_name": "FotoArt Stúdió",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.443Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 20 901 2346",
+        "subject": "Outreach to FotoArt Stúdió",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "tiszta-haz-takaritas-budapest",
+      "business_name": "Tiszta Ház Takarítás",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.454Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 012 3457",
+        "subject": "Outreach to Tiszta Ház Takarítás",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "proclean-szolgaltatas-budapest",
+      "business_name": "ProClean Szolgáltatás",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.463Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 70 123 4569",
+        "subject": "Outreach to ProClean Szolgáltatás",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "szepsegstudio-bella-budapest",
+      "business_name": "Szépségstúdió Bella",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.473Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 234 5679",
+        "subject": "Outreach to Szépségstúdió Bella",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "lavie-szepsegszalon-budapest",
+      "business_name": "LaVie Szépségszalon",
+      "city": "Budapest",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.482Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 20 345 6780",
+        "subject": "Outreach to LaVie Szépségszalon",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "csokonai-etterem-debrecen",
+      "business_name": "Csokonai Étterem",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.492Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 52 234 567",
+        "subject": "Outreach to Csokonai Étterem",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "ikon-etterem-debrecen",
+      "business_name": "Ikon Étterem",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.502Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 52 456 789",
+        "subject": "Outreach to Ikon Étterem",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "dent-art-fogaszat-debrecen-debrecen",
+      "business_name": "Dent-Art Fogászat Debrecen",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.511Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 52 567 890",
+        "subject": "Outreach to Dent-Art Fogászat Debrecen",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "mosoly-fogaszati-centrum-debrecen",
+      "business_name": "Mosoly Fogászati Centrum",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.520Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 52 678 901",
+        "subject": "Outreach to Mosoly Fogászati Centrum",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "style-point-szalon-debrecen",
+      "business_name": "Style Point Szalon",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.529Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 234 5670",
+        "subject": "Outreach to Style Point Szalon",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "szepseg-sziget-fodraszat-debrecen",
+      "business_name": "Szépség Sziget Fodrászat",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.538Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 20 345 6781",
+        "subject": "Outreach to Szépség Sziget Fodrászat",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "debreceni-autoszerviz-debrecen",
+      "business_name": "Debreceni Autószerviz",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.548Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 52 890 123",
+        "subject": "Outreach to Debreceni Autószerviz",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "profi-garazs-kft-debrecen",
+      "business_name": "Profi Garázs Kft.",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.557Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 30 567 8904",
+        "subject": "Outreach to Profi Garázs Kft.",
+        "has_attachments": true
+      }
+    },
+    {
+      "lead_id": "debreceni-retes-haza-debrecen",
+      "business_name": "Debreceni Rétes Háza",
+      "city": "Debrecen",
+      "channel": "whatsapp",
+      "sent_at": "2026-06-25T19:49:35.568Z",
+      "status": "pending_approval",
+      "pitch_summary": {
+        "channel": "whatsapp",
+        "to": "+36 52 789 012",
+        "subject": "Outreach to Debreceni Rétes Háza",
+        "has_attachments": true
+      }
+    }
+  ]
+}

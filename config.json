@@ -1,0 +1,173 @@
+{
+  "agency": {
+    "name": "AI Web Agency",
+    "version": "1.0.0",
+    "owner_email": "tamerlan858@gmail.com",
+    "meeting_link": "google_meet",
+    "meeting_email": "tamerlan858@gmail.com",
+    "timezone": "Europe/Budapest"
+  },
+  "target": {
+    "country": "Hungary",
+    "country_code": "HU",
+    "language": "hu",
+    "cities": [
+      {
+        "name": "Budapest",
+        "priority": 1,
+        "population": 1752286
+      },
+      {
+        "name": "Debrecen",
+        "priority": 2,
+        "population": 202402
+      },
+      {
+        "name": "Szeged",
+        "priority": 3,
+        "population": 160766
+      },
+      {
+        "name": "Miskolc",
+        "priority": 4,
+        "population": 157177
+      },
+      {
+        "name": "Pécs",
+        "priority": 5,
+        "population": 142873
+      }
+    ],
+    "categories": [
+      "restaurant",
+      "dentist",
+      "hair salon",
+      "auto repair",
+      "plumber",
+      "electrician",
+      "bakery",
+      "gym",
+      "yoga studio",
+      "law firm",
+      "accountant",
+      "real estate agency",
+      "veterinary clinic",
+      "photographer",
+      "florist",
+      "tailor",
+      "cleaning service",
+      "moving company",
+      "car wash",
+      "beauty salon",
+      "spa",
+      "tattoo studio",
+      "pet shop",
+      "pharmacy",
+      "optician"
+    ],
+    "exclude_chains": [
+      "McDonald's",
+      "KFC",
+      "Burger King",
+      "Subway",
+      "Starbucks",
+      "Pizza Hut",
+      "Spar",
+      "Lidl",
+      "Aldi",
+      "Tesco",
+      "CBA",
+      "Rossmann",
+      "dm",
+      "MOL",
+      "OTP Bank",
+      "Erste Bank",
+      "MKB Bank"
+    ]
+  },
+  "pricing": {
+    "currency": "EUR",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": 299,
+        "features": [
+          "Single-page landing site",
+          "Mobile responsive",
+          "Contact form",
+          "Google Maps integration",
+          "Basic SEO setup",
+          "1 revision round"
+        ],
+        "delivery_days": 5
+      },
+      {
+        "name": "Standard",
+        "price": 799,
+        "features": [
+          "5-page professional website",
+          "Mobile responsive",
+          "Contact form + booking",
+          "Google Maps integration",
+          "Full SEO optimization",
+          "Social media integration",
+          "3 revision rounds",
+          "1 month support"
+        ],
+        "delivery_days": 10
+      },
+      {
+        "name": "Premium",
+        "price": 1499,
+        "features": [
+          "10+ page custom website",
+          "Mobile responsive",
+          "Online booking system",
+          "Google Maps + reviews integration",
+          "Advanced SEO + local SEO",
+          "Social media integration",
+          "Custom animations",
+          "Blog setup",
+          "Unlimited revisions",
+          "3 months support",
+          "Monthly analytics report"
+        ],
+        "delivery_days": 20
+      }
+    ],
+    "monthly_maintenance": {
+      "price": 49,
+      "features": [
+        "Hosting",
+        "SSL certificate",
+        "Monthly backups",
+        "Security updates",
+        "Minor content updates"
+      ]
+    }
+  },
+  "goals": {
+    "monthly_revenue_target": 5000,
+    "daily_leads_target": 20,
+    "daily_outreach_limit": 30,
+    "min_lead_score": 60,
+    "min_build_score": 80,
+    "min_checker_confidence": 90
+  },
+  "pipeline": {
+    "stages": [
+      "scouted",
+      "diagnosed",
+      "built",
+      "filmed",
+      "checked",
+      "pitched",
+      "responded",
+      "meeting_scheduled",
+      "approved",
+      "delivered"
+    ],
+    "retry_limit": 3,
+    "retry_delay_ms": 5000
+  }
+}

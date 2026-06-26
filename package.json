@@ -1,0 +1,21 @@
+{
+  "name": "ai-web-agency",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Autonomous Multi-Agent AI Web Agency",
+  "scripts": {
+    "start": "node scripts/orchestrator.js",
+    "scout": "node agents/scout.js",
+    "diagnose": "node agents/diagnoser.js",
+    "build": "node agents/builder.js",
+    "film": "node agents/filmmaker.js",
+    "check": "node agents/checker.js",
+    "pitch": "node agents/pitcher.js",
+    "monitor": "node agents/mobile.js",
+    "pipeline": "node scripts/orchestrator.js --full-pipeline",
+    "status": "node scripts/status.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
