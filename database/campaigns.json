@@ -1,1 +1,106 @@
-{"sent_today":0,"last_reset":"2026-06-27","messages":[]}
+{
+  "sent_today": 10,
+  "last_reset": "2026-06-27",
+  "messages": [
+    {
+      "lead_id": "erzsebet-dental-medical-budapest",
+      "business_name": "Erzsébet dental & medical",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:03.355Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Erzsébet dental & medical",
+      "to": "Zoltan.Arnold@gmail.com"
+    },
+    {
+      "lead_id": "pannonia-dental-plus-kft-budapest",
+      "business_name": "Pannónia Dental Plus Kft.",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:04.559Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Pannónia Dental Plus Kft.",
+      "to": "info@pannoniadental.hu"
+    },
+    {
+      "lead_id": "fair-dental-service-budapest",
+      "business_name": "Fair Dental Service",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:05.856Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Fair Dental Service",
+      "to": "fairdentalservice.kft@gmail.com"
+    },
+    {
+      "lead_id": "egressy-dental-budapest",
+      "business_name": "Egressy Dental",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:07.101Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Egressy Dental",
+      "to": "rendelo@egressydental.hu"
+    },
+    {
+      "lead_id": "professional-dental-system-fogaszati-rendelo-budapest",
+      "business_name": "Professional Dental System Fogászati Rendelő",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:08.528Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Professional Dental System Fogászati Rendelő",
+      "to": "info@professionaldental.hu"
+    },
+    {
+      "lead_id": "harmonia-dent-budapest",
+      "business_name": "Harmónia-Dent",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:09.816Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Harmónia-Dent",
+      "to": "szaborekadr@gmail.com"
+    },
+    {
+      "lead_id": "radha-s-beauty-salon-budapest",
+      "business_name": "Radha's Beauty Salon",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:10.970Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Radha's Beauty Salon",
+      "to": "Radha.komari@gmail.com"
+    },
+    {
+      "lead_id": "cleancut-gentlemen-s-barber-shop-ferfi-fodraszat-budapest",
+      "business_name": "CleanCut Gentlemen's barber shop - Férfi fodrászat",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:11.997Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - CleanCut Gentlemen's barber shop - Férfi fodrászat",
+      "to": "cleancut.budapest@gmail.com"
+    },
+    {
+      "lead_id": "nhat-barber-shop-budapest",
+      "business_name": "Nhat Barber Shop",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:13.167Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Nhat Barber Shop",
+      "to": "nhatbarbershop@gmail.com"
+    },
+    {
+      "lead_id": "dot-budapest",
+      "business_name": "Dot",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-06-27T12:10:14.435Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet - Dot",
+      "to": "dotgroupkft@gmail.com"
+    }
+  ]
+}

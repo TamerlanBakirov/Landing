@@ -45,8 +45,12 @@ function resetDailyCounterIfNeeded(log) {
   return log;
 }
 
-function isDuplicate(log, leadId) {
-  return log.messages.some(m => m.lead_id === leadId);
+function isDuplicate(log, lead) {
+  const emailLc = (lead.email || '').trim().toLowerCase();
+  return log.messages.some(m =>
+    m.lead_id === lead.id ||
+    (emailLc && (m.to || '').trim().toLowerCase() === emailLc)
+  );
 }
 
 function generateEmailContent(lead, diagnosis) {
@@ -145,7 +149,7 @@ export async function sendPitch(lead, pitch) {
     return false;
   }
 
-  if (isDuplicate(log, lead.id)) {
+  if (isDuplicate(log, lead)) {
     console.log(`[Pitcher] Already contacted ${lead.name}. Skipping.`);
     logAction('pitcher', 'skip_duplicate', { name: lead.name });
     return false;
