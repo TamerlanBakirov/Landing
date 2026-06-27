@@ -197,13 +197,50 @@ function generateOutreachMessage(lead, analysis, conversionIncrease, packageName
   const agency = config.agency.name;
 
   const painPoint = `Észrevettem, hogy a ${lead.name}-nak még nincs weboldala. A mai világban ez azt jelenti, hogy amikor valaki ${catHu} szolgáltatást keres ${lead.city}-ban, az Önök vállalkozása nem jelenik meg a Google találatok között.`;
+  const features = pkg.features.slice(0, 4).join(', ');
+
+  // Plain-text fallback: link label only, no raw URL.
+  const body_hu = `Kedves ${lead.name} csapata!\n\n${painPoint}\n\nKészítettem Önöknek egy kész weboldal-előnézetet. Tekintse meg itt: Minta weboldal megtekintése (${previewUrl})\n\nModern, mobilbarát weboldalakat készítek magyarországi vállalkozásoknak. Ügyfeleim jellemzően ${conversionIncrease}%-kal több online megkeresést kapnak az új oldal indítása után.\n\nA teljes weboldal mindössze €${pkg.price}, és tartalmazza: ${features}.\n\nHa tetszik az előnézet, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-mailre - mindent kényelmesen, e-mailben megbeszélünk.\n\nÜdvözlettel,\n${agency}\n${config.agency.owner_email}`;
 
   return {
     subject_hu: `Ingyenes weboldal előnézet - ${lead.name}`,
     subject_en: `Website proposal for ${lead.name}`,
-    body_hu: `Kedves ${lead.name} csapata!\n\n${painPoint}\n\nKészítettem Önöknek egy kész weboldal-előnézetet, amelyet most azonnal meg is tekinthetnek itt:\n\n${previewUrl}\n\nModern, mobilbarát weboldalakat készítek magyarországi vállalkozásoknak. Ügyfeleim jellemzően ${conversionIncrease}%-kal több online megkeresést kapnak az új oldal indítása után.\n\nA teljes weboldal mindössze €${pkg.price}, és tartalmazza: ${pkg.features.slice(0, 4).join(', ')}.\n\nHa tetszik az előnézet, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-mailre - mindent kényelmesen, e-mailben megbeszélünk.\n\nÜdvözlettel,\n${agency}\n${config.agency.owner_email}`,
-    body_en: `Dear ${lead.name} team,\n\nI noticed that ${lead.name} doesn't have a website yet, which means you may be missing customers searching for ${lead.category} services in ${lead.city}.\n\nI've already built a preview of your potential new website - you can view it right now here:\n\n${previewUrl}\n\nThe complete website is just €${pkg.price} and includes: ${pkg.features.slice(0, 4).join(', ')}.\n\nIf you like it or have any questions, simply reply to this email - we can discuss everything conveniently by email.\n\nBest regards,\n${agency}\n${config.agency.owner_email}`
+    preview_url: previewUrl,
+    body_hu,
+    body_html_hu: renderHtmlEmail({
+      lead, painPoint, previewUrl, price: pkg.price, features,
+      conversionIncrease, agency, ownerEmail: config.agency.owner_email
+    }),
+    body_en: `Dear ${lead.name} team,\n\nI noticed that ${lead.name} doesn't have a website yet, which means you may be missing customers searching for ${lead.category} services in ${lead.city}.\n\nI've already built a preview of your potential new website. View it here: Sample website (${previewUrl})\n\nThe complete website is just €${pkg.price} and includes: ${features}.\n\nIf you like it or have any questions, simply reply to this email - we can discuss everything conveniently by email.\n\nBest regards,\n${agency}\n${config.agency.owner_email}`
   };
+}
+
+// Builds a clean HTML email where the preview link shows as a clickable
+// "Minta weboldal megtekintése" button instead of a long raw URL.
+function renderHtmlEmail({ lead, painPoint, previewUrl, price, features, conversionIncrease, agency, ownerEmail }) {
+  return `<!DOCTYPE html>
+<html lang="hu"><body style="margin:0;padding:0;background:#f4f5f7;font-family:Arial,Helvetica,sans-serif;color:#1f2937;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f5f7;padding:24px 0;">
+    <tr><td align="center">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;">
+        <tr><td style="padding:32px 36px 8px;">
+          <p style="font-size:16px;line-height:1.6;margin:0 0 16px;">Kedves <strong>${lead.name}</strong> csapata!</p>
+          <p style="font-size:15px;line-height:1.6;margin:0 0 16px;color:#374151;">${painPoint}</p>
+          <p style="font-size:15px;line-height:1.6;margin:0 0 24px;color:#374151;">Készítettem Önöknek egy kész weboldal-előnézetet, amelyet egy kattintással megtekinthet:</p>
+          <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 28px;"><tr><td align="center" style="border-radius:50px;background:#2563eb;">
+            <a href="${previewUrl}" target="_blank" style="display:inline-block;padding:14px 36px;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:50px;">Minta weboldal megtekintése →</a>
+          </td></tr></table>
+          <p style="font-size:15px;line-height:1.6;margin:0 0 16px;color:#374151;">Modern, mobilbarát weboldalakat készítek magyarországi vállalkozásoknak. Ügyfeleim jellemzően <strong>${conversionIncrease}%-kal</strong> több online megkeresést kapnak az új oldal indítása után.</p>
+          <p style="font-size:15px;line-height:1.6;margin:0 0 16px;color:#374151;">A teljes weboldal mindössze <strong>€${price}</strong>, és tartalmazza: ${features}.</p>
+          <p style="font-size:15px;line-height:1.6;margin:0 0 24px;color:#374151;">Ha tetszik az előnézet, vagy bármilyen kérdése van, egyszerűen <strong>válaszoljon erre az e-mailre</strong> – mindent kényelmesen, e-mailben megbeszélünk.</p>
+          <p style="font-size:15px;line-height:1.6;margin:0 0 4px;color:#111827;">Üdvözlettel,</p>
+          <p style="font-size:15px;line-height:1.4;margin:0 0 28px;color:#111827;"><strong>${agency}</strong><br><a href="mailto:${ownerEmail}" style="color:#2563eb;text-decoration:none;">${ownerEmail}</a></p>
+        </td></tr>
+      </table>
+      <p style="font-size:12px;color:#9ca3af;margin:16px 0 0;">${agency}</p>
+    </td></tr>
+  </table>
+</body></html>`;
 }
 
 export async function diagnoseLead(lead) {

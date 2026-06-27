@@ -45,6 +45,7 @@ const mail = {
   subject: `[TEST] ${pitch.subject}`,
   text: pitch.body
 };
+if (pitch.html) mail.html = pitch.html;
 
 console.log(`Sending test email to ${user} for "${lead.name}"...`);
 const info = await transport.sendMail(mail);
