@@ -431,6 +431,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
   const cat = getCategoryData(lead.category);
   const photos = getPhotos(lead.category);
   const rating = cat.stats[0].num;
+  const slug = slugify(lead.name);
 
   const subHu = cat.heroSub.hu(lead.city);
   const subEn = cat.heroSub.en(lead.city);
@@ -728,9 +729,12 @@ function generateHTML(lead, diagnosis, logoDataUri) {
 
     /* ═══ SCROLL REVEAL (progressive enhancement) ═══ */
     .reveal { opacity: 1; transform: none; }
-    .js .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1); }
+    /* CSS safety net: even if JS never runs, content is forced visible after
+       3s so a page can never get stuck blank/white. JS reveals it instantly. */
+    .js .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1); animation: revealSafety 0.01s linear 3s forwards; }
+    @keyframes revealSafety { to { opacity: 1; transform: none; } }
     .js .reveal-zoom { transform: scale(0.92) translateY(24px); }
-    .js .reveal.visible { opacity: 1; transform: none; }
+    .js .reveal.visible { opacity: 1; transform: none; animation: none; }
     .reveal-delay-1 { transition-delay: 0.08s; }
     .reveal-delay-2 { transition-delay: 0.16s; }
     .reveal-delay-3 { transition-delay: 0.24s; }
@@ -1150,9 +1154,9 @@ function generateHTML(lead, diagnosis, logoDataUri) {
         var get = function (n) { var el = form.querySelector('[name=' + n + ']'); return el ? el.value : ''; };
         var subject = encodeURIComponent((en ? 'Inquiry from website - ' : 'Érdeklődés a weboldalról - ') + get('name'));
         var body = encodeURIComponent(
-          (en ? 'Name: ' : 'Név: ') + get('name') + '\n' +
-          (en ? 'Email: ' : 'Email: ') + get('email') + '\n' +
-          (en ? 'Phone: ' : 'Telefon: ') + get('phone') + '\n\n' +
+          (en ? 'Name: ' : 'Név: ') + get('name') + '\\n' +
+          (en ? 'Email: ' : 'Email: ') + get('email') + '\\n' +
+          (en ? 'Phone: ' : 'Telefon: ') + get('phone') + '\\n\\n' +
           get('message')
         );
         window.location.href = 'mailto:${lead.email || ''}?subject=' + subject + '&body=' + body;
@@ -1215,6 +1219,11 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     } else {
       for (var y = 0; y < revealEls.length; y++) revealEls[y].classList.add('visible');
     }
+  </script>
+  <script>
+    /* Privacy-friendly visit counter (counterapi.dev) — lets us see which
+       business sites get attention. No cookies, no personal data. */
+    (function () { try { fetch('https://api.counterapi.dev/v1/pixelco/${slug}/up').catch(function () {}); } catch (e) {} })();
   </script>
 </body>
 </html>`;
