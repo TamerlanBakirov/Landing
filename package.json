@@ -13,7 +13,9 @@
     "pitch": "node agents/pitcher.js",
     "monitor": "node agents/mobile.js",
     "pipeline": "node scripts/orchestrator.js --full-pipeline",
-    "status": "node scripts/status.js"
+    "status": "node scripts/status.js",
+    "analytics": "node scripts/analytics.js",
+    "followup": "node agents/followup.js"
   },
   "dependencies": {
     "imapflow": "^1.4.3",
