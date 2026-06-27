@@ -480,6 +480,17 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       transition: width 0.1s linear;
     }
 
+    /* ═══ WHATSAPP FLOATING BUTTON ═══ */
+    .wa-float {
+      position: fixed; bottom: 24px; right: 24px; width: 58px; height: 58px;
+      background: #25D366; border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; box-shadow: 0 6px 24px rgba(37,211,102,0.45);
+      z-index: 1500; transition: transform 0.2s; animation: waPulse 2.5s infinite;
+    }
+    .wa-float:hover { transform: scale(1.1); }
+    .wa-float svg { width: 32px; height: 32px; fill: #fff; }
+    @keyframes waPulse { 0%,100% { box-shadow: 0 6px 24px rgba(37,211,102,0.45); } 50% { box-shadow: 0 6px 30px rgba(37,211,102,0.7); } }
+
     /* ═══ NAVBAR ═══ */
     .navbar {
       position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -696,8 +707,8 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .contact-info-icon { width: 52px; height: 52px; min-width: 52px; border-radius: 14px; background: var(--accent-light); display: flex; align-items: center; justify-content: center; font-size: 22px; }
     .contact-info-item h4 { font-size: 16px; font-weight: 700; color: #111827; margin-bottom: 4px; }
     .contact-info-item p { font-size: 15px; color: #6b7280; }
-    .map-container { margin-top: 32px; border-radius: 16px; overflow: hidden; height: 220px; background: linear-gradient(135deg, #f3f4f6, #e5e7eb); display: flex; align-items: center; justify-content: center; border: 1px solid #e5e7eb; }
-    .map-container span { color: #9ca3af; font-size: 15px; }
+    .map-container { margin-top: 32px; border-radius: 16px; overflow: hidden; height: 220px; border: 1px solid #e5e7eb; }
+    .map-container iframe { width: 100%; height: 100%; border: 0; display: block; }
 
     /* ═══ FOOTER ═══ */
     .footer { background: #111827; color: #fff; padding: 64px 0 32px; }
@@ -758,6 +769,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
 <body>
 
   <div class="scroll-progress" id="scrollProgress"></div>
+  ${lead.phone ? `<a href="https://wa.me/${lead.phone.replace(/[^0-9]/g, '')}" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.157 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.728-.979zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a>` : ''}
 
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
@@ -925,17 +937,17 @@ function generateHTML(lead, diagnosis, logoDataUri) {
           <div class="form-row">
             <div class="form-field">
               <label ${L(UI.formName)}>${UI.formName.hu}</label>
-              <input type="text" required data-hu-ph="${esc(UI.phName.hu)}" data-en-ph="${esc(UI.phName.en)}" placeholder="${esc(UI.phName.hu)}">
+              <input type="text" name="name" required data-hu-ph="${esc(UI.phName.hu)}" data-en-ph="${esc(UI.phName.en)}" placeholder="${esc(UI.phName.hu)}">
             </div>
             <div class="form-field">
               <label ${L(UI.formEmail)}>${UI.formEmail.hu}</label>
-              <input type="email" required placeholder="pelda@email.com">
+              <input type="email" name="email" required placeholder="pelda@email.com">
             </div>
           </div>
           <div class="form-row">
             <div class="form-field">
               <label ${L(UI.formPhone)}>${UI.formPhone.hu}</label>
-              <input type="tel" placeholder="+36 XX XXX XXXX">
+              <input type="tel" name="phone" placeholder="+36 XX XXX XXXX">
             </div>
             <div class="form-field">
               <label ${L(UI.formSubject)}>${UI.formSubject.hu}</label>
@@ -949,7 +961,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
           </div>
           <div class="form-field">
             <label ${L(UI.formMessage)}>${UI.formMessage.hu}</label>
-            <textarea rows="5" data-hu-ph="${esc(UI.phMsg.hu)}" data-en-ph="${esc(UI.phMsg.en)}" placeholder="${esc(UI.phMsg.hu)}"></textarea>
+            <textarea name="message" rows="5" data-hu-ph="${esc(UI.phMsg.hu)}" data-en-ph="${esc(UI.phMsg.en)}" placeholder="${esc(UI.phMsg.hu)}"></textarea>
           </div>
           <button type="submit" class="form-submit" ${L(UI.formSubmit)}>${UI.formSubmit.hu}</button>
         </form>
@@ -974,7 +986,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
               <div><h4 ${L(UI.infoHours)}>${UI.infoHours.hu}</h4><p class="lang-html" ${L(UI.hours)}>${UI.hours.hu}</p></div>
             </div>
           </div>
-          <div class="map-container"><span>📍 ${esc(lead.name)} – ${esc(lead.address || lead.city)}</span></div>
+          <div class="map-container"><iframe src="https://maps.google.com/maps?q=${encodeURIComponent((lead.address ? lead.address + ', ' : '') + lead.name + ', ' + lead.city + ', Hungary')}&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="${esc(lead.name)} térkép"></iframe></div>
         </div>
       </div>
     </div>
@@ -1133,7 +1145,18 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         var btn = form.querySelector('.form-submit');
-        btn.textContent = (document.documentElement.lang === 'en') ? '✓ Sent!' : '✓ Elküldve!';
+        var en = document.documentElement.lang === 'en';
+        // Compose a mailto to the business so the message is actually delivered.
+        var get = function (n) { var el = form.querySelector('[name=' + n + ']'); return el ? el.value : ''; };
+        var subject = encodeURIComponent((en ? 'Inquiry from website - ' : 'Érdeklődés a weboldalról - ') + get('name'));
+        var body = encodeURIComponent(
+          (en ? 'Name: ' : 'Név: ') + get('name') + '\n' +
+          (en ? 'Email: ' : 'Email: ') + get('email') + '\n' +
+          (en ? 'Phone: ' : 'Telefon: ') + get('phone') + '\n\n' +
+          get('message')
+        );
+        window.location.href = 'mailto:${lead.email || ''}?subject=' + subject + '&body=' + body;
+        btn.textContent = en ? '✓ Opening email…' : '✓ Email megnyitása…';
         btn.style.background = '#16a34a';
       });
     }
