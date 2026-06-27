@@ -432,6 +432,8 @@ function generateHTML(lead, diagnosis, logoDataUri) {
   const photos = getPhotos(lead.category);
   const rating = cat.stats[0].num;
   const slug = slugify(lead.name);
+  const hasVideo = existsSync(`projects/${slug}/promo.mp4`);
+  const notifyTopic = config.agency.notify_topic || '';
 
   const subHu = cat.heroSub.hu(lead.city);
   const subEn = cat.heroSub.en(lead.city);
@@ -711,6 +713,11 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .map-container { margin-top: 32px; border-radius: 16px; overflow: hidden; height: 220px; border: 1px solid #e5e7eb; }
     .map-container iframe { width: 100%; height: 100%; border: 0; display: block; }
 
+    /* ═══ PROMO VIDEO ═══ */
+    .video-section { background: #fff; }
+    .video-wrap { max-width: 360px; margin: 0 auto; border-radius: 28px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,0.22); background: #000; }
+    .video-wrap video { width: 100%; display: block; }
+
     /* ═══ FOOTER ═══ */
     .footer { background: #111827; color: #fff; padding: 64px 0 32px; }
     .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
@@ -838,6 +845,21 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       </div>
     </div>
   </section>
+
+  ${hasVideo ? `<!-- PROMO VIDEO -->
+  <section class="section video-section" id="video">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Bemutató videó</span>
+        <h2 class="section-title" ${L({ hu: 'Tekintse meg', en: 'Watch the video' })}>Tekintse meg</h2>
+      </div>
+      <div class="video-wrap reveal">
+        <video controls playsinline preload="metadata" poster="promo-poster.jpg">
+          <source src="promo.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>` : ''}
 
   <!-- ABOUT -->
   <section class="section" id="about">
@@ -1221,9 +1243,22 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     }
   </script>
   <script>
-    /* Privacy-friendly visit counter (counterapi.dev) — lets us see which
-       business sites get attention. No cookies, no personal data. */
-    (function () { try { fetch('https://api.counterapi.dev/v1/pixelco/${slug}/up').catch(function () {}); } catch (e) {} })();
+    /* Visit counter + instant lead alert. Counts every visit (counterapi)
+       and pushes a one-time-per-session notification to ntfy.sh so the
+       agency knows the moment a prospect opens their site. */
+    (function () {
+      try { fetch('https://api.counterapi.dev/v1/pixelco/${slug}/up').catch(function () {}); } catch (e) {}
+      try {
+        if (${notifyTopic ? 'true' : 'false'} && !sessionStorage.getItem('pc_notified')) {
+          sessionStorage.setItem('pc_notified', '1');
+          fetch('https://ntfy.sh/${notifyTopic}', {
+            method: 'POST',
+            headers: { 'Title': 'Pixel & Co. - lead aktiv', 'Tags': 'eyes' },
+            body: ${JSON.stringify(lead.name)} + ' epp megnyitotta a weboldalat!'
+          }).catch(function () {});
+        }
+      } catch (e) {}
+    })();
   </script>
 </body>
 </html>`;
