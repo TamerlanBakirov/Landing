@@ -8,4 +8,6 @@ projects/*/screenshots/
 !projects/*/hero.png
 !projects/*/logo.png
 *.mp4
+# Keep per-business promo videos so they deploy to GitHub Pages
+!projects/*/promo.mp4
 .env
