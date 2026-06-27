@@ -2,32 +2,12 @@
   "lead_id": "megbizhato-vizszereles-budapest",
   "business_name": "Megbízható Vízszerelés",
   "city": "Budapest",
-  "prepared_at": "2026-06-25T19:49:35.383Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Megbízható Vízszerelés",
-      "connection_note": "Hi! I specialize in creating websites for plumber businesses in Budapest. I'd love to connect and share some ideas for Megbízható Vízszerelés.",
-      "follow_up": "Thanks for connecting! I noticed Megbízható Vízszerelés doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 70 678 9013",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Budapest-i plumber vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Megbízható Vízszerelés számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for plumber businesses in Budapest.\n\nI prepared a free website preview for Megbízható Vízszerelés - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Megbízható Vízszerelés",
-      "message": "Hi Megbízható Vízszerelés team! 🙌\n\nLove what you're doing in Budapest! I create modern websites for local businesses and I think an upgraded online presence could really help grow your plumber business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:03.977Z",
+  "email_to": "+36 70 678 9013",
+  "subject": "Weboldal ajánlat - Megbízható Vízszerelés",
+  "body": "Kedves Megbízható Vízszerelés csapata!\n\nÉszrevettem, hogy a Megbízható Vízszerelés-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek plumber vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/megbizhato-vizszereles/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/megbizhato-vizszereles.json"
   },
   "status": "ready_to_send"

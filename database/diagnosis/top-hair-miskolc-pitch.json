@@ -2,32 +2,12 @@
   "lead_id": "top-hair-miskolc-miskolc",
   "business_name": "Top Hair Miskolc",
   "city": "Miskolc",
-  "prepared_at": "2026-06-25T19:50:06.686Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Top Hair Miskolc",
-      "connection_note": "Hi! I specialize in creating websites for hair salon businesses in Miskolc. I'd love to connect and share some ideas for Top Hair Miskolc.",
-      "follow_up": "Thanks for connecting! I noticed Top Hair Miskolc doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 30 890 1236",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Miskolc-i hair salon vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Top Hair Miskolc számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for hair salon businesses in Miskolc.\n\nI prepared a free website preview for Top Hair Miskolc - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Top Hair Miskolc",
-      "message": "Hi Top Hair Miskolc team! 🙌\n\nLove what you're doing in Miskolc! I create modern websites for local businesses and I think an upgraded online presence could really help grow your hair salon business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.133Z",
+  "email_to": "+36 30 890 1236",
+  "subject": "Weboldal ajánlat - Top Hair Miskolc",
+  "body": "Kedves Top Hair Miskolc csapata!\n\nÉszrevettem, hogy a Top Hair Miskolc-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek hair salon vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/top-hair-miskolc/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/top-hair-miskolc.json"
   },
   "status": "ready_to_send"

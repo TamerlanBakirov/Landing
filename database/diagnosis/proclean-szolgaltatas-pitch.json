@@ -2,32 +2,12 @@
   "lead_id": "proclean-szolgaltatas-budapest",
   "business_name": "ProClean Szolgáltatás",
   "city": "Budapest",
-  "prepared_at": "2026-06-25T19:49:35.460Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "ProClean Szolgáltatás",
-      "connection_note": "Hi! I specialize in creating websites for cleaning service businesses in Budapest. I'd love to connect and share some ideas for ProClean Szolgáltatás.",
-      "follow_up": "Thanks for connecting! I noticed ProClean Szolgáltatás doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 70 123 4569",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Budapest-i cleaning service vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a ProClean Szolgáltatás számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for cleaning service businesses in Budapest.\n\nI prepared a free website preview for ProClean Szolgáltatás - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "ProClean Szolgáltatás",
-      "message": "Hi ProClean Szolgáltatás team! 🙌\n\nLove what you're doing in Budapest! I create modern websites for local businesses and I think an upgraded online presence could really help grow your cleaning service business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.012Z",
+  "email_to": "+36 70 123 4569",
+  "subject": "Weboldal ajánlat - ProClean Szolgáltatás",
+  "body": "Kedves ProClean Szolgáltatás csapata!\n\nÉszrevettem, hogy a ProClean Szolgáltatás-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek cleaning service vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/proclean-szolgaltatas/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/proclean-szolgaltatas.json"
   },
   "status": "ready_to_send"

@@ -2,32 +2,12 @@
   "lead_id": "mosoly-fogaszati-centrum-debrecen",
   "business_name": "Mosoly Fogászati Centrum",
   "city": "Debrecen",
-  "prepared_at": "2026-06-25T19:49:35.517Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Mosoly Fogászati Centrum",
-      "connection_note": "Hi! I specialize in creating websites for dentist businesses in Debrecen. I'd love to connect and share some ideas for Mosoly Fogászati Centrum.",
-      "follow_up": "Thanks for connecting! I noticed Mosoly Fogászati Centrum doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 52 678 901",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Debrecen-i dentist vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Mosoly Fogászati Centrum számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for dentist businesses in Debrecen.\n\nI prepared a free website preview for Mosoly Fogászati Centrum - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Mosoly Fogászati Centrum",
-      "message": "Hi Mosoly Fogászati Centrum team! 🙌\n\nLove what you're doing in Debrecen! I create modern websites for local businesses and I think an upgraded online presence could really help grow your dentist business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.040Z",
+  "email_to": "+36 52 678 901",
+  "subject": "Weboldal ajánlat - Mosoly Fogászati Centrum",
+  "body": "Kedves Mosoly Fogászati Centrum csapata!\n\nÉszrevettem, hogy a Mosoly Fogászati Centrum-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek dentist vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/mosoly-fogaszati-centrum/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/mosoly-fogaszati-centrum.json"
   },
   "status": "ready_to_send"

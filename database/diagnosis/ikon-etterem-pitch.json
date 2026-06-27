@@ -2,32 +2,12 @@
   "lead_id": "ikon-etterem-debrecen",
   "business_name": "Ikon Étterem",
   "city": "Debrecen",
-  "prepared_at": "2026-06-25T19:49:35.499Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Ikon Étterem",
-      "connection_note": "Hi! I specialize in creating websites for restaurant businesses in Debrecen. I'd love to connect and share some ideas for Ikon Étterem.",
-      "follow_up": "Thanks for connecting! I noticed Ikon Étterem doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 52 456 789",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Debrecen-i restaurant vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Ikon Étterem számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for restaurant businesses in Debrecen.\n\nI prepared a free website preview for Ikon Étterem - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Ikon Étterem",
-      "message": "Hi Ikon Étterem team! 🙌\n\nLove what you're doing in Debrecen! I create modern websites for local businesses and I think an upgraded online presence could really help grow your restaurant business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.029Z",
+  "email_to": "+36 52 456 789",
+  "subject": "Weboldal ajánlat - Ikon Étterem",
+  "body": "Kedves Ikon Étterem csapata!\n\nÉszrevettem, hogy a Ikon Étterem-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek restaurant vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/ikon-etterem/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/ikon-etterem.json"
   },
   "status": "ready_to_send"

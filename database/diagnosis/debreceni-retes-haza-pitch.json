@@ -2,32 +2,12 @@
   "lead_id": "debreceni-retes-haza-debrecen",
   "business_name": "Debreceni Rétes Háza",
   "city": "Debrecen",
-  "prepared_at": "2026-06-25T19:49:35.564Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Debreceni Rétes Háza",
-      "connection_note": "Hi! I specialize in creating websites for bakery businesses in Debrecen. I'd love to connect and share some ideas for Debreceni Rétes Háza.",
-      "follow_up": "Thanks for connecting! I noticed Debreceni Rétes Háza doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 52 789 012",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Debrecen-i bakery vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Debreceni Rétes Háza számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for bakery businesses in Debrecen.\n\nI prepared a free website preview for Debreceni Rétes Háza - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Debreceni Rétes Háza",
-      "message": "Hi Debreceni Rétes Háza team! 🙌\n\nLove what you're doing in Debrecen! I create modern websites for local businesses and I think an upgraded online presence could really help grow your bakery business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.063Z",
+  "email_to": "+36 52 789 012",
+  "subject": "Weboldal ajánlat - Debreceni Rétes Háza",
+  "body": "Kedves Debreceni Rétes Háza csapata!\n\nÉszrevettem, hogy a Debreceni Rétes Háza-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek bakery vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/debreceni-retes-haza/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/debreceni-retes-haza.json"
   },
   "status": "ready_to_send"

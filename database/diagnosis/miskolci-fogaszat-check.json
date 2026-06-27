@@ -1,26 +1,15 @@
 {
   "business_name": "Miskolci Fogászat",
   "city": "Miskolc",
-  "checked_at": "2026-06-25T19:49:35.111Z",
-  "confidence": 93,
+  "checked_at": "2026-06-27T09:51:03.905Z",
+  "confidence": 100,
   "spam_score": 100,
   "passed": true,
-  "issues": [
-    {
-      "field": "personalization",
-      "severity": "warning",
-      "message": "Placeholder text found - update before sending"
-    },
-    {
-      "field": "grammar",
-      "severity": "minor",
-      "message": "Excessive capitalization detected"
-    }
-  ],
+  "issues": [],
   "summary": {
     "critical": 0,
-    "warnings": 1,
-    "minor": 1,
-    "total": 2
+    "warnings": 0,
+    "minor": 0,
+    "total": 0
   }
 }

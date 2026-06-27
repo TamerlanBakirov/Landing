@@ -1,5 +1,5 @@
 import { appendLead, logAction, loadConfig, slugify } from '../lib/state.js';
-import { searchPlaces, getPlaceDetails } from '../lib/google-places.js';
+import { searchPlaces } from '../lib/google-places.js';
 
 const config = loadConfig();
 const CHAINS = config.target.exclude_chains.map(c => c.toLowerCase());
@@ -49,22 +49,15 @@ export async function scoutCity(city, categories = null) {
           continue;
         }
 
-        let details = { phone: '', website: '', google_maps_url: '', opening_hours: [] };
-        try {
-          details = await getPlaceDetails(place.place_id);
-        } catch (err) {
-          console.log(`[Scout] Could not get details for ${place.name}: ${err.message}`);
-        }
-
-        results.push({
+          results.push({
           name: place.name,
           address: place.address,
           rating: place.rating,
           reviews: place.reviews,
-          phone: details.phone,
-          website: details.website,
-          google_maps_url: details.google_maps_url,
-          opening_hours: details.opening_hours,
+          phone: place.phone || '',
+          website: place.website || '',
+          email: place.email || '',
+          opening_hours: place.opening_hours || '',
           place_id: place.place_id
         });
       }
@@ -85,12 +78,11 @@ export async function scoutCity(city, categories = null) {
         category,
         address: biz.address || '',
         website: biz.website || '',
-        email: '',
+        email: biz.email || '',
         phone: biz.phone || '',
         rating: biz.rating || 0,
         reviews: biz.reviews || 0,
-        google_maps_url: biz.google_maps_url || '',
-        opening_hours: biz.opening_hours || [],
+        opening_hours: biz.opening_hours || '',
         place_id: biz.place_id || '',
         screenshot: null,
         social_links: [],
