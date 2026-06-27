@@ -62,9 +62,7 @@ function generateEmailContent(lead, diagnosis) {
 
 Észrevettem, hogy a ${lead.name}-nak még nincs weboldala.
 
-Készítettem Önöknek egy kész weboldal-előnézetet, amelyet itt megtekinthetnek:
-
-${previewUrl}
+Készítettem Önöknek egy kész weboldal-előnézetet. Tekintse meg itt: Minta weboldal megtekintése (${previewUrl})
 
 A teljes weboldal mindössze €${pricePkg.price}, és tartalmazza: ${pricePkg.features.slice(0, 4).join(', ')}.
 
@@ -74,7 +72,9 @@ Ha tetszik, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-ma
 ${config.agency.name}
 ${config.agency.owner_email}`;
 
-  return { subject, body };
+  const html = outreach.body_html_hu || null;
+
+  return { subject, body, html };
 }
 
 export function preparePitch(lead) {
@@ -95,6 +95,7 @@ export function preparePitch(lead) {
     email_to: lead.email || lead.phone || '',
     subject: email.subject,
     body: email.body,
+    html: email.html,
     attachments: {
       website_preview: existsSync(`projects/${slug}/index.html`) ? `projects/${slug}/index.html` : null,
       diagnosis_report: diagnosis ? `database/diagnosis/${slug}.json` : null
@@ -128,6 +129,7 @@ async function sendEmail(transport, pitch, lead) {
     subject: pitch.subject,
     text: pitch.body
   };
+  if (pitch.html) mailOptions.html = pitch.html;
 
   await transport.sendMail(mailOptions);
   return true;
