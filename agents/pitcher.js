@@ -53,23 +53,25 @@ function generateEmailContent(lead, diagnosis) {
   const outreach = diagnosis?.outreach_message || {};
   const pkg = diagnosis?.recommendation || {};
 
-  const subject = outreach.subject_hu || `Weboldal ajánlat - ${lead.name}`;
+  const slug = slugify(lead.name);
+  const previewUrl = `${config.agency.site_base_url}/${slug}/`;
+  const pricePkg = config.pricing.packages[0];
+
+  const subject = outreach.subject_hu || `Ingyenes weboldal előnézet - ${lead.name}`;
   const body = outreach.body_hu || `Kedves ${lead.name} csapata!
 
-${lead.website
-  ? `Megnéztem a weboldalukat, és észrevettem néhány területet, ahol hatékonyabban szolgálhatná az üzletüket.`
-  : `Észrevettem, hogy a ${lead.name}-nak még nincs modern weboldala.`}
+Észrevettem, hogy a ${lead.name}-nak még nincs weboldala.
 
-Modern, mobilbarát weboldalakat készítek ${lead.category} vállalkozásoknak Magyarországon.
+Készítettem Önöknek egy kész weboldal-előnézetet, amelyet itt megtekinthetnek:
 
-Készítettem egy egyedi előnézetet - kötelezettség nélkül.
+${previewUrl}
 
-${pkg.name ? `${pkg.name} csomagunk (€${pkg.price}) tartalmazza: ${(pkg.features || []).slice(0, 3).join(', ')}.` : ''}
+A teljes weboldal mindössze €${pricePkg.price}, és tartalmazza: ${pricePkg.features.slice(0, 4).join(', ')}.
 
-Nyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?
+Ha tetszik, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-mailre - mindent e-mailben megbeszélünk.
 
 Üdvözlettel,
-AI Web Agency
+${config.agency.name}
 ${config.agency.owner_email}`;
 
   return { subject, body };
@@ -117,20 +119,15 @@ async function sendEmail(transport, pitch, lead) {
     return false;
   }
 
+  // No file attachment — the preview is a live GitHub Pages link inside
+  // the body, so recipients open it in the browser instead of downloading
+  // an HTML file they might fear is a virus.
   const mailOptions = {
-    from: `"AI Web Agency" <${process.env.SMTP_USER}>`,
+    from: `"${config.agency.name}" <${process.env.SMTP_USER}>`,
     to: lead.email,
     subject: pitch.subject,
     text: pitch.body
   };
-
-  const slug = slugify(lead.name);
-  if (pitch.attachments.website_preview) {
-    mailOptions.attachments = [{
-      filename: `${slug}-website-preview.html`,
-      path: pitch.attachments.website_preview
-    }];
-  }
 
   await transport.sendMail(mailOptions);
   return true;

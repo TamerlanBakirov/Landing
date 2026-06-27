@@ -1,10 +1,10 @@
-import { loadJSON } from '../lib/state.js';
+import { loadJSON, loadConfig } from '../lib/state.js';
 import { loadEnv } from '../lib/env.js';
 import { preparePitch } from '../agents/pitcher.js';
 import { createTransport } from 'nodemailer';
-import { existsSync } from 'fs';
 
 loadEnv();
+const config = loadConfig();
 
 // Sends ONE sample pitch email to the agency's own address (SMTP_USER),
 // so you can preview exactly what a real prospect would receive.
@@ -39,23 +39,13 @@ const transport = createTransport({
   auth: { user, pass }
 });
 
-const attachments = [];
-if (pitch.attachments.website_preview && existsSync(pitch.attachments.website_preview)) {
-  attachments.push({
-    filename: 'weboldal-elonezet.html',
-    path: pitch.attachments.website_preview
-  });
-}
-
 const mail = {
-  from: `"AI Web Agency" <${user}>`,
+  from: `"${config.agency.name}" <${user}>`,
   to: user,
   subject: `[TEST] ${pitch.subject}`,
-  text: pitch.body,
-  attachments
+  text: pitch.body
 };
 
 console.log(`Sending test email to ${user} for "${lead.name}"...`);
 const info = await transport.sendMail(mail);
 console.log(`Sent. Message ID: ${info.messageId}`);
-console.log(`Attachment: ${attachments.length ? attachments[0].filename : 'none'}`);

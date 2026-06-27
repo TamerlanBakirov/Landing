@@ -1,10 +1,10 @@
 {
   "agency": {
-    "name": "AI Web Agency",
+    "name": "Pixel & Co.",
     "version": "1.0.0",
     "owner_email": "tamerlan858@gmail.com",
-    "meeting_link": "google_meet",
-    "meeting_email": "tamerlan858@gmail.com",
+    "contact_method": "email",
+    "site_base_url": "https://tamerlanbakirov.github.io/Landing/projects",
     "timezone": "Europe/Budapest"
   },
   "target": {
@@ -89,60 +89,28 @@
     "currency": "EUR",
     "packages": [
       {
-        "name": "Basic",
-        "price": 299,
+        "name": "Weboldal csomag",
+        "price": 499,
         "features": [
-          "Single-page landing site",
-          "Mobile responsive",
-          "Contact form",
-          "Google Maps integration",
-          "Basic SEO setup",
-          "1 revision round"
+          "Modern, mobilbarát weboldal",
+          "Egyedi dizájn az Ön vállalkozására szabva",
+          "Kapcsolatfelvételi űrlap",
+          "Google Maps integráció",
+          "Keresőoptimalizálás (SEO)",
+          "Ingyenes tárhely és SSL tanúsítvány",
+          "Korlátlan módosítás az indulásig"
         ],
-        "delivery_days": 5
-      },
-      {
-        "name": "Standard",
-        "price": 799,
-        "features": [
-          "5-page professional website",
-          "Mobile responsive",
-          "Contact form + booking",
-          "Google Maps integration",
-          "Full SEO optimization",
-          "Social media integration",
-          "3 revision rounds",
-          "1 month support"
-        ],
-        "delivery_days": 10
-      },
-      {
-        "name": "Premium",
-        "price": 1499,
-        "features": [
-          "10+ page custom website",
-          "Mobile responsive",
-          "Online booking system",
-          "Google Maps + reviews integration",
-          "Advanced SEO + local SEO",
-          "Social media integration",
-          "Custom animations",
-          "Blog setup",
-          "Unlimited revisions",
-          "3 months support",
-          "Monthly analytics report"
-        ],
-        "delivery_days": 20
+        "delivery_days": 7
       }
     ],
     "monthly_maintenance": {
-      "price": 49,
+      "price": 19,
       "features": [
-        "Hosting",
-        "SSL certificate",
-        "Monthly backups",
-        "Security updates",
-        "Minor content updates"
+        "Tárhely",
+        "SSL tanúsítvány",
+        "Havi mentések",
+        "Biztonsági frissítések",
+        "Kisebb tartalmi módosítások"
       ]
     }
   },

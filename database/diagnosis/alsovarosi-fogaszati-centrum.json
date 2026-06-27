@@ -2,7 +2,7 @@
   "business_name": "Alsóvárosi Fogászati Centrum",
   "city": "Szeged",
   "category": "dentist",
-  "generated_at": "2026-06-27T09:58:51.757Z",
+  "generated_at": "2026-06-27T10:30:32.356Z",
   "analysis_source": "estimate",
   "current_state": {
     "has_website": false,
@@ -30,29 +30,25 @@
     "estimated_conversion_increase": "48%"
   },
   "recommendation": {
-    "package": "Premium",
-    "price": 1499,
+    "package": "Weboldal csomag",
+    "price": 499,
     "currency": "EUR",
     "features": [
-      "10+ page custom website",
-      "Mobile responsive",
-      "Online booking system",
-      "Google Maps + reviews integration",
-      "Advanced SEO + local SEO",
-      "Social media integration",
-      "Custom animations",
-      "Blog setup",
-      "Unlimited revisions",
-      "3 months support",
-      "Monthly analytics report"
+      "Modern, mobilbarát weboldal",
+      "Egyedi dizájn az Ön vállalkozására szabva",
+      "Kapcsolatfelvételi űrlap",
+      "Google Maps integráció",
+      "Keresőoptimalizálás (SEO)",
+      "Ingyenes tárhely és SSL tanúsítvány",
+      "Korlátlan módosítás az indulásig"
     ],
-    "delivery_days": 20,
+    "delivery_days": 7,
     "roi_estimate": "With a modern website, Alsóvárosi Fogászati Centrum could see up to 48% more customer inquiries."
   },
   "outreach_message": {
-    "subject_hu": "Weboldal ajánlat - Alsóvárosi Fogászati Centrum",
+    "subject_hu": "Ingyenes weboldal előnézet - Alsóvárosi Fogászati Centrum",
     "subject_en": "Website proposal for Alsóvárosi Fogászati Centrum",
-    "body_hu": "Kedves Alsóvárosi Fogászati Centrum csapata!\n\nÉszrevettem, hogy a Alsóvárosi Fogászati Centrum-nak még nincs weboldala. A mai digitális világban ez azt jelenti, hogy a \"dentist\" keresési eredményekben az Önök vállalkozása nem jelenik meg Szeged-ban.\n\nModern, mobilbarát weboldalakat készítek dentist vállalkozásoknak Magyarországon. Ügyfeleim jellemzően 48%-kal több online megkeresést kapnak az új oldal indítása után.\n\nKészítettem egy egyedi előnézetet arról, hogyan nézhetne ki az Önök új weboldala. Szívesen megmutatnám - kötelezettség nélkül.\n\nPremium csomagunk (€1499) tartalmazza: 10+ page custom website, Mobile responsive, Online booking system, Google Maps + reviews integration.\n\nNyitottak lennének egy gyors 15 perces Google Meet hívásra ezen a héten?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
-    "body_en": "Dear Alsóvárosi Fogászati Centrum team,\n\nI noticed that Alsóvárosi Fogászati Centrum doesn't have a website yet.\n\nI specialize in creating modern, mobile-friendly websites for dentist businesses in Hungary. My clients typically see a 48% increase in online inquiries.\n\nI've prepared a custom preview of what your new website could look like - no obligation.\n\nPremium package (€1499) includes: 10+ page custom website, Mobile responsive, Online booking system, Google Maps + reviews integration.\n\nWould you be open to a quick 15-minute Google Meet call this week?\n\nBest regards,\nAI Web Agency\ntamerlan858@gmail.com"
+    "body_hu": "Kedves Alsóvárosi Fogászati Centrum csapata!\n\nÉszrevettem, hogy a Alsóvárosi Fogászati Centrum-nak még nincs weboldala. A mai világban ez azt jelenti, hogy amikor valaki fogászat szolgáltatást keres Szeged-ban, az Önök vállalkozása nem jelenik meg a Google találatok között.\n\nKészítettem Önöknek egy kész weboldal-előnézetet, amelyet most azonnal meg is tekinthetnek itt:\n\nhttps://tamerlanbakirov.github.io/Landing/projects/alsovarosi-fogaszati-centrum/\n\nModern, mobilbarát weboldalakat készítek magyarországi vállalkozásoknak. Ügyfeleim jellemzően 48%-kal több online megkeresést kapnak az új oldal indítása után.\n\nA teljes weboldal mindössze €499, és tartalmazza: Modern, mobilbarát weboldal, Egyedi dizájn az Ön vállalkozására szabva, Kapcsolatfelvételi űrlap, Google Maps integráció.\n\nHa tetszik az előnézet, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-mailre - mindent kényelmesen, e-mailben megbeszélünk.\n\nÜdvözlettel,\nPixel & Co.\ntamerlan858@gmail.com",
+    "body_en": "Dear Alsóvárosi Fogászati Centrum team,\n\nI noticed that Alsóvárosi Fogászati Centrum doesn't have a website yet, which means you may be missing customers searching for dentist services in Szeged.\n\nI've already built a preview of your potential new website - you can view it right now here:\n\nhttps://tamerlanbakirov.github.io/Landing/projects/alsovarosi-fogaszati-centrum/\n\nThe complete website is just €499 and includes: Modern, mobilbarát weboldal, Egyedi dizájn az Ön vállalkozására szabva, Kapcsolatfelvételi űrlap, Google Maps integráció.\n\nIf you like it or have any questions, simply reply to this email - we can discuss everything conveniently by email.\n\nBest regards,\nPixel & Co.\ntamerlan858@gmail.com"
   }
 }

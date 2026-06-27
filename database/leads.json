@@ -2150,7 +2150,7 @@
     "reviews": 80,
     "opening_hours": "Mo-Th 09:00-12:00,14:00-18:00; Fr 09:00-12:00; PH off",
     "place_id": "4512260668",
-    "stage": "built",
+    "stage": "diagnosed",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T09:58:51.741Z",
@@ -2163,8 +2163,8 @@
       "No mobile presence"
     ],
     "diagnosis_score": 70,
-    "recommended_package": "Premium",
-    "updated_at": "2026-06-27T09:58:52.010Z",
+    "recommended_package": "Weboldal csomag",
+    "updated_at": "2026-06-27T10:30:32.357Z",
     "project_dir": "projects/alsovarosi-fogaszati-centrum"
   }
 ]
