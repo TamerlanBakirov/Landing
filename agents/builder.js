@@ -1,6 +1,7 @@
 import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLeadsByStage } from '../lib/state.js';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import { generatePortfolio } from '../scripts/portfolio.js';
+import { generateHeroImage } from '../lib/openai-image.js';
 
 const config = loadConfig();
 
@@ -20,10 +21,25 @@ function src(url) {
   return photoCache.get(url) || url;
 }
 
-async function prefetchPhotos(category) {
+async function prefetchPhotos(category, city) {
   const photos = getPhotos(category);
+  const hero = heroUrl(photos.hero);
+
+  // Hero: try a bespoke AI image first; fall back to Unsplash on any failure.
+  if (!photoCache.has(hero)) {
+    try {
+      const aiHero = await generateHeroImage(category, city);
+      if (aiHero) {
+        photoCache.set(hero, aiHero);
+        console.log(`[Builder] AI hero image generated for ${category} in ${city}`);
+      }
+    } catch (err) {
+      console.error(`[Builder] AI hero failed: ${err.message}`);
+    }
+  }
+
   const urls = new Set([
-    heroUrl(photos.hero),
+    hero,
     aboutUrl(photos.gallery[0].id),
     ...photos.gallery.map(g => galleryUrl(g.id))
   ]);
@@ -446,6 +462,13 @@ function generateHTML(lead, diagnosis) {
     body.lang-switching { opacity: 0.3; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 
+    /* ═══ SCROLL PROGRESS BAR ═══ */
+    .scroll-progress {
+      position: fixed; top: 0; left: 0; height: 3px; width: 0%; z-index: 2000;
+      background: ${cat.accentGrad}; box-shadow: 0 0 10px ${cat.accent};
+      transition: width 0.1s linear;
+    }
+
     /* ═══ NAVBAR ═══ */
     .navbar {
       position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -502,6 +525,13 @@ function generateHTML(lead, diagnosis) {
       content: ''; position: absolute; inset: 0; z-index: 1;
       background: linear-gradient(135deg, rgba(15,23,42,0.88), rgba(15,23,42,0.72)), ${cat.pattern};
     }
+    /* Animated aurora glow sweeping behind the hero content */
+    .hero-aurora {
+      position: absolute; inset: -30%; z-index: 1; pointer-events: none;
+      background: conic-gradient(from 0deg at 50% 50%, ${cat.accent}, transparent 25%, rgba(255,255,255,0.25) 50%, transparent 75%, ${cat.accent});
+      filter: blur(80px); opacity: 0.35; animation: auroraSpin 24s linear infinite;
+    }
+    @keyframes auroraSpin { to { transform: rotate(360deg); } }
     /* Floating parallax orbs (mouse-reactive glow) */
     .hero-orb { position: absolute; z-index: 2; border-radius: 50%; filter: blur(70px); pointer-events: none; animation: orbPulse 7s ease-in-out infinite alternate; transition: transform 0.4s cubic-bezier(0.2,0,0.2,1); }
     .orb1 { width: 360px; height: 360px; background: ${cat.accent}; top: -80px; left: -60px; opacity: 0.5; }
@@ -709,6 +739,8 @@ function generateHTML(lead, diagnosis) {
 </head>
 <body>
 
+  <div class="scroll-progress" id="scrollProgress"></div>
+
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="container">
@@ -733,6 +765,7 @@ function generateHTML(lead, diagnosis) {
   <!-- HERO -->
   <section class="hero" id="hero">
     <div class="hero-bg" style="background-image: url('${src(heroUrl(photos.hero))}');"></div>
+    <div class="hero-aurora"></div>
     <div class="hero-orb orb1"></div>
     <div class="hero-orb orb2"></div>
     <div class="hero-content">
@@ -980,9 +1013,14 @@ function generateHTML(lead, diagnosis) {
     var heroBg = document.querySelector('.hero-bg');
     var heroContent = document.querySelector('.hero-content');
     var ticking = false;
+    var progressBar = document.getElementById('scrollProgress');
     function onScroll() {
       var y = window.scrollY;
       navbar.classList.toggle('scrolled', y > 50);
+      if (progressBar) {
+        var docH = document.documentElement.scrollHeight - window.innerHeight;
+        progressBar.style.width = (docH > 0 ? (y / docH) * 100 : 0) + '%';
+      }
       if (y < window.innerHeight) {
         if (heroBg) heroBg.style.backgroundPositionY = (50 + y * 0.04) + '%';
         if (heroContent) {
@@ -1151,7 +1189,7 @@ export async function buildForLead(lead) {
   const diagnosisPath = `database/diagnosis/${slug}.json`;
   const diagnosis = existsSync(diagnosisPath) ? loadJSON(diagnosisPath) : null;
 
-  await prefetchPhotos(lead.category);
+  await prefetchPhotos(lead.category, lead.city);
 
   const html = generateHTML(lead, diagnosis);
   writeFileSync(`${projectDir}/index.html`, html, 'utf-8');
