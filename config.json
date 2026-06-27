@@ -120,7 +120,8 @@
     "daily_outreach_limit": 30,
     "min_lead_score": 60,
     "min_build_score": 80,
-    "min_checker_confidence": 90
+    "min_checker_confidence": 90,
+    "followup_after_days": 3
   },
   "pipeline": {
     "stages": [
