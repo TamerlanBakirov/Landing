@@ -2,32 +2,12 @@
   "lead_id": "glamour-hair-studio-szeged",
   "business_name": "Glamour Hair Studio",
   "city": "Szeged",
-  "prepared_at": "2026-06-25T19:50:06.630Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Glamour Hair Studio",
-      "connection_note": "Hi! I specialize in creating websites for hair salon businesses in Szeged. I'd love to connect and share some ideas for Glamour Hair Studio.",
-      "follow_up": "Thanks for connecting! I noticed Glamour Hair Studio doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 30 678 9014",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Szeged-i hair salon vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Glamour Hair Studio számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for hair salon businesses in Szeged.\n\nI prepared a free website preview for Glamour Hair Studio - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Glamour Hair Studio",
-      "message": "Hi Glamour Hair Studio team! 🙌\n\nLove what you're doing in Szeged! I create modern websites for local businesses and I think an upgraded online presence could really help grow your hair salon business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.100Z",
+  "email_to": "+36 30 678 9014",
+  "subject": "Weboldal ajánlat - Glamour Hair Studio",
+  "body": "Kedves Glamour Hair Studio csapata!\n\nÉszrevettem, hogy a Glamour Hair Studio-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek hair salon vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/glamour-hair-studio/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/glamour-hair-studio.json"
   },
   "status": "ready_to_send"

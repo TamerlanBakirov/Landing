@@ -2,32 +2,12 @@
   "lead_id": "kis-virag-etterem-szeged",
   "business_name": "Kis Virág Étterem",
   "city": "Szeged",
-  "prepared_at": "2026-06-25T19:50:06.604Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Kis Virág Étterem",
-      "connection_note": "Hi! I specialize in creating websites for restaurant businesses in Szeged. I'd love to connect and share some ideas for Kis Virág Étterem.",
-      "follow_up": "Thanks for connecting! I noticed Kis Virág Étterem doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 62 456 789",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Szeged-i restaurant vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Kis Virág Étterem számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for restaurant businesses in Szeged.\n\nI prepared a free website preview for Kis Virág Étterem - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Kis Virág Étterem",
-      "message": "Hi Kis Virág Étterem team! 🙌\n\nLove what you're doing in Szeged! I create modern websites for local businesses and I think an upgraded online presence could really help grow your restaurant business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.084Z",
+  "email_to": "+36 62 456 789",
+  "subject": "Weboldal ajánlat - Kis Virág Étterem",
+  "body": "Kedves Kis Virág Étterem csapata!\n\nÉszrevettem, hogy a Kis Virág Étterem-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek restaurant vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/kis-virag-etterem/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/kis-virag-etterem.json"
   },
   "status": "ready_to_send"

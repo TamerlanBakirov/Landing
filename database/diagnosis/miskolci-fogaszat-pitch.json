@@ -2,32 +2,12 @@
   "lead_id": "miskolci-fogaszat-miskolc",
   "business_name": "Miskolci Fogászat",
   "city": "Miskolc",
-  "prepared_at": "2026-06-25T19:50:06.677Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Miskolci Fogászat",
-      "connection_note": "Hi! I specialize in creating websites for dentist businesses in Miskolc. I'd love to connect and share some ideas for Miskolci Fogászat.",
-      "follow_up": "Thanks for connecting! I noticed Miskolci Fogászat doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 46 456 789",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Miskolc-i dentist vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Miskolci Fogászat számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for dentist businesses in Miskolc.\n\nI prepared a free website preview for Miskolci Fogászat - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Miskolci Fogászat",
-      "message": "Hi Miskolci Fogászat team! 🙌\n\nLove what you're doing in Miskolc! I create modern websites for local businesses and I think an upgraded online presence could really help grow your dentist business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.127Z",
+  "email_to": "+36 46 456 789",
+  "subject": "Weboldal ajánlat - Miskolci Fogászat",
+  "body": "Kedves Miskolci Fogászat csapata!\n\nÉszrevettem, hogy a Miskolci Fogászat-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek dentist vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/miskolci-fogaszat/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/miskolci-fogaszat.json"
   },
   "status": "ready_to_send"

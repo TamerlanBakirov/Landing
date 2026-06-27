@@ -2,32 +2,12 @@
   "lead_id": "csokonai-etterem-debrecen",
   "business_name": "Csokonai Étterem",
   "city": "Debrecen",
-  "prepared_at": "2026-06-25T19:49:35.489Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Csokonai Étterem",
-      "connection_note": "Hi! I specialize in creating websites for restaurant businesses in Debrecen. I'd love to connect and share some ideas for Csokonai Étterem.",
-      "follow_up": "Thanks for connecting! I noticed Csokonai Étterem doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 52 234 567",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Debrecen-i restaurant vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Csokonai Étterem számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for restaurant businesses in Debrecen.\n\nI prepared a free website preview for Csokonai Étterem - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Csokonai Étterem",
-      "message": "Hi Csokonai Étterem team! 🙌\n\nLove what you're doing in Debrecen! I create modern websites for local businesses and I think an upgraded online presence could really help grow your restaurant business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.025Z",
+  "email_to": "+36 52 234 567",
+  "subject": "Weboldal ajánlat - Csokonai Étterem",
+  "body": "Kedves Csokonai Étterem csapata!\n\nÉszrevettem, hogy a Csokonai Étterem-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek restaurant vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/csokonai-etterem/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/csokonai-etterem.json"
   },
   "status": "ready_to_send"

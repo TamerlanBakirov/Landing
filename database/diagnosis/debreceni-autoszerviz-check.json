@@ -1,26 +1,15 @@
 {
   "business_name": "Debreceni Autószerviz",
   "city": "Debrecen",
-  "checked_at": "2026-06-25T19:49:35.028Z",
-  "confidence": 93,
+  "checked_at": "2026-06-27T09:51:03.860Z",
+  "confidence": 100,
   "spam_score": 100,
   "passed": true,
-  "issues": [
-    {
-      "field": "personalization",
-      "severity": "warning",
-      "message": "Placeholder text found - update before sending"
-    },
-    {
-      "field": "grammar",
-      "severity": "minor",
-      "message": "Excessive capitalization detected"
-    }
-  ],
+  "issues": [],
   "summary": {
     "critical": 0,
-    "warnings": 1,
-    "minor": 1,
-    "total": 2
+    "warnings": 0,
+    "minor": 0,
+    "total": 0
   }
 }

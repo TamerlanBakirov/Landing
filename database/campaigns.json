@@ -1,6 +1,6 @@
 {
-  "sent_today": 30,
-  "last_reset": "2026-06-25",
+  "sent_today": 19,
+  "last_reset": "2026-06-27",
   "messages": [
     {
       "lead_id": "kis-pipa-etterem-budapest",
@@ -421,6 +421,196 @@
         "subject": "Outreach to Debreceni Rétes Háza",
         "has_attachments": true
       }
+    },
+    {
+      "lead_id": "lisztes-kucko-debrecen",
+      "business_name": "Lisztes Kuckó",
+      "city": "Debrecen",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.070Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Lisztes Kuckó",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "halaszcsarda-szeged-szeged",
+      "business_name": "Halászcsárda Szeged",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.075Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Halászcsárda Szeged",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "vendeglo-a-regi-hidhoz-szeged",
+      "business_name": "Vendéglő a Régi Hídhoz",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.080Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Vendéglő a Régi Hídhoz",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "kis-virag-etterem-szeged",
+      "business_name": "Kis Virág Étterem",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.085Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Kis Virág Étterem",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "szegedi-fogaszati-kozpont-szeged",
+      "business_name": "Szegedi Fogászati Központ",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.090Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Szegedi Fogászati Központ",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "dental-plus-szeged-szeged",
+      "business_name": "Dental Plus Szeged",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.096Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Dental Plus Szeged",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "glamour-hair-studio-szeged",
+      "business_name": "Glamour Hair Studio",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.101Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Glamour Hair Studio",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "szegedi-szepsegszalon-szeged",
+      "business_name": "Szegedi Szépségszalon",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.107Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Szegedi Szépségszalon",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "szegedi-pekmuhely-szeged",
+      "business_name": "Szegedi Pékműhely",
+      "city": "Szeged",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.112Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Szegedi Pékműhely",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "alabardos-etterem-miskolc",
+      "business_name": "Alabárdos Étterem",
+      "city": "Miskolc",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.117Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Alabárdos Étterem",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "borsodi-kisvendeglo-miskolc",
+      "business_name": "Borsodi Kisvendéglő",
+      "city": "Miskolc",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.123Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Borsodi Kisvendéglő",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "miskolci-fogaszat-miskolc",
+      "business_name": "Miskolci Fogászat",
+      "city": "Miskolc",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.128Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Miskolci Fogászat",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "top-hair-miskolc-miskolc",
+      "business_name": "Top Hair Miskolc",
+      "city": "Miskolc",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.134Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Top Hair Miskolc",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "miskolci-autojavito-miskolc",
+      "business_name": "Miskolci Autójavító",
+      "city": "Miskolc",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.140Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Miskolci Autójavító",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "pecsi-sorozo-etterem-pecs",
+      "business_name": "Pécsi Söröző Étterem",
+      "city": "Pécs",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.145Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Pécsi Söröző Étterem",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "dom-etterem-pecs",
+      "business_name": "Dóm Étterem",
+      "city": "Pécs",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.151Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Dóm Étterem",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "pecsi-fogaszati-rendelo-pecs",
+      "business_name": "Pécsi Fogászati Rendelő",
+      "city": "Pécs",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.156Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Pécsi Fogászati Rendelő",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "beauty-bar-pecs-pecs",
+      "business_name": "Beauty Bar Pécs",
+      "city": "Pécs",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.163Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Beauty Bar Pécs",
+      "to": "N/A"
+    },
+    {
+      "lead_id": "pecsi-pekseg-pecs",
+      "business_name": "Pécsi Pékség",
+      "city": "Pécs",
+      "channel": "queued",
+      "sent_at": "2026-06-27T09:51:04.168Z",
+      "status": "pending_manual",
+      "subject": "Weboldal ajánlat - Pécsi Pékség",
+      "to": "N/A"
     }
   ]
 }

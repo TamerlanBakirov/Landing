@@ -2,32 +2,12 @@
   "lead_id": "gyors-szerviz-autojavito-budapest",
   "business_name": "Gyors Szerviz Autójavító",
   "city": "Budapest",
-  "prepared_at": "2026-06-25T19:49:35.354Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Gyors Szerviz Autójavító",
-      "connection_note": "Hi! I specialize in creating websites for auto repair businesses in Budapest. I'd love to connect and share some ideas for Gyors Szerviz Autójavító.",
-      "follow_up": "Thanks for connecting! I noticed Gyors Szerviz Autójavító doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 1 234 5679",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Budapest-i auto repair vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Gyors Szerviz Autójavító számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for auto repair businesses in Budapest.\n\nI prepared a free website preview for Gyors Szerviz Autójavító - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Gyors Szerviz Autójavító",
-      "message": "Hi Gyors Szerviz Autójavító team! 🙌\n\nLove what you're doing in Budapest! I create modern websites for local businesses and I think an upgraded online presence could really help grow your auto repair business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:03.965Z",
+  "email_to": "+36 1 234 5679",
+  "subject": "Weboldal ajánlat - Gyors Szerviz Autójavító",
+  "body": "Kedves Gyors Szerviz Autójavító csapata!\n\nÉszrevettem, hogy a Gyors Szerviz Autójavító-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek auto repair vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/gyors-szerviz-autojavito/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/gyors-szerviz-autojavito.json"
   },
   "status": "ready_to_send"

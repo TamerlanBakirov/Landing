@@ -1,0 +1,42 @@
+{
+  "business_name": "FotoArt Stúdió",
+  "generated_at": "2026-06-27T09:51:03.693Z",
+  "promo_html": "projects/fotoart-studio/promo-video.html",
+  "video_script": {
+    "duration": "10 seconds",
+    "format": "9:16 vertical (1080x1920)",
+    "slides": [
+      {
+        "time": "0-2s",
+        "content": "FotoArt Stúdió logo + city",
+        "narration": "Business intro"
+      },
+      {
+        "time": "2-4s",
+        "content": "Current website problems",
+        "narration": "No website exists, Missing online presence entirely, No way for customers to find info online"
+      },
+      {
+        "time": "4-6s",
+        "content": "New website preview",
+        "narration": "Modern redesign showcase"
+      },
+      {
+        "time": "6-8s",
+        "content": "Expected results stats",
+        "narration": "+85% more inquiries"
+      },
+      {
+        "time": "8-10s",
+        "content": "CTA - Book consultation",
+        "narration": "Free consultation offer"
+      }
+    ],
+    "music": "Upbeat corporate",
+    "style": "Clean, modern, professional"
+  },
+  "resolution": "1080x1920",
+  "format": "vertical",
+  "status": "html_ready",
+  "note": "Open promo-video.html in browser for animated preview. Use Higgsfield or ffmpeg to compile to MP4."
+}

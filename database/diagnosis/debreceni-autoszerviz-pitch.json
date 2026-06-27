@@ -2,32 +2,12 @@
   "lead_id": "debreceni-autoszerviz-debrecen",
   "business_name": "Debreceni Autószerviz",
   "city": "Debrecen",
-  "prepared_at": "2026-06-25T19:49:35.545Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Debreceni Autószerviz",
-      "connection_note": "Hi! I specialize in creating websites for auto repair businesses in Debrecen. I'd love to connect and share some ideas for Debreceni Autószerviz.",
-      "follow_up": "Thanks for connecting! I noticed Debreceni Autószerviz doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 52 890 123",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Debrecen-i auto repair vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Debreceni Autószerviz számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for auto repair businesses in Debrecen.\n\nI prepared a free website preview for Debreceni Autószerviz - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Debreceni Autószerviz",
-      "message": "Hi Debreceni Autószerviz team! 🙌\n\nLove what you're doing in Debrecen! I create modern websites for local businesses and I think an upgraded online presence could really help grow your auto repair business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.055Z",
+  "email_to": "+36 52 890 123",
+  "subject": "Weboldal ajánlat - Debreceni Autószerviz",
+  "body": "Kedves Debreceni Autószerviz csapata!\n\nÉszrevettem, hogy a Debreceni Autószerviz-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek auto repair vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/debreceni-autoszerviz/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/debreceni-autoszerviz.json"
   },
   "status": "ready_to_send"

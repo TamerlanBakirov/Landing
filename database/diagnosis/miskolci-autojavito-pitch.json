@@ -2,32 +2,12 @@
   "lead_id": "miskolci-autojavito-miskolc",
   "business_name": "Miskolci Autójavító",
   "city": "Miskolc",
-  "prepared_at": "2026-06-25T19:50:06.696Z",
-  "recommended_channel": "whatsapp",
-  "channels": {
-    "email": null,
-    "linkedin": {
-      "channel": "linkedin",
-      "target": "Miskolci Autójavító",
-      "connection_note": "Hi! I specialize in creating websites for auto repair businesses in Miskolc. I'd love to connect and share some ideas for Miskolci Autójavító.",
-      "follow_up": "Thanks for connecting! I noticed Miskolci Autójavító doesn't have a website yet. I prepared a free preview of a modern site design for your business. Want me to send it over? No strings attached."
-    },
-    "whatsapp": {
-      "channel": "whatsapp",
-      "to": "+36 46 567 890",
-      "message_hu": "Szia! 👋\n\nWeboldal készítő vagyok, és Miskolc-i auto repair vállalkozásoknak segítek modern weboldalakkal több ügyfelet szerezni.\n\nKészítettem egy ingyenes előnézetet a Miskolci Autójavító számára - érdekli?\n\nKötelezettségmentes, 15 perces Google Meet konzultáció - válaszoljon és küldöm a meghívót!",
-      "message_en": "Hi! 👋\n\nI create modern websites for auto repair businesses in Miskolc.\n\nI prepared a free website preview for Miskolci Autójavító - interested?\n\nNo-obligation 15min Google Meet consultation - just reply and I'll send the invite!"
-    },
-    "instagram": {
-      "channel": "instagram",
-      "target": "Miskolci Autójavító",
-      "message": "Hi Miskolci Autójavító team! 🙌\n\nLove what you're doing in Miskolc! I create modern websites for local businesses and I think an upgraded online presence could really help grow your auto repair business.\n\nI actually made a free preview of what your new site could look like. Want to see it?\n\nNo commitment, just thought you'd appreciate it! 😊"
-    }
-  },
+  "prepared_at": "2026-06-27T09:51:04.138Z",
+  "email_to": "+36 46 567 890",
+  "subject": "Weboldal ajánlat - Miskolci Autójavító",
+  "body": "Kedves Miskolci Autójavító csapata!\n\nÉszrevettem, hogy a Miskolci Autójavító-nak még nincs modern weboldala.\n\nModern, mobilbarát weboldalakat készítek auto repair vállalkozásoknak Magyarországon.\n\nKészítettem egy egyedi előnézetet - kötelezettség nélkül.\n\n\n\nNyitottak lennének egy gyors 15 perces Google Meet beszélgetésre?\n\nÜdvözlettel,\nAI Web Agency\ntamerlan858@gmail.com",
   "attachments": {
     "website_preview": "projects/miskolci-autojavito/index.html",
-    "video_frames": null,
-    "screenshots": null,
     "diagnosis_report": "database/diagnosis/miskolci-autojavito.json"
   },
   "status": "ready_to_send"
