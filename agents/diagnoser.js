@@ -1,4 +1,5 @@
 import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLeadsByStage } from '../lib/state.js';
+import { categoryHu } from '../lib/categories.js';
 import { existsSync, mkdirSync } from 'fs';
 
 const config = loadConfig();
@@ -146,10 +147,9 @@ function generateAuditReport(lead, analysis) {
   const issueCount = analysis.issues.length;
   const conversionIncrease = Math.min(issueCount * 8, 85);
 
-  const packageRecommendation = lead.score >= 80 ? 'Premium' :
-    lead.score >= 60 ? 'Standard' : 'Basic';
-
-  const pkg = config.pricing.packages.find(p => p.name === packageRecommendation);
+  // Single fixed package — see config.pricing.packages[0].
+  const pkg = config.pricing.packages[0];
+  const packageRecommendation = pkg.name;
 
   return {
     business_name: lead.name,
@@ -190,18 +190,19 @@ function generateAuditReport(lead, analysis) {
 }
 
 function generateOutreachMessage(lead, analysis, conversionIncrease, packageName) {
-  const pkg = config.pricing.packages.find(p => p.name === packageName);
-  const noWebsite = !analysis.has_website;
+  const pkg = config.pricing.packages[0];
+  const catHu = categoryHu(lead.category);
+  const slug = slugify(lead.name);
+  const previewUrl = `${config.agency.site_base_url}/${slug}/`;
+  const agency = config.agency.name;
 
-  const painPoint = noWebsite
-    ? `Észrevettem, hogy a ${lead.name}-nak még nincs weboldala. A mai digitális világban ez azt jelenti, hogy a "${lead.category}" keresési eredményekben az Önök vállalkozása nem jelenik meg ${lead.city}-ban.`
-    : `Megnéztem a weboldalukat és néhány fejlesztési lehetőséget találtam: ${analysis.issues.slice(0, 3).join(', ').toLowerCase()}.`;
+  const painPoint = `Észrevettem, hogy a ${lead.name}-nak még nincs weboldala. A mai világban ez azt jelenti, hogy amikor valaki ${catHu} szolgáltatást keres ${lead.city}-ban, az Önök vállalkozása nem jelenik meg a Google találatok között.`;
 
   return {
-    subject_hu: `Weboldal ajánlat - ${lead.name}`,
+    subject_hu: `Ingyenes weboldal előnézet - ${lead.name}`,
     subject_en: `Website proposal for ${lead.name}`,
-    body_hu: `Kedves ${lead.name} csapata!\n\n${painPoint}\n\nModern, mobilbarát weboldalakat készítek ${lead.category} vállalkozásoknak Magyarországon. Ügyfeleim jellemzően ${conversionIncrease}%-kal több online megkeresést kapnak az új oldal indítása után.\n\nKészítettem egy egyedi előnézetet arról, hogyan nézhetne ki az Önök új weboldala. Szívesen megmutatnám - kötelezettség nélkül.\n\n${packageName} csomagunk (€${pkg.price}) tartalmazza: ${pkg.features.slice(0, 4).join(', ')}.\n\nNyitottak lennének egy gyors 15 perces Google Meet hívásra ezen a héten?\n\nÜdvözlettel,\nAI Web Agency\n${config.agency.owner_email}`,
-    body_en: `Dear ${lead.name} team,\n\n${noWebsite ? `I noticed that ${lead.name} doesn't have a website yet.` : `I visited your website and noticed a few areas where it could work harder for your business.`}\n\nI specialize in creating modern, mobile-friendly websites for ${lead.category} businesses in Hungary. My clients typically see a ${conversionIncrease}% increase in online inquiries.\n\nI've prepared a custom preview of what your new website could look like - no obligation.\n\n${packageName} package (€${pkg.price}) includes: ${pkg.features.slice(0, 4).join(', ')}.\n\nWould you be open to a quick 15-minute Google Meet call this week?\n\nBest regards,\nAI Web Agency\n${config.agency.owner_email}`
+    body_hu: `Kedves ${lead.name} csapata!\n\n${painPoint}\n\nKészítettem Önöknek egy kész weboldal-előnézetet, amelyet most azonnal meg is tekinthetnek itt:\n\n${previewUrl}\n\nModern, mobilbarát weboldalakat készítek magyarországi vállalkozásoknak. Ügyfeleim jellemzően ${conversionIncrease}%-kal több online megkeresést kapnak az új oldal indítása után.\n\nA teljes weboldal mindössze €${pkg.price}, és tartalmazza: ${pkg.features.slice(0, 4).join(', ')}.\n\nHa tetszik az előnézet, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-mailre - mindent kényelmesen, e-mailben megbeszélünk.\n\nÜdvözlettel,\n${agency}\n${config.agency.owner_email}`,
+    body_en: `Dear ${lead.name} team,\n\nI noticed that ${lead.name} doesn't have a website yet, which means you may be missing customers searching for ${lead.category} services in ${lead.city}.\n\nI've already built a preview of your potential new website - you can view it right now here:\n\n${previewUrl}\n\nThe complete website is just €${pkg.price} and includes: ${pkg.features.slice(0, 4).join(', ')}.\n\nIf you like it or have any questions, simply reply to this email - we can discuss everything conveniently by email.\n\nBest regards,\n${agency}\n${config.agency.owner_email}`
   };
 }
 
