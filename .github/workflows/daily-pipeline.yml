@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Remotion (video) dependencies
+        run: cd remotion && npm ci
+
       - name: Run full pipeline
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
