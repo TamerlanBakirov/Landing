@@ -1,7 +1,7 @@
 import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLeadsByStage } from '../lib/state.js';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import { generatePortfolio } from '../scripts/portfolio.js';
-import { generateHeroImage } from '../lib/openai-image.js';
+import { generateHeroImage, generateLogo } from '../lib/openai-image.js';
 
 const config = loadConfig();
 
@@ -416,7 +416,7 @@ function L(o) {
   return `data-hu="${esc(o.hu)}" data-en="${esc(o.en)}"`;
 }
 
-function generateHTML(lead, diagnosis) {
+function generateHTML(lead, diagnosis, logoDataUri) {
   const cat = getCategoryData(lead.category);
   const photos = getPhotos(lead.category);
   const rating = cat.stats[0].num;
@@ -477,8 +477,9 @@ function generateHTML(lead, diagnosis) {
     }
     .navbar.scrolled { box-shadow: 0 4px 30px rgba(0,0,0,0.08); }
     .navbar .container { display: flex; justify-content: space-between; align-items: center; height: 72px; }
-    .nav-brand { font-size: 22px; font-weight: 800; color: #111827; text-decoration: none; letter-spacing: -0.5px; }
-    .nav-brand span { color: var(--accent); }
+    .nav-brand { font-size: 22px; font-weight: 800; color: #111827; text-decoration: none; letter-spacing: -0.5px; display: inline-flex; align-items: center; gap: 12px; }
+    .nav-logo { height: 40px; width: 40px; object-fit: contain; border-radius: 8px; }
+    .nav-brand-text span { color: var(--accent); }
     .nav-right { display: flex; align-items: center; gap: 24px; }
     .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
     .nav-links a { text-decoration: none; color: #6b7280; font-weight: 500; font-size: 15px; transition: color 0.2s; position: relative; }
@@ -744,7 +745,7 @@ function generateHTML(lead, diagnosis) {
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="container">
-      <a href="#" class="nav-brand"><span>${lead.name.charAt(0)}</span>${esc(lead.name.slice(1))}</a>
+      <a href="#" class="nav-brand">${logoDataUri ? `<img src="${logoDataUri}" alt="${esc(lead.name)} logo" class="nav-logo">` : ''}<span class="nav-brand-text"><span>${lead.name.charAt(0)}</span>${esc(lead.name.slice(1))}</span></a>
       <div class="nav-right">
         <ul class="nav-links" id="navLinks">
           <li><a href="#services" ${L(UI.navServices)}>${UI.navServices.hu}</a></li>
@@ -1191,7 +1192,21 @@ export async function buildForLead(lead) {
 
   await prefetchPhotos(lead.category, lead.city);
 
-  const html = generateHTML(lead, diagnosis);
+  // Bespoke AI logo (transparent PNG). Saved as a file and embedded inline.
+  let logoDataUri = null;
+  try {
+    const accent = getCategoryData(lead.category).accent;
+    logoDataUri = await generateLogo(lead.category, lead.name, accent);
+    if (logoDataUri) {
+      const b64 = logoDataUri.split(',')[1];
+      writeFileSync(`${projectDir}/logo.png`, Buffer.from(b64, 'base64'));
+      console.log(`[Builder] AI logo generated for ${lead.name}`);
+    }
+  } catch (err) {
+    console.error(`[Builder] AI logo failed: ${err.message}`);
+  }
+
+  const html = generateHTML(lead, diagnosis, logoDataUri);
   writeFileSync(`${projectDir}/index.html`, html, 'utf-8');
 
   const metadata = {
