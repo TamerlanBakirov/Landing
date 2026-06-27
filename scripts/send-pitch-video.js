@@ -33,8 +33,14 @@ const videoBlock = `
   </td></tr></table>`;
 
 let html = pitch.html || `<p>${(pitch.body || '').replace(/\n/g, '<br>')}</p>`;
-// Inject the video block right before the signature/closing of the email.
-if (html.includes('</body>')) {
+// Insert the video right below the "view sample website" button.
+const marker = 'megtekintése →</a>';
+const mIdx = html.indexOf(marker);
+if (mIdx !== -1) {
+  const tableEnd = html.indexOf('</table>', mIdx);
+  const insertAt = tableEnd !== -1 ? tableEnd + '</table>'.length : mIdx + marker.length;
+  html = html.slice(0, insertAt) + videoBlock + html.slice(insertAt);
+} else if (html.includes('</body>')) {
   html = html.replace('</body>', videoBlock + '</body>');
 } else {
   html = html + videoBlock;
