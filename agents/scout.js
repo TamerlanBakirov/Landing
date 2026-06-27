@@ -68,6 +68,17 @@ export async function scoutCity(city, categories = null) {
     }
 
     for (const biz of results) {
+      // Only target businesses that have NO website but DO have an email.
+      // No website = needs our product. Has email = we can auto-contact them.
+      if (biz.website && biz.website !== '') {
+        logAction('scout', 'skip_has_website', { name: biz.name, city, website: biz.website });
+        continue;
+      }
+      if (!biz.email || biz.email === '') {
+        logAction('scout', 'skip_no_email', { name: biz.name, city });
+        continue;
+      }
+
       const slug = slugify(biz.name);
 
       const lead = {
@@ -104,7 +115,7 @@ export async function scoutCity(city, categories = null) {
           score: lead.score,
           has_website: !!lead.website
         });
-        console.log(`[Scout] + ${lead.name} (Score: ${lead.score}, ${lead.website ? 'Has website' : 'No website'}, Phone: ${lead.phone || 'N/A'})`);
+        console.log(`[Scout] + ${lead.name} (Score: ${lead.score}, No website, Email: ${lead.email})`);
       }
     }
   }
