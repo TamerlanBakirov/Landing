@@ -4,5 +4,8 @@ database/logs/
 projects/*/video-frames/
 projects/*/screenshots/
 *.png
+# Keep per-business hero/logo images so they're reused (not re-billed) on each pipeline run
+!projects/*/hero.png
+!projects/*/logo.png
 *.mp4
 .env
