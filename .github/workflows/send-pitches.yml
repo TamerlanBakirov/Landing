@@ -1,0 +1,39 @@
+name: Send Pitches
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pitch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Send pitches to checked leads
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: node scripts/orchestrator.js --stage pitch
+
+      - name: Commit campaign records
+        run: |
+          git config user.name "Pixel & Co. Bot"
+          git config user.email "tamerlan858@gmail.com"
+          git add database/ projects/
+          git diff --staged --quiet || git commit -m "Outreach campaign $(date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
