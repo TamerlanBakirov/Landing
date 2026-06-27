@@ -2,6 +2,7 @@ import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLead
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from 'fs';
 import { generatePortfolio } from '../scripts/portfolio.js';
 import { generateHeroImage, generateLogo } from '../lib/openai-image.js';
+import sharp from 'sharp';
 
 const config = loadConfig();
 
@@ -487,8 +488,8 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     }
     .navbar.scrolled { box-shadow: 0 4px 30px rgba(0,0,0,0.08); }
     .navbar .container { display: flex; justify-content: space-between; align-items: center; height: 72px; }
-    .nav-brand { text-decoration: none; display: inline-flex; align-items: center; max-width: 65%; min-width: 0; }
-    .nav-logo { height: 46px; width: auto; max-width: 260px; object-fit: contain; }
+    .nav-brand { text-decoration: none; display: inline-flex; align-items: center; max-width: 70%; min-width: 0; }
+    .nav-logo { height: 52px; width: auto; max-width: 300px; object-fit: contain; }
     .nav-brand-text { font-size: 20px; font-weight: 800; color: #111827; letter-spacing: -0.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .nav-brand-text span { color: var(--accent); }
     .nav-right { display: flex; align-items: center; gap: 24px; }
@@ -702,6 +703,8 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .footer { background: #111827; color: #fff; padding: 64px 0 32px; }
     .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
     .footer-brand p { color: #9ca3af; font-size: 15px; margin-top: 16px; line-height: 1.7; }
+    .footer-logo-box { display: inline-block; background: #fff; padding: 12px 18px; border-radius: 12px; }
+    .footer-logo-box img { height: 48px; width: auto; max-width: 240px; object-fit: contain; display: block; }
     .footer-col h4 { font-size: 15px; font-weight: 700; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
     .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
     .footer-col a { text-decoration: none; color: #9ca3af; font-size: 15px; transition: color 0.2s; }
@@ -734,7 +737,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     @media (max-width: 768px) {
       .nav-links { display: none; }
       .nav-brand { max-width: calc(100% - 110px); }
-      .nav-logo { height: 38px; max-width: 200px; }
+      .nav-logo { height: 42px; max-width: 210px; }
       .nav-brand-text { font-size: 16px; }
       .hamburger { display: block; }
       .nav-links.active { display: flex; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: #fff; padding: 24px; gap: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); border-bottom: 1px solid #f3f4f6; }
@@ -982,7 +985,9 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="#" class="nav-brand" style="color:#fff;font-size:24px;text-decoration:none;"><span style="color:${cat.accent}">${lead.name.charAt(0)}</span>${esc(lead.name.slice(1))}</a>
+          ${logoDataUri
+            ? `<div class="footer-logo-box"><img src="${logoDataUri}" alt="${esc(lead.name)}"></div>`
+            : `<a href="#" style="color:#fff;font-size:22px;font-weight:800;letter-spacing:-0.5px;text-decoration:none;"><span style="color:${cat.accent}">${lead.name.charAt(0)}</span>${esc(lead.name.slice(1))}</a>`}
           <p ${L({ hu: subHu, en: subEn })}>${esc(subHu)}</p>
         </div>
         <div class="footer-col">
@@ -1206,15 +1211,25 @@ export async function buildForLead(lead) {
 
   await prefetchPhotos(lead.category, lead.city, projectDir);
 
-  // Bespoke AI logo (transparent PNG). Saved as a file and embedded inline.
+  // Bespoke AI logo (transparent PNG with the name). Reuse logo.png if it
+  // already exists (delete it to force a fresh logo); otherwise generate,
+  // auto-trim the transparent margins so it fills the navbar, and save.
   let logoDataUri = null;
+  const logoFile = `${projectDir}/logo.png`;
   try {
-    const accent = getCategoryData(lead.category).accent;
-    logoDataUri = await generateLogo(lead.category, lead.name, accent);
-    if (logoDataUri) {
-      const b64 = logoDataUri.split(',')[1];
-      writeFileSync(`${projectDir}/logo.png`, Buffer.from(b64, 'base64'));
-      console.log(`[Builder] AI logo generated for ${lead.name}`);
+    if (existsSync(logoFile)) {
+      logoDataUri = `data:image/png;base64,${readFileSync(logoFile).toString('base64')}`;
+      console.log(`[Builder] Reusing existing logo for ${lead.name}`);
+    } else {
+      const accent = getCategoryData(lead.category).accent;
+      const raw = await generateLogo(lead.category, lead.name, accent);
+      if (raw) {
+        let buf = Buffer.from(raw.split(',')[1], 'base64');
+        try { buf = await sharp(buf).trim({ threshold: 10 }).toBuffer(); } catch (e) { /* keep untrimmed */ }
+        writeFileSync(logoFile, buf);
+        logoDataUri = `data:image/png;base64,${buf.toString('base64')}`;
+        console.log(`[Builder] AI logo generated for ${lead.name}`);
+      }
     }
   } catch (err) {
     console.error(`[Builder] AI logo failed: ${err.message}`);
