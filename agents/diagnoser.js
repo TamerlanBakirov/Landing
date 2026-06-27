@@ -196,45 +196,75 @@ function generateOutreachMessage(lead, analysis, conversionIncrease, packageName
   const previewUrl = `${config.agency.site_base_url}/${slug}/`;
   const agency = config.agency.name;
 
-  const painPoint = `Észrevettem, hogy a ${lead.name}-nak még nincs weboldala. A mai világban ez azt jelenti, hogy amikor valaki ${catHu} szolgáltatást keres ${lead.city}-ban, az Önök vállalkozása nem jelenik meg a Google találatok között.`;
-  const features = pkg.features.slice(0, 4).join(', ');
+  const benefits = [
+    'Modern, mobilbarát megjelenés',
+    'Megjelenés a Google keresőben',
+    'Több megkeresés, több ügyfél',
+    'Néhány nap alatt elkészül'
+  ];
 
-  // Plain-text fallback: link label only, no raw URL.
-  const body_hu = `Kedves ${lead.name} csapata!\n\n${painPoint}\n\nKészítettem Önöknek egy kész weboldal-előnézetet. Tekintse meg itt: Minta weboldal megtekintése (${previewUrl})\n\nModern, mobilbarát weboldalakat készítek magyarországi vállalkozásoknak. Ügyfeleim jellemzően ${conversionIncrease}%-kal több online megkeresést kapnak az új oldal indítása után.\n\nA teljes weboldal mindössze €${pkg.price}, és tartalmazza: ${features}.\n\nHa tetszik az előnézet, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-mailre - mindent kényelmesen, e-mailben megbeszélünk.\n\nÜdvözlettel,\n${agency}\n${config.agency.owner_email}`;
+  // Plain-text fallback (no raw URL — the link label carries it in HTML).
+  const body_hu = `Kedves ${lead.name} csapata!
+
+Modern, mobilbarát weboldalakat készítünk magyarországi vállalkozásoknak – és a ${lead.name} számára már el is készítettünk egy ingyenes előnézetet.
+
+Tekintse meg, hogyan nézne ki az Önök új weboldala:
+Minta weboldal megtekintése → ${previewUrl}
+
+Miért érdemes?
+Amikor valaki ${catHu} szolgáltatást keres ${lead.city}-ban, az Önök vállalkozása ma még nem jelenik meg a Google találatai között. Egy modern weboldal ezen változtat:
+- ${benefits.join('\n- ')}
+
+A teljes weboldal ára mindössze €${pkg.price}.
+
+Érdekli? Egyszerűen válaszoljon erre az e-mailre, és megbeszéljük a részleteket – kötelezettség nélkül.
+
+Üdvözlettel,
+${agency}
+${config.agency.owner_email}`;
 
   return {
-    subject_hu: `Ingyenes weboldal előnézet - ${lead.name}`,
-    subject_en: `Website proposal for ${lead.name}`,
+    subject_hu: `Ingyenes weboldal előnézet a ${lead.name} számára`,
+    subject_en: `Free website preview for ${lead.name}`,
     preview_url: previewUrl,
     body_hu,
     body_html_hu: renderHtmlEmail({
-      lead, painPoint, previewUrl, price: pkg.price, features,
-      conversionIncrease, agency, ownerEmail: config.agency.owner_email
+      lead, catHu, previewUrl, price: pkg.price, benefits,
+      agency, ownerEmail: config.agency.owner_email
     }),
-    body_en: `Dear ${lead.name} team,\n\nI noticed that ${lead.name} doesn't have a website yet, which means you may be missing customers searching for ${lead.category} services in ${lead.city}.\n\nI've already built a preview of your potential new website. View it here: Sample website (${previewUrl})\n\nThe complete website is just €${pkg.price} and includes: ${features}.\n\nIf you like it or have any questions, simply reply to this email - we can discuss everything conveniently by email.\n\nBest regards,\n${agency}\n${config.agency.owner_email}`
+    body_en: `Dear ${lead.name} team,\n\nWe build modern, mobile-friendly websites for Hungarian businesses — and we've already prepared a free preview for ${lead.name}.\n\nSee how your new website could look: ${previewUrl}\n\nWhen someone searches for ${lead.category} services in ${lead.city}, your business doesn't currently show up on Google. A modern website changes that.\n\nThe complete website costs just €${pkg.price}.\n\nInterested? Simply reply to this email and we'll discuss the details — no obligation.\n\nBest regards,\n${agency}\n${config.agency.owner_email}`
   };
 }
 
-// Builds a clean HTML email where the preview link shows as a clickable
-// "Minta weboldal megtekintése" button instead of a long raw URL.
-function renderHtmlEmail({ lead, painPoint, previewUrl, price, features, conversionIncrease, agency, ownerEmail }) {
+// Clean sales-oriented HTML email: hook → preview button (+ video injected
+// below it) → why it matters + benefits → price → reply CTA → signature.
+function renderHtmlEmail({ lead, catHu, previewUrl, price, benefits, agency, ownerEmail }) {
+  const benefitRows = benefits.map(b =>
+    `<tr><td style="padding:6px 0;font-size:15px;color:#374151;">
+       <span style="color:#16a34a;font-weight:bold;">✓</span>&nbsp;&nbsp;${b}
+     </td></tr>`
+  ).join('');
+
   return `<!DOCTYPE html>
 <html lang="hu"><body style="margin:0;padding:0;background:#f4f5f7;font-family:Arial,Helvetica,sans-serif;color:#1f2937;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f5f7;padding:24px 0;">
     <tr><td align="center">
       <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;">
-        <tr><td style="padding:32px 36px 8px;">
-          <p style="font-size:16px;line-height:1.6;margin:0 0 16px;">Kedves <strong>${lead.name}</strong> csapata!</p>
-          <p style="font-size:15px;line-height:1.6;margin:0 0 16px;color:#374151;">${painPoint}</p>
-          <p style="font-size:15px;line-height:1.6;margin:0 0 24px;color:#374151;">Készítettem Önöknek egy kész weboldal-előnézetet, amelyet egy kattintással megtekinthet:</p>
-          <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 28px;"><tr><td align="center" style="border-radius:50px;background:#2563eb;">
-            <a href="${previewUrl}" target="_blank" style="display:inline-block;padding:14px 36px;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:50px;">Minta weboldal megtekintése →</a>
+        <tr><td style="padding:36px 38px 12px;">
+          <p style="font-size:16px;line-height:1.6;margin:0 0 18px;">Kedves <strong>${lead.name}</strong> csapata!</p>
+          <p style="font-size:15px;line-height:1.65;margin:0 0 22px;color:#374151;">Modern, mobilbarát weboldalakat készítünk magyarországi vállalkozásoknak – és a <strong>${lead.name}</strong> számára már el is készítettünk egy <strong>ingyenes előnézetet</strong>.</p>
+          <p style="font-size:15px;line-height:1.6;margin:0 0 18px;color:#374151;">Tekintse meg, hogyan nézne ki az Önök új weboldala:</p>
+          <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 26px;"><tr><td align="center" style="border-radius:50px;background:#2563eb;">
+            <a href="${previewUrl}" target="_blank" style="display:inline-block;padding:15px 40px;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:50px;">Minta weboldal megtekintése →</a>
           </td></tr></table>
-          <p style="font-size:15px;line-height:1.6;margin:0 0 16px;color:#374151;">Modern, mobilbarát weboldalakat készítek magyarországi vállalkozásoknak. Ügyfeleim jellemzően <strong>${conversionIncrease}%-kal</strong> több online megkeresést kapnak az új oldal indítása után.</p>
-          <p style="font-size:15px;line-height:1.6;margin:0 0 16px;color:#374151;">A teljes weboldal mindössze <strong>€${price}</strong>, és tartalmazza: ${features}.</p>
-          <p style="font-size:15px;line-height:1.6;margin:0 0 24px;color:#374151;">Ha tetszik az előnézet, vagy bármilyen kérdése van, egyszerűen <strong>válaszoljon erre az e-mailre</strong> – mindent kényelmesen, e-mailben megbeszélünk.</p>
-          <p style="font-size:15px;line-height:1.6;margin:0 0 4px;color:#111827;">Üdvözlettel,</p>
-          <p style="font-size:15px;line-height:1.4;margin:0 0 28px;color:#111827;"><strong>${agency}</strong><br><a href="mailto:${ownerEmail}" style="color:#2563eb;text-decoration:none;">${ownerEmail}</a></p>
+          <p style="font-size:16px;font-weight:bold;line-height:1.5;margin:14px 0 10px;color:#111827;">Miért érdemes?</p>
+          <p style="font-size:15px;line-height:1.65;margin:0 0 14px;color:#374151;">Amikor valaki <strong>${catHu}</strong> szolgáltatást keres ${lead.city}-ban, az Önök vállalkozása ma még nem jelenik meg a Google találatai között. Egy modern weboldal ezen változtat:</p>
+          <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 22px;">${benefitRows}</table>
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 24px;background:#f0f7ff;border-radius:12px;">
+            <tr><td style="padding:18px 22px;font-size:16px;color:#111827;">A teljes weboldal ára mindössze <strong style="font-size:20px;color:#2563eb;">€${price}</strong></td></tr>
+          </table>
+          <p style="font-size:15px;line-height:1.65;margin:0 0 26px;color:#374151;">Érdekli? Egyszerűen <strong>válaszoljon erre az e-mailre</strong>, és megbeszéljük a részleteket – kötelezettség nélkül.</p>
+          <p style="font-size:15px;line-height:1.5;margin:0;color:#111827;">Üdvözlettel,<br><strong>${agency}</strong><br><a href="mailto:${ownerEmail}" style="color:#2563eb;text-decoration:none;">${ownerEmail}</a></p>
         </td></tr>
       </table>
       <p style="font-size:12px;color:#9ca3af;margin:16px 0 0;">${agency}</p>
