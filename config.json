@@ -118,7 +118,7 @@
   "goals": {
     "monthly_revenue_target": 5000,
     "daily_leads_target": 20,
-    "daily_outreach_limit": 30,
+    "daily_outreach_limit": 10,
     "min_lead_score": 60,
     "min_build_score": 80,
     "min_checker_confidence": 90,
