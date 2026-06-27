@@ -1209,6 +1209,10 @@ export async function buildForLead(lead) {
   const diagnosisPath = `database/diagnosis/${slug}.json`;
   const diagnosis = existsSync(diagnosisPath) ? loadJSON(diagnosisPath) : null;
 
+  // Hero is per-business, not per-category: drop any shared cache entry so
+  // each business gets its own AI hero (or reuses its own hero.png).
+  photoCache.delete(heroUrl(getPhotos(lead.category).hero));
+
   await prefetchPhotos(lead.category, lead.city, projectDir);
 
   // Bespoke AI logo (transparent PNG with the name). Reuse logo.png if it
