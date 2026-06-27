@@ -1,5 +1,5 @@
 import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLeadsByStage } from '../lib/state.js';
-import { existsSync, mkdirSync, writeFileSync } from 'fs';
+import { existsSync, mkdirSync, writeFileSync, readFileSync } from 'fs';
 import { generatePortfolio } from '../scripts/portfolio.js';
 import { generateHeroImage, generateLogo } from '../lib/openai-image.js';
 
@@ -21,20 +21,30 @@ function src(url) {
   return photoCache.get(url) || url;
 }
 
-async function prefetchPhotos(category, city) {
+async function prefetchPhotos(category, city, projectDir) {
   const photos = getPhotos(category);
   const hero = heroUrl(photos.hero);
+  const heroFile = projectDir ? `${projectDir}/hero.png` : null;
 
-  // Hero: try a bespoke AI image first; fall back to Unsplash on any failure.
+  // Hero: reuse a previously generated hero.png if present (saves an API
+  // call/cost), else generate a bespoke AI image, else Unsplash fallback.
+  // Delete hero.png to force a fresh AI hero on the next build.
   if (!photoCache.has(hero)) {
-    try {
-      const aiHero = await generateHeroImage(category, city);
-      if (aiHero) {
-        photoCache.set(hero, aiHero);
-        console.log(`[Builder] AI hero image generated for ${category} in ${city}`);
+    if (heroFile && existsSync(heroFile)) {
+      const buf = readFileSync(heroFile);
+      photoCache.set(hero, `data:image/png;base64,${buf.toString('base64')}`);
+      console.log(`[Builder] Reusing existing hero image for ${category}`);
+    } else {
+      try {
+        const aiHero = await generateHeroImage(category, city);
+        if (aiHero) {
+          photoCache.set(hero, aiHero);
+          if (heroFile) writeFileSync(heroFile, Buffer.from(aiHero.split(',')[1], 'base64'));
+          console.log(`[Builder] AI hero image generated for ${category} in ${city}`);
+        }
+      } catch (err) {
+        console.error(`[Builder] AI hero failed: ${err.message}`);
       }
-    } catch (err) {
-      console.error(`[Builder] AI hero failed: ${err.message}`);
     }
   }
 
@@ -477,8 +487,9 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     }
     .navbar.scrolled { box-shadow: 0 4px 30px rgba(0,0,0,0.08); }
     .navbar .container { display: flex; justify-content: space-between; align-items: center; height: 72px; }
-    .nav-brand { font-size: 22px; font-weight: 800; color: #111827; text-decoration: none; letter-spacing: -0.5px; display: inline-flex; align-items: center; gap: 12px; }
-    .nav-logo { height: 40px; width: 40px; object-fit: contain; border-radius: 8px; }
+    .nav-brand { text-decoration: none; display: inline-flex; align-items: center; max-width: 65%; min-width: 0; }
+    .nav-logo { height: 46px; width: auto; max-width: 260px; object-fit: contain; }
+    .nav-brand-text { font-size: 20px; font-weight: 800; color: #111827; letter-spacing: -0.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .nav-brand-text span { color: var(--accent); }
     .nav-right { display: flex; align-items: center; gap: 24px; }
     .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
@@ -722,6 +733,9 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     }
     @media (max-width: 768px) {
       .nav-links { display: none; }
+      .nav-brand { max-width: calc(100% - 110px); }
+      .nav-logo { height: 38px; max-width: 200px; }
+      .nav-brand-text { font-size: 16px; }
       .hamburger { display: block; }
       .nav-links.active { display: flex; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: #fff; padding: 24px; gap: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); border-bottom: 1px solid #f3f4f6; }
       .services-grid, .testimonials-grid { grid-template-columns: 1fr; }
@@ -745,7 +759,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="container">
-      <a href="#" class="nav-brand">${logoDataUri ? `<img src="${logoDataUri}" alt="${esc(lead.name)} logo" class="nav-logo">` : ''}<span class="nav-brand-text"><span>${lead.name.charAt(0)}</span>${esc(lead.name.slice(1))}</span></a>
+      <a href="#" class="nav-brand">${logoDataUri ? `<img src="${logoDataUri}" alt="${esc(lead.name)}" class="nav-logo">` : `<span class="nav-brand-text"><span>${lead.name.charAt(0)}</span>${esc(lead.name.slice(1))}</span>`}</a>
       <div class="nav-right">
         <ul class="nav-links" id="navLinks">
           <li><a href="#services" ${L(UI.navServices)}>${UI.navServices.hu}</a></li>
@@ -1190,7 +1204,7 @@ export async function buildForLead(lead) {
   const diagnosisPath = `database/diagnosis/${slug}.json`;
   const diagnosis = existsSync(diagnosisPath) ? loadJSON(diagnosisPath) : null;
 
-  await prefetchPhotos(lead.category, lead.city);
+  await prefetchPhotos(lead.category, lead.city, projectDir);
 
   // Bespoke AI logo (transparent PNG). Saved as a file and embedded inline.
   let logoDataUri = null;
