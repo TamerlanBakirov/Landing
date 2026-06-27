@@ -11,3 +11,4 @@ projects/*/screenshots/
 # Keep per-business promo videos so they deploy to GitHub Pages
 !projects/*/promo.mp4
 .env
+remotion/node_modules/

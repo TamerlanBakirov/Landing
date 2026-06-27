@@ -118,22 +118,54 @@ export function preparePitch(lead) {
   return pitch;
 }
 
+// If a promo video exists, inject a clickable play-button thumbnail right
+// below the preview button. The thumbnail links to the live site (where the
+// video plays and the visit alert fires); the poster is a CID attachment.
+function injectVideo(html, lead) {
+  const slug = slugify(lead.name);
+  const posterPath = `projects/${slug}/mail-poster.jpg`;
+  if (!html || !existsSync(posterPath)) return { html, attachment: null };
+
+  const siteUrl = `${config.agency.site_base_url}/${slug}/`;
+  const block = `
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:4px 0 24px;">
+    <p style="font-family:Arial,sans-serif;font-size:14px;color:#6b7280;margin:0 0 12px;">▶️ 20 másodperces bemutató — kattintson a lejátszáshoz:</p>
+    <a href="${siteUrl}#video" target="_blank" style="display:inline-block;border-radius:18px;overflow:hidden;box-shadow:0 12px 36px rgba(0,0,0,0.25);">
+      <img src="cid:promoposter" width="240" style="display:block;border:0;width:240px;height:auto;" alt="Bemutató videó">
+    </a>
+  </td></tr></table>`;
+
+  const marker = 'megtekintése →</a>';
+  const mIdx = html.indexOf(marker);
+  let out = html;
+  if (mIdx !== -1) {
+    const tableEnd = html.indexOf('</table>', mIdx);
+    const at = tableEnd !== -1 ? tableEnd + 8 : mIdx + marker.length;
+    out = html.slice(0, at) + block + html.slice(at);
+  } else if (html.includes('</body>')) {
+    out = html.replace('</body>', block + '</body>');
+  }
+  return { html: out, attachment: { filename: 'bemutato.jpg', path: posterPath, cid: 'promoposter' } };
+}
+
 async function sendEmail(transport, pitch, lead) {
   if (!lead.email) {
     console.log(`[Pitcher] No email for ${lead.name}, skipping email send`);
     return false;
   }
 
-  // No file attachment — the preview is a live GitHub Pages link inside
-  // the body, so recipients open it in the browser instead of downloading
-  // an HTML file they might fear is a virus.
   const mailOptions = {
     from: `"${config.agency.name}" <${process.env.SMTP_USER}>`,
     to: lead.email,
     subject: pitch.subject,
     text: pitch.body
   };
-  if (pitch.html) mailOptions.html = pitch.html;
+
+  if (pitch.html) {
+    const { html, attachment } = injectVideo(pitch.html, lead);
+    mailOptions.html = html;
+    if (attachment) mailOptions.attachments = [attachment];
+  }
 
   await transport.sendMail(mailOptions);
   return true;
