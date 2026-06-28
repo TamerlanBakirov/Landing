@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "Pixel & Co. Bot"
           git config user.email "tamerlan858@gmail.com"
-          git add database/
+          git add -A
           git diff --staged --quiet || git commit -m "Follow-up reminders $(date +%Y-%m-%d)"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
