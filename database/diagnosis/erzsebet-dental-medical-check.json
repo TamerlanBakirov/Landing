@@ -1,0 +1,26 @@
+{
+  "business_name": "Erzsébet dental & medical",
+  "city": "Budapest",
+  "checked_at": "2026-06-28T11:52:23.223Z",
+  "confidence": 96,
+  "spam_score": 100,
+  "passed": true,
+  "issues": [
+    {
+      "field": "grammar",
+      "severity": "minor",
+      "message": "Multiple consecutive spaces found"
+    },
+    {
+      "field": "grammar",
+      "severity": "minor",
+      "message": "Excessive capitalization detected"
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "warnings": 0,
+    "minor": 2,
+    "total": 2
+  }
+}
