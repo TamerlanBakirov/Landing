@@ -14,14 +14,31 @@ function getMailTransport() {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASS;
 
-  if (!host || !user || !pass) return null;
+  // ✅ Eksik credentials varsa detaylı hata ver
+  if (!host) {
+    console.error('❌ SMTP_HOST not configured in GitHub Secrets');
+    return null;
+  }
+  if (!user) {
+    console.error('❌ SMTP_USER not configured in GitHub Secrets');
+    return null;
+  }
+  if (!pass) {
+    console.error('❌ SMTP_PASS not configured in GitHub Secrets');
+    return null;
+  }
 
-  return createTransport({
-    host,
-    port,
-    secure: port === 465,
-    auth: { user, pass }
-  });
+  try {
+    return createTransport({
+      host,
+      port,
+      secure: port === 465,
+      auth: { user, pass }
+    });
+  } catch (err) {
+    console.error(`❌ Failed to create SMTP transport: ${err.message}`);
+    return null;
+  }
 }
 
 function loadCampaignLog() {
@@ -195,11 +212,13 @@ export async function sendPitch(lead, pitch) {
       emailSent = await sendEmail(transport, pitch, lead);
       console.log(`[Pitcher] Email sent to ${lead.email} for ${lead.name}`);
     } catch (err) {
-      console.error(`[Pitcher] Email send failed for ${lead.name}: ${err.message}`);
+      console.error(`❌ [Pitcher] Email send failed for ${lead.name}: ${err.message}`);
       logAction('pitcher', 'email_error', { name: lead.name, error: err.message });
     }
   } else if (!transport) {
-    console.log(`[Pitcher] SMTP not configured. Pitch saved but not sent.`);
+    // ✅ Bu kritik hatayı ERROR olarak loggla
+    console.error(`❌ [Pitcher] SMTP not configured. Mails won't be sent!`);
+    console.error(`   Please add SMTP_HOST, SMTP_USER, SMTP_PASS to GitHub Secrets`);
   }
 
   const message = {
@@ -237,6 +256,17 @@ export async function sendPitch(lead, pitch) {
 export async function runPitcher() {
   console.log('[Pitcher] Starting outreach...');
   logAction('pitcher', 'run_start');
+
+  // ✅ Pipeline başında kontrol et
+  const transport = getMailTransport();
+  if (!transport) {
+    console.error(`\n⚠️  WARNING: SMTP not configured!`);
+    console.error(`   Add these GitHub Secrets to repository settings:`);
+    console.error(`   - SMTP_HOST`);
+    console.error(`   - SMTP_PORT (default: 587)`);
+    console.error(`   - SMTP_USER`);
+    console.error(`   - SMTP_PASS\n`);
+  }
 
   const leads = getLeadsByStage('checked');
   console.log(`[Pitcher] ${leads.length} leads ready for outreach`);

@@ -1,0 +1,56 @@
+{
+  "business_name": "Ignác, a nyúl",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-06-28T11:52:14.985Z",
+  "analysis_source": "estimate",
+  "current_state": {
+    "has_website": false,
+    "website_url": "None",
+    "design_era": "none",
+    "loading_speed": "unknown",
+    "loading_time_ms": 0,
+    "mobile_responsive": false,
+    "ssl_secured": false,
+    "performance_score": null,
+    "seo_score": null
+  },
+  "issues": [
+    "No website exists",
+    "Missing online presence entirely",
+    "No way for customers to find info online",
+    "No contact form for online inquiries",
+    "No SEO - invisible in search results",
+    "No mobile presence"
+  ],
+  "strengths": [],
+  "score_breakdown": {
+    "total_issues": 6,
+    "critical_issues": 2,
+    "estimated_conversion_increase": "48%"
+  },
+  "recommendation": {
+    "package": "Weboldal csomag",
+    "price": 499,
+    "currency": "EUR",
+    "features": [
+      "Modern, mobilbarát weboldal",
+      "Egyedi dizájn az Ön vállalkozására szabva",
+      "Kapcsolatfelvételi űrlap",
+      "Google Maps integráció",
+      "Keresőoptimalizálás (SEO)",
+      "Ingyenes tárhely és SSL tanúsítvány",
+      "Korlátlan módosítás az indulásig"
+    ],
+    "delivery_days": 7,
+    "roi_estimate": "With a modern website, Ignác, a nyúl could see up to 48% more customer inquiries."
+  },
+  "outreach_message": {
+    "subject_hu": "Ingyenes weboldal előnézet a Ignác, a nyúl számára",
+    "subject_en": "Free website preview for Ignác, a nyúl",
+    "preview_url": "https://tamerlanbakirov.github.io/Landing/projects/ignac-a-nyul/",
+    "body_hu": "Kedves Ignác, a nyúl csapata!\n\nModern, mobilbarát weboldalakat készítünk magyarországi vállalkozásoknak – és a Ignác, a nyúl számára már el is készítettünk egy ingyenes előnézetet.\n\nTekintse meg, hogyan nézne ki az Önök új weboldala:\nMinta weboldal megtekintése → https://tamerlanbakirov.github.io/Landing/projects/ignac-a-nyul/\n\nMiért érdemes?\nAmikor valaki étterem szolgáltatást keres Budapest-ban, az Önök vállalkozása ma még nem jelenik meg a Google találatai között. Egy modern weboldal ezen változtat:\n- Modern, mobilbarát megjelenés\n- Megjelenés a Google keresőben\n- Több megkeresés, több ügyfél\n- Néhány nap alatt elkészül\n\nA teljes weboldal ára mindössze €499.\n\nÉrdekli? Egyszerűen válaszoljon erre az e-mailre, és megbeszéljük a részleteket – kötelezettség nélkül.\n\nÜdvözlettel,\nPixel & Co.\ntamerlan858@gmail.com",
+    "body_html_hu": "<!DOCTYPE html>\n<html lang=\"hu\"><body style=\"margin:0;padding:0;background:#f4f5f7;font-family:Arial,Helvetica,sans-serif;color:#1f2937;\">\n  <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f5f7;padding:24px 0;\">\n    <tr><td align=\"center\">\n      <table role=\"presentation\" width=\"600\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;\">\n        <tr><td style=\"padding:36px 38px 12px;\">\n          <p style=\"font-size:16px;line-height:1.6;margin:0 0 18px;\">Kedves <strong>Ignác, a nyúl</strong> csapata!</p>\n          <p style=\"font-size:15px;line-height:1.65;margin:0 0 22px;color:#374151;\">Modern, mobilbarát weboldalakat készítünk magyarországi vállalkozásoknak – és a <strong>Ignác, a nyúl</strong> számára már el is készítettünk egy <strong>ingyenes előnézetet</strong>.</p>\n          <p style=\"font-size:15px;line-height:1.6;margin:0 0 18px;color:#374151;\">Tekintse meg, hogyan nézne ki az Önök új weboldala:</p>\n          <table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin:0 auto 26px;\"><tr><td align=\"center\" style=\"border-radius:50px;background:#2563eb;\">\n            <a href=\"https://tamerlanbakirov.github.io/Landing/projects/ignac-a-nyul/\" target=\"_blank\" style=\"display:inline-block;padding:15px 40px;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:50px;\">Minta weboldal megtekintése →</a>\n          </td></tr></table>\n          <p style=\"font-size:16px;font-weight:bold;line-height:1.5;margin:14px 0 10px;color:#111827;\">Miért érdemes?</p>\n          <p style=\"font-size:15px;line-height:1.65;margin:0 0 14px;color:#374151;\">Amikor valaki <strong>étterem</strong> szolgáltatást keres Budapest-ban, az Önök vállalkozása ma még nem jelenik meg a Google találatai között. Egy modern weboldal ezen változtat:</p>\n          <table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin:0 0 22px;\"><tr><td style=\"padding:6px 0;font-size:15px;color:#374151;\">\n       <span style=\"color:#16a34a;font-weight:bold;\">✓</span>&nbsp;&nbsp;Modern, mobilbarát megjelenés\n     </td></tr><tr><td style=\"padding:6px 0;font-size:15px;color:#374151;\">\n       <span style=\"color:#16a34a;font-weight:bold;\">✓</span>&nbsp;&nbsp;Megjelenés a Google keresőben\n     </td></tr><tr><td style=\"padding:6px 0;font-size:15px;color:#374151;\">\n       <span style=\"color:#16a34a;font-weight:bold;\">✓</span>&nbsp;&nbsp;Több megkeresés, több ügyfél\n     </td></tr><tr><td style=\"padding:6px 0;font-size:15px;color:#374151;\">\n       <span style=\"color:#16a34a;font-weight:bold;\">✓</span>&nbsp;&nbsp;Néhány nap alatt elkészül\n     </td></tr></table>\n          <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin:0 0 24px;background:#f0f7ff;border-radius:12px;\">\n            <tr><td style=\"padding:18px 22px;font-size:16px;color:#111827;\">A teljes weboldal ára mindössze <strong style=\"font-size:20px;color:#2563eb;\">€499</strong></td></tr>\n          </table>\n          <p style=\"font-size:15px;line-height:1.65;margin:0 0 26px;color:#374151;\">Érdekli? Egyszerűen <strong>válaszoljon erre az e-mailre</strong>, és megbeszéljük a részleteket – kötelezettség nélkül.</p>\n          <p style=\"font-size:15px;line-height:1.5;margin:0;color:#111827;\">Üdvözlettel,<br><strong>Pixel & Co.</strong><br><a href=\"mailto:tamerlan858@gmail.com\" style=\"color:#2563eb;text-decoration:none;\">tamerlan858@gmail.com</a></p>\n        </td></tr>\n      </table>\n      <p style=\"font-size:12px;color:#9ca3af;margin:16px 0 0;\">Pixel & Co.</p>\n    </td></tr>\n  </table>\n</body></html>",
+    "body_en": "Dear Ignác, a nyúl team,\n\nWe build modern, mobile-friendly websites for Hungarian businesses — and we've already prepared a free preview for Ignác, a nyúl.\n\nSee how your new website could look: https://tamerlanbakirov.github.io/Landing/projects/ignac-a-nyul/\n\nWhen someone searches for restaurant services in Budapest, your business doesn't currently show up on Google. A modern website changes that.\n\nThe complete website costs just €499.\n\nInterested? Simply reply to this email and we'll discuss the details — no obligation.\n\nBest regards,\nPixel & Co.\ntamerlan858@gmail.com"
+  }
+}
