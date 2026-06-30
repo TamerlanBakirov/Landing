@@ -24,19 +24,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "followed_up",
     "score": 70,
     "retries": 0,
     "created_at": "2026-06-27T11:54:11.926Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:23.225Z",
+    "updated_at": "2026-06-30T13:08:35.034Z",
     "project_dir": "projects/erzsebet-dental-medical",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:03.355Z",
     "pitch_channel": "email_sent",
     "email_sent": true,
-    "spam_score": 100
+    "spam_score": 100,
+    "followed_up_at": "2026-06-30T13:08:35.031Z"
   },
   {
     "id": "pannonia-dental-plus-kft-budapest",
@@ -63,18 +64,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:11.928Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T21:25:09.798Z",
+    "updated_at": "2026-06-30T13:08:36.159Z",
     "project_dir": "projects/pannonia-dental-plus-kft",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:04.559Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:36.156Z"
   },
   {
     "id": "fair-dental-service-budapest",
@@ -101,18 +103,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:11.932Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.490Z",
+    "updated_at": "2026-06-30T13:08:37.355Z",
     "project_dir": "projects/fair-dental-service",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:05.856Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:37.352Z"
   },
   {
     "id": "egressy-dental-budapest",
@@ -139,18 +142,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:11.955Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.530Z",
+    "updated_at": "2026-06-30T13:08:38.276Z",
     "project_dir": "projects/egressy-dental",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:07.102Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:38.273Z"
   },
   {
     "id": "professional-dental-system-fogaszati-rendelo-budapest",
@@ -177,18 +181,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:11.958Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.554Z",
+    "updated_at": "2026-06-30T13:08:39.221Z",
     "project_dir": "projects/professional-dental-system-fogaszati-rendelo",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:08.529Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:39.218Z"
   },
   {
     "id": "harmonia-dent-budapest",
@@ -215,18 +220,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:11.959Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.582Z",
+    "updated_at": "2026-06-30T13:08:40.295Z",
     "project_dir": "projects/harmonia-dent",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:09.816Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:40.292Z"
   },
   {
     "id": "radha-s-beauty-salon-budapest",
@@ -253,18 +259,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.054Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.774Z",
+    "updated_at": "2026-06-30T13:08:41.402Z",
     "project_dir": "projects/radha-s-beauty-salon",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:10.971Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:41.400Z"
   },
   {
     "id": "cleancut-gentlemen-s-barber-shop-ferfi-fodraszat-budapest",
@@ -291,18 +298,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.102Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.802Z",
+    "updated_at": "2026-06-30T13:08:42.874Z",
     "project_dir": "projects/cleancut-gentlemen-s-barber-shop-ferfi-fodraszat",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:11.997Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:42.871Z"
   },
   {
     "id": "nhat-barber-shop-budapest",
@@ -329,18 +337,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.162Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.834Z",
+    "updated_at": "2026-06-30T13:08:44.127Z",
     "project_dir": "projects/nhat-barber-shop",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:13.167Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:44.124Z"
   },
   {
     "id": "dot-budapest",
@@ -367,18 +376,19 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 75,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.179Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-27T20:36:05.863Z",
+    "updated_at": "2026-06-30T13:08:45.158Z",
     "project_dir": "projects/dot",
     "checker_confidence": 96,
     "pitched_at": "2026-06-27T12:10:14.436Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-06-30T13:08:45.155Z"
   },
   {
     "id": "haircoctail-budapest",

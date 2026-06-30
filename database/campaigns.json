@@ -10,7 +10,8 @@
       "sent_at": "2026-06-27T12:10:03.355Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Erzsébet dental & medical",
-      "to": "Zoltan.Arnold@gmail.com"
+      "to": "Zoltan.Arnold@gmail.com",
+      "follow_up_sent": "2026-06-30T13:08:35.031Z"
     },
     {
       "lead_id": "pannonia-dental-plus-kft-budapest",
@@ -20,7 +21,8 @@
       "sent_at": "2026-06-27T12:10:04.559Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Pannónia Dental Plus Kft.",
-      "to": "info@pannoniadental.hu"
+      "to": "info@pannoniadental.hu",
+      "follow_up_sent": "2026-06-30T13:08:36.156Z"
     },
     {
       "lead_id": "fair-dental-service-budapest",
@@ -30,7 +32,8 @@
       "sent_at": "2026-06-27T12:10:05.856Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Fair Dental Service",
-      "to": "fairdentalservice.kft@gmail.com"
+      "to": "fairdentalservice.kft@gmail.com",
+      "follow_up_sent": "2026-06-30T13:08:37.352Z"
     },
     {
       "lead_id": "egressy-dental-budapest",
@@ -40,7 +43,8 @@
       "sent_at": "2026-06-27T12:10:07.101Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Egressy Dental",
-      "to": "rendelo@egressydental.hu"
+      "to": "rendelo@egressydental.hu",
+      "follow_up_sent": "2026-06-30T13:08:38.273Z"
     },
     {
       "lead_id": "professional-dental-system-fogaszati-rendelo-budapest",
@@ -50,7 +54,8 @@
       "sent_at": "2026-06-27T12:10:08.528Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Professional Dental System Fogászati Rendelő",
-      "to": "info@professionaldental.hu"
+      "to": "info@professionaldental.hu",
+      "follow_up_sent": "2026-06-30T13:08:39.218Z"
     },
     {
       "lead_id": "harmonia-dent-budapest",
@@ -60,7 +65,8 @@
       "sent_at": "2026-06-27T12:10:09.816Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Harmónia-Dent",
-      "to": "szaborekadr@gmail.com"
+      "to": "szaborekadr@gmail.com",
+      "follow_up_sent": "2026-06-30T13:08:40.292Z"
     },
     {
       "lead_id": "radha-s-beauty-salon-budapest",
@@ -70,7 +76,8 @@
       "sent_at": "2026-06-27T12:10:10.970Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Radha's Beauty Salon",
-      "to": "Radha.komari@gmail.com"
+      "to": "Radha.komari@gmail.com",
+      "follow_up_sent": "2026-06-30T13:08:41.400Z"
     },
     {
       "lead_id": "cleancut-gentlemen-s-barber-shop-ferfi-fodraszat-budapest",
@@ -80,7 +87,8 @@
       "sent_at": "2026-06-27T12:10:11.997Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - CleanCut Gentlemen's barber shop - Férfi fodrászat",
-      "to": "cleancut.budapest@gmail.com"
+      "to": "cleancut.budapest@gmail.com",
+      "follow_up_sent": "2026-06-30T13:08:42.871Z"
     },
     {
       "lead_id": "nhat-barber-shop-budapest",
@@ -90,7 +98,8 @@
       "sent_at": "2026-06-27T12:10:13.167Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Nhat Barber Shop",
-      "to": "nhatbarbershop@gmail.com"
+      "to": "nhatbarbershop@gmail.com",
+      "follow_up_sent": "2026-06-30T13:08:44.124Z"
     },
     {
       "lead_id": "dot-budapest",
@@ -100,7 +109,8 @@
       "sent_at": "2026-06-27T12:10:14.435Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet - Dot",
-      "to": "dotgroupkft@gmail.com"
+      "to": "dotgroupkft@gmail.com",
+      "follow_up_sent": "2026-06-30T13:08:45.155Z"
     }
   ]
 }
