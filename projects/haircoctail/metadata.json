@@ -1,0 +1,14 @@
+{
+  "business_name": "Haircoctail",
+  "city": "Budapest",
+  "category": "hair salon",
+  "generated_at": "2026-07-01T15:02:40.716Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

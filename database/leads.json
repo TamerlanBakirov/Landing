@@ -415,13 +415,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.192Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.199Z"
+    "updated_at": "2026-07-01T15:17:56.332Z",
+    "project_dir": "projects/haircoctail",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:17:56.328Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "a16-fodraszmuhely-budapest",
@@ -449,12 +456,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.210Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.231Z"
+    "updated_at": "2026-07-01T15:01:57.536Z"
   },
   {
     "id": "highbrow-barbershop-budapest",
@@ -481,13 +488,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.260Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.265Z"
+    "updated_at": "2026-07-01T15:17:57.370Z",
+    "project_dir": "projects/highbrow-barbershop",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:17:57.366Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "lumberjack-barber-corner-budapest",
@@ -514,13 +528,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.318Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.300Z"
+    "updated_at": "2026-07-01T15:17:58.316Z",
+    "project_dir": "projects/lumberjack-barber-corner",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:17:58.312Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "strochmayer-regina-hair-budapest",
@@ -547,13 +568,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.322Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.334Z"
+    "updated_at": "2026-07-01T15:17:59.307Z",
+    "project_dir": "projects/strochmayer-regina-hair",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:17:59.303Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "aranyhaj-szepsegbarlangja-budapest",
@@ -581,12 +609,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.349Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.367Z"
+    "updated_at": "2026-07-01T15:01:57.555Z"
   },
   {
     "id": "hair-gallery-fodraszat-budapest",
@@ -613,13 +641,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.387Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.399Z"
+    "updated_at": "2026-07-01T15:18:00.483Z",
+    "project_dir": "projects/hair-gallery-fodraszat",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:18:00.480Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "fresh-cut-z-barber-shop-budapest",
@@ -646,13 +681,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.406Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.432Z"
+    "updated_at": "2026-07-01T15:18:01.464Z",
+    "project_dir": "projects/fresh-cut-z-barber-shop",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:18:01.461Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "hair-beauty-fodraszat-budapest",
@@ -680,12 +722,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.407Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.467Z"
+    "updated_at": "2026-07-01T15:01:57.568Z"
   },
   {
     "id": "marilyn-studio-budapest",
@@ -712,13 +754,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.413Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.499Z"
+    "updated_at": "2026-07-01T15:18:02.343Z",
+    "project_dir": "projects/marilyn-studio",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:18:02.340Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "hello-hair-budapest",
@@ -745,13 +794,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.430Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.531Z"
+    "updated_at": "2026-07-01T15:18:04.425Z",
+    "project_dir": "projects/hello-hair",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:18:04.422Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "a-stilus-maga-budapest",
@@ -779,12 +835,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.438Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.564Z"
+    "updated_at": "2026-07-01T15:01:57.582Z"
   },
   {
     "id": "beauty-star-hajszlon-budapest",
@@ -812,12 +868,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.459Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.598Z"
+    "updated_at": "2026-07-01T15:01:57.586Z"
   },
   {
     "id": "eti-szalon-budapest",
@@ -845,12 +901,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.465Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.631Z"
+    "updated_at": "2026-07-01T15:01:57.594Z"
   },
   {
     "id": "linh-barber-shop-budapest",
@@ -877,13 +933,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.478Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.664Z"
+    "updated_at": "2026-07-01T15:18:05.281Z",
+    "project_dir": "projects/linh-barber-shop",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:18:05.277Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "ilia-hair-design-budapest",
@@ -910,13 +973,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "pitched",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.485Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.698Z"
+    "updated_at": "2026-07-01T15:18:09.590Z",
+    "project_dir": "projects/ilia-hair-design",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-01T15:18:09.586Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "haj-sokk-budapest",
@@ -943,13 +1013,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "checked",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.507Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.730Z"
+    "updated_at": "2026-07-01T15:17:55.071Z",
+    "project_dir": "projects/haj-sokk",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "the-color-studio-budapest",
@@ -976,13 +1050,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
-    "score": 75,
+    "stage": "checked",
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.523Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.764Z"
+    "updated_at": "2026-07-01T15:17:55.104Z",
+    "project_dir": "projects/the-color-studio",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "rebelle-salon-budapest",
@@ -1010,12 +1088,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.532Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.797Z"
+    "updated_at": "2026-07-01T15:01:57.618Z"
   },
   {
     "id": "semmi-gubanc-fodraszmuhely-budapest",
@@ -1043,12 +1121,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.541Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.831Z"
+    "updated_at": "2026-07-01T15:01:57.624Z"
   },
   {
     "id": "aligvarom-fodraszat-budapest",
@@ -1076,12 +1154,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.591Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.867Z"
+    "updated_at": "2026-07-01T15:01:57.629Z"
   },
   {
     "id": "bandar-cuts-budapest",
@@ -1109,12 +1187,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.619Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.899Z"
+    "updated_at": "2026-07-01T15:01:57.634Z"
   },
   {
     "id": "riener-studio-budapest",
@@ -1142,12 +1220,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.712Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.933Z"
+    "updated_at": "2026-07-01T15:01:57.641Z"
   },
   {
     "id": "wonderland-budapest",
@@ -1175,12 +1253,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.778Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:10.967Z"
+    "updated_at": "2026-07-01T15:01:57.645Z"
   },
   {
     "id": "reborn-budapest",
@@ -1208,12 +1286,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.783Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.001Z"
+    "updated_at": "2026-07-01T15:01:57.650Z"
   },
   {
     "id": "varga-szalon-budapest",
@@ -1241,12 +1319,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.786Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.036Z"
+    "updated_at": "2026-07-01T15:01:57.654Z"
   },
   {
     "id": "lacza-szalon-budapest",
@@ -1274,12 +1352,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.799Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.068Z"
+    "updated_at": "2026-07-01T15:01:57.659Z"
   },
   {
     "id": "andi-fodraszmuhely-budapest",
@@ -1307,12 +1385,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.898Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.101Z"
+    "updated_at": "2026-07-01T15:01:57.663Z"
   },
   {
     "id": "hair-moni-budapest",
@@ -1340,12 +1418,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.910Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.136Z"
+    "updated_at": "2026-07-01T15:01:57.667Z"
   },
   {
     "id": "qui-budapest",
@@ -1373,12 +1451,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.685Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.170Z"
+    "updated_at": "2026-07-01T15:01:57.672Z"
   },
   {
     "id": "szeraj-torok-etterem-budapest",
@@ -1406,12 +1484,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.688Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.204Z"
+    "updated_at": "2026-07-01T15:01:57.676Z"
   },
   {
     "id": "toth-kocsma-budapest",
@@ -1439,12 +1517,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.689Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.236Z"
+    "updated_at": "2026-07-01T15:01:57.680Z"
   },
   {
     "id": "csarnok-vendeglo-budapest",
@@ -1472,12 +1550,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.692Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.270Z"
+    "updated_at": "2026-07-01T15:01:57.687Z"
   },
   {
     "id": "terv-presszo-budapest",
@@ -1505,12 +1583,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.693Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.304Z"
+    "updated_at": "2026-07-01T15:01:57.692Z"
   },
   {
     "id": "parasztkonyha-budapest",
@@ -1538,12 +1616,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.696Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.337Z"
+    "updated_at": "2026-07-01T15:01:57.696Z"
   },
   {
     "id": "strudli-budapest",
@@ -1571,12 +1649,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.697Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.370Z"
+    "updated_at": "2026-07-01T15:01:57.701Z"
   },
   {
     "id": "belvarosi-lugas-etterem-budapest",
@@ -1604,12 +1682,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.698Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.404Z"
+    "updated_at": "2026-07-01T15:01:57.705Z"
   },
   {
     "id": "tulipano-restaurant-budapest",
@@ -1637,12 +1715,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.702Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.438Z"
+    "updated_at": "2026-07-01T15:01:57.709Z"
   },
   {
     "id": "spraneats-drinks-budapest",
@@ -1670,12 +1748,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.704Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.471Z"
+    "updated_at": "2026-07-01T15:01:57.713Z"
   },
   {
     "id": "tulipan-bisztro-budapest",
@@ -1703,12 +1781,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.705Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.503Z"
+    "updated_at": "2026-07-01T15:01:57.718Z"
   },
   {
     "id": "himba-kitchen-budapest",
@@ -1736,12 +1814,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.707Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.537Z"
+    "updated_at": "2026-07-01T15:01:57.722Z"
   },
   {
     "id": "cafe-kor-budapest",
@@ -1769,12 +1847,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.708Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.569Z"
+    "updated_at": "2026-07-01T15:01:57.729Z"
   },
   {
     "id": "quan-non-budapest",
@@ -1802,12 +1880,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.710Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.602Z"
+    "updated_at": "2026-07-01T15:01:57.733Z"
   },
   {
     "id": "fanatico-budapest",
@@ -1835,12 +1913,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.713Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.636Z"
+    "updated_at": "2026-07-01T15:01:57.737Z"
   },
   {
     "id": "tilos-a-tilos-budapest",
@@ -1868,12 +1946,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.714Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.670Z"
+    "updated_at": "2026-07-01T15:01:57.742Z"
   },
   {
     "id": "fermento-pizzeria-budapest",
@@ -1901,12 +1979,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.728Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.706Z"
+    "updated_at": "2026-07-01T15:01:57.746Z"
   },
   {
     "id": "okiko-sushi-thai-bar-budapest",
@@ -1934,12 +2012,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.731Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.739Z"
+    "updated_at": "2026-07-01T15:01:57.750Z"
   },
   {
     "id": "aranyszarvas-budapest",
@@ -1967,12 +2045,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.736Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.772Z"
+    "updated_at": "2026-07-01T15:01:57.755Z"
   },
   {
     "id": "arirang-budapest",
@@ -2000,12 +2078,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.759Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.806Z"
+    "updated_at": "2026-07-01T15:01:57.759Z"
   },
   {
     "id": "fuge-bolt-es-kavezo-budapest",
@@ -2033,12 +2111,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.768Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.839Z"
+    "updated_at": "2026-07-01T15:01:57.763Z"
   },
   {
     "id": "viet-nam-food-budapest",
@@ -2066,12 +2144,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.791Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.873Z"
+    "updated_at": "2026-07-01T15:01:57.767Z"
   },
   {
     "id": "black-dog-cinema-budapest",
@@ -2099,12 +2177,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.806Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.905Z"
+    "updated_at": "2026-07-01T15:01:57.774Z"
   },
   {
     "id": "csiga-cafe-budapest",
@@ -2132,12 +2210,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.811Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.938Z"
+    "updated_at": "2026-07-01T15:01:57.778Z"
   },
   {
     "id": "java-caffe-budapest",
@@ -2165,12 +2243,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.820Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:11.972Z"
+    "updated_at": "2026-07-01T15:01:57.783Z"
   },
   {
     "id": "bocelli-pizzeria-italia-budapest",
@@ -2198,12 +2276,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.829Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.006Z"
+    "updated_at": "2026-07-01T15:01:57.787Z"
   },
   {
     "id": "oishi-sushi-synagogue-budapest",
@@ -2231,12 +2309,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.846Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.039Z"
+    "updated_at": "2026-07-01T15:01:57.791Z"
   },
   {
     "id": "feher-hajo-etterem-budapest",
@@ -2264,12 +2342,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.854Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.073Z"
+    "updated_at": "2026-07-01T15:01:57.795Z"
   },
   {
     "id": "salve-budapest",
@@ -2297,12 +2375,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.861Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.105Z"
+    "updated_at": "2026-07-01T15:01:57.800Z"
   },
   {
     "id": "curj-pho-budapest",
@@ -2330,12 +2408,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.882Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.140Z"
+    "updated_at": "2026-07-01T15:01:57.804Z"
   },
   {
     "id": "margaret-s-restaurant-pub-budapest",
@@ -2363,12 +2441,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.890Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.174Z"
+    "updated_at": "2026-07-01T15:01:57.808Z"
   },
   {
     "id": "blackstart-budapest",
@@ -2396,12 +2474,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.928Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.208Z"
+    "updated_at": "2026-07-01T15:01:57.815Z"
   },
   {
     "id": "pho-very-good-budapest",
@@ -2429,12 +2507,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.941Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.241Z"
+    "updated_at": "2026-07-01T15:01:57.819Z"
   },
   {
     "id": "kispiac-bisztro-budapest",
@@ -2462,12 +2540,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.946Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.275Z"
+    "updated_at": "2026-07-01T15:01:57.823Z"
   },
   {
     "id": "paul-s-bistro-budapest",
@@ -2495,12 +2573,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.948Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.310Z"
+    "updated_at": "2026-07-01T15:01:57.828Z"
   },
   {
     "id": "bor-la-bor-budapest",
@@ -2528,12 +2606,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.972Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.343Z"
+    "updated_at": "2026-07-01T15:01:57.832Z"
   },
   {
     "id": "hung-a-ry-budapest",
@@ -2561,12 +2639,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.984Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.377Z"
+    "updated_at": "2026-07-01T15:01:57.836Z"
   },
   {
     "id": "la-bodeguita-del-medio-budapest",
@@ -2594,12 +2672,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.015Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.411Z"
+    "updated_at": "2026-07-01T15:01:57.840Z"
   },
   {
     "id": "lialina-etterem-es-klub-budapest",
@@ -2627,12 +2705,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.044Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.445Z"
+    "updated_at": "2026-07-01T15:01:57.845Z"
   },
   {
     "id": "ennmann-budapest",
@@ -2660,12 +2738,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.086Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.479Z"
+    "updated_at": "2026-07-01T15:01:57.849Z"
   },
   {
     "id": "halaszbastya-budapest",
@@ -2693,12 +2771,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.096Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.512Z"
+    "updated_at": "2026-07-01T15:01:57.853Z"
   },
   {
     "id": "coffee-inn-budapest",
@@ -2726,12 +2804,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.099Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.549Z"
+    "updated_at": "2026-07-01T15:01:57.860Z"
   },
   {
     "id": "sutierdo-budapest",
@@ -2759,12 +2837,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.147Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.581Z"
+    "updated_at": "2026-07-01T15:01:57.864Z"
   },
   {
     "id": "ez-is-budai-budapest",
@@ -2792,12 +2870,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.211Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.616Z"
+    "updated_at": "2026-07-01T15:01:57.868Z"
   },
   {
     "id": "budapest-bakery-cafe-budapest",
@@ -2825,12 +2903,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.245Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.651Z"
+    "updated_at": "2026-07-01T15:01:57.873Z"
   },
   {
     "id": "sao-food-bar-budapest",
@@ -2858,12 +2936,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.271Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.686Z"
+    "updated_at": "2026-07-01T15:01:57.877Z"
   },
   {
     "id": "park-vendeglo-budapest",
@@ -2891,12 +2969,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.303Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.721Z"
+    "updated_at": "2026-07-01T15:01:57.881Z"
   },
   {
     "id": "polpetti-budapest",
@@ -2924,12 +3002,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.316Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.755Z"
+    "updated_at": "2026-07-01T15:01:57.885Z"
   },
   {
     "id": "kedvenc-sutim-budapest",
@@ -2957,12 +3035,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.320Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.790Z"
+    "updated_at": "2026-07-01T15:01:57.890Z"
   },
   {
     "id": "govinda-vega-sarok-budapest",
@@ -2990,12 +3068,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.361Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.825Z"
+    "updated_at": "2026-07-01T15:01:57.894Z"
   },
   {
     "id": "oliva-etterem-budapest",
@@ -3023,12 +3101,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.368Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.859Z"
+    "updated_at": "2026-07-01T15:01:57.900Z"
   },
   {
     "id": "for-sale-pub-budapest",
@@ -3056,12 +3134,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.372Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.894Z"
+    "updated_at": "2026-07-01T15:01:57.905Z"
   },
   {
     "id": "flatyesz-bisztro-budapest",
@@ -3089,12 +3167,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.396Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.927Z"
+    "updated_at": "2026-07-01T15:01:57.909Z"
   },
   {
     "id": "hai-nam-pho-bisztro-budapest",
@@ -3122,12 +3200,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.454Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.961Z"
+    "updated_at": "2026-07-01T15:01:57.913Z"
   },
   {
     "id": "pottyos-kifozde-budapest",
@@ -3155,12 +3233,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.530Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:12.996Z"
+    "updated_at": "2026-07-01T15:01:57.917Z"
   },
   {
     "id": "nella-valle-pizzeria-huvosvolgy-budapest",
@@ -3188,12 +3266,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.585Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.031Z"
+    "updated_at": "2026-07-01T15:01:57.921Z"
   },
   {
     "id": "vegacity-budapest",
@@ -3221,12 +3299,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.589Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.066Z"
+    "updated_at": "2026-07-01T15:01:57.926Z"
   },
   {
     "id": "menza-mester-budapest",
@@ -3254,12 +3332,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.654Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.099Z"
+    "updated_at": "2026-07-01T15:01:57.930Z"
   },
   {
     "id": "tao-budapest",
@@ -3287,12 +3365,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.661Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.132Z"
+    "updated_at": "2026-07-01T15:01:57.934Z"
   },
   {
     "id": "biwako-2-budapest",
@@ -3320,12 +3398,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.681Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.167Z"
+    "updated_at": "2026-07-01T15:01:57.938Z"
   },
   {
     "id": "andrassy-100-budapest",
@@ -3353,12 +3431,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.692Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.202Z"
+    "updated_at": "2026-07-01T15:01:57.945Z"
   },
   {
     "id": "planet-budapest-etterem-budapest",
@@ -3386,12 +3464,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.699Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.237Z"
+    "updated_at": "2026-07-01T15:01:57.949Z"
   },
   {
     "id": "sorbarka-budapest",
@@ -3419,12 +3497,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.729Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.271Z"
+    "updated_at": "2026-07-01T15:01:57.954Z"
   },
   {
     "id": "mennyei-kurtoskalacs-budapest",
@@ -3452,12 +3530,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.736Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.306Z"
+    "updated_at": "2026-07-01T15:01:57.958Z"
   },
   {
     "id": "europa-cafe-budapest",
@@ -3485,12 +3563,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.741Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.342Z"
+    "updated_at": "2026-07-01T15:01:57.962Z"
   },
   {
     "id": "repeta-budapest",
@@ -3518,12 +3596,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.762Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.376Z"
+    "updated_at": "2026-07-01T15:01:57.967Z"
   },
   {
     "id": "evezos-sorkert-budapest",
@@ -3551,12 +3629,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.799Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.413Z"
+    "updated_at": "2026-07-01T15:01:57.971Z"
   },
   {
     "id": "leander-terasz-budapest",
@@ -3584,12 +3662,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.802Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.445Z"
+    "updated_at": "2026-07-01T15:01:57.975Z"
   },
   {
     "id": "kedvencem-budapest",
@@ -3617,12 +3695,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.819Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.479Z"
+    "updated_at": "2026-07-01T15:01:57.979Z"
   },
   {
     "id": "muvhaz-budapest",
@@ -3650,12 +3728,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.823Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.515Z"
+    "updated_at": "2026-07-01T15:01:57.986Z"
   },
   {
     "id": "serpenyo-etelbar-budapest",
@@ -3683,12 +3761,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.850Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.549Z"
+    "updated_at": "2026-07-01T15:01:57.990Z"
   },
   {
     "id": "bartok-reggel-delben-este-budapest",
@@ -3716,12 +3794,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.865Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.584Z"
+    "updated_at": "2026-07-01T15:01:57.994Z"
   },
   {
     "id": "kontakt-budapest",
@@ -3749,12 +3827,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.892Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.617Z"
+    "updated_at": "2026-07-01T15:01:57.999Z"
   },
   {
     "id": "klasszik-by-manetti-budapest",
@@ -3782,12 +3860,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.898Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.653Z"
+    "updated_at": "2026-07-01T15:01:58.003Z"
   },
   {
     "id": "knedli-etelbar-budapest",
@@ -3815,12 +3893,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.912Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.690Z"
+    "updated_at": "2026-07-01T15:01:58.007Z"
   },
   {
     "id": "cafe-frei-budapest",
@@ -3848,12 +3926,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.924Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.724Z"
+    "updated_at": "2026-07-01T15:01:58.011Z"
   },
   {
     "id": "queen-bee-budapest",
@@ -3881,12 +3959,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.964Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.758Z"
+    "updated_at": "2026-07-01T15:01:58.015Z"
   },
   {
     "id": "kahwa-budapest",
@@ -3914,12 +3992,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.974Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.790Z"
+    "updated_at": "2026-07-01T15:01:58.020Z"
   },
   {
     "id": "a39-info-bistro-budapest",
@@ -3947,12 +4025,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.984Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.825Z"
+    "updated_at": "2026-07-01T15:01:58.024Z"
   },
   {
     "id": "il-mulino-budapest",
@@ -3980,12 +4058,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.028Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.860Z"
+    "updated_at": "2026-07-01T15:01:58.031Z"
   },
   {
     "id": "nem-adom-fel-cafe-bar-budapest",
@@ -4013,12 +4091,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.037Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.894Z"
+    "updated_at": "2026-07-01T15:01:58.035Z"
   },
   {
     "id": "trafik-budapest",
@@ -4046,12 +4124,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.054Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.928Z"
+    "updated_at": "2026-07-01T15:01:58.039Z"
   },
   {
     "id": "ancsa-kifozde-budapest",
@@ -4079,12 +4157,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.083Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.961Z"
+    "updated_at": "2026-07-01T15:01:58.043Z"
   },
   {
     "id": "co-phi-cafe-budapest",
@@ -4112,12 +4190,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.181Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:13.996Z"
+    "updated_at": "2026-07-01T15:01:58.048Z"
   },
   {
     "id": "szimply-budapest",
@@ -4145,12 +4223,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.233Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.032Z"
+    "updated_at": "2026-07-01T15:01:58.052Z"
   },
   {
     "id": "heureka-budapest",
@@ -4178,12 +4256,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.244Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.065Z"
+    "updated_at": "2026-07-01T15:01:58.056Z"
   },
   {
     "id": "torokmez-budapest",
@@ -4211,12 +4289,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.248Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.100Z"
+    "updated_at": "2026-07-01T15:01:58.060Z"
   },
   {
     "id": "mon-cheri-budapest",
@@ -4244,12 +4322,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.254Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.133Z"
+    "updated_at": "2026-07-01T15:01:58.065Z"
   },
   {
     "id": "ilham-pasa-torok-bufeje-budapest",
@@ -4277,12 +4355,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.325Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.166Z"
+    "updated_at": "2026-07-01T15:01:58.071Z"
   },
   {
     "id": "art-cafe-budapest",
@@ -4310,12 +4388,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.400Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.201Z"
+    "updated_at": "2026-07-01T15:01:58.075Z"
   },
   {
     "id": "paxos-etterem-budapest",
@@ -4343,12 +4421,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.515Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.236Z"
+    "updated_at": "2026-07-01T15:01:58.080Z"
   },
   {
     "id": "mitzi-budapest",
@@ -4376,12 +4454,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.585Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.271Z"
+    "updated_at": "2026-07-01T15:01:58.084Z"
   },
   {
     "id": "pizza-and-beer-budapest",
@@ -4409,12 +4487,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.597Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.304Z"
+    "updated_at": "2026-07-01T15:01:58.088Z"
   },
   {
     "id": "dosamosa-budapest",
@@ -4442,12 +4520,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.608Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.338Z"
+    "updated_at": "2026-07-01T15:01:58.092Z"
   },
   {
     "id": "the-annam-cafe-budapest",
@@ -4475,12 +4553,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.626Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.372Z"
+    "updated_at": "2026-07-01T15:01:58.097Z"
   },
   {
     "id": "romai-fagyizo-cukraszda-budapest",
@@ -4508,12 +4586,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.638Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.406Z"
+    "updated_at": "2026-07-01T15:01:58.101Z"
   },
   {
     "id": "colosseum-budapest",
@@ -4541,12 +4619,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.706Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.441Z"
+    "updated_at": "2026-07-01T15:01:58.105Z"
   },
   {
     "id": "seed-budapest",
@@ -4574,12 +4652,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.728Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.473Z"
+    "updated_at": "2026-07-01T15:01:58.109Z"
   },
   {
     "id": "kelly-s-wok-budapest",
@@ -4607,12 +4685,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.776Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.508Z"
+    "updated_at": "2026-07-01T15:01:58.116Z"
   },
   {
     "id": "budai-ketto-budapest",
@@ -4640,12 +4718,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.780Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.544Z"
+    "updated_at": "2026-07-01T15:01:58.120Z"
   },
   {
     "id": "toscana-club-budapest",
@@ -4673,12 +4751,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.834Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.578Z"
+    "updated_at": "2026-07-01T15:01:58.124Z"
   },
   {
     "id": "restro-puskin-budapest",
@@ -4706,12 +4784,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.876Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.613Z"
+    "updated_at": "2026-07-01T15:01:58.129Z"
   },
   {
     "id": "csillaghegyi-megallo-budapest",
@@ -4739,12 +4817,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.965Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.645Z"
+    "updated_at": "2026-07-01T15:01:58.133Z"
   },
   {
     "id": "edison-jupiter-budapest",
@@ -4772,12 +4850,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.978Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.679Z"
+    "updated_at": "2026-07-01T15:01:58.137Z"
   },
   {
     "id": "parisi-6-budapest",
@@ -4805,12 +4883,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.994Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.713Z"
+    "updated_at": "2026-07-01T15:01:58.141Z"
   },
   {
     "id": "dorado-budapest",
@@ -4838,12 +4916,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.998Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.747Z"
+    "updated_at": "2026-07-01T15:01:58.145Z"
   },
   {
     "id": "dorothy-s-presso-budapest",
@@ -4871,12 +4949,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.028Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.781Z"
+    "updated_at": "2026-07-01T15:01:58.150Z"
   },
   {
     "id": "tokmag-vegan-street-food-budapest",
@@ -4904,12 +4982,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.050Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.814Z"
+    "updated_at": "2026-07-01T15:01:58.156Z"
   },
   {
     "id": "hollandi-cukraszda-budapest",
@@ -4937,12 +5015,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.057Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.848Z"
+    "updated_at": "2026-07-01T15:01:58.160Z"
   },
   {
     "id": "marczika-kavezo-budapest",
@@ -4970,12 +5048,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.093Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.883Z"
+    "updated_at": "2026-07-01T15:01:58.164Z"
   },
   {
     "id": "mon-cafe-budapest",
@@ -5003,12 +5081,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.188Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.917Z"
+    "updated_at": "2026-07-01T15:01:58.168Z"
   },
   {
     "id": "k-point-restaurant-cafe-budapest",
@@ -5036,12 +5114,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.195Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.952Z"
+    "updated_at": "2026-07-01T15:01:58.173Z"
   },
   {
     "id": "ignac-a-nyul-budapest",
@@ -5069,12 +5147,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.252Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:14.986Z"
+    "updated_at": "2026-07-01T15:01:58.177Z"
   },
   {
     "id": "pipiter-menza-budapest",
@@ -5102,12 +5180,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.263Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.022Z"
+    "updated_at": "2026-07-01T15:01:58.186Z"
   },
   {
     "id": "palmakert-falatozo-budapest",
@@ -5135,12 +5213,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.360Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.056Z"
+    "updated_at": "2026-07-01T15:01:58.191Z"
   },
   {
     "id": "meringa-cukraszda-budapest",
@@ -5168,12 +5246,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.373Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.091Z"
+    "updated_at": "2026-07-01T15:01:58.195Z"
   },
   {
     "id": "cukorka-kavehaz-es-grillterasz-budapest",
@@ -5201,12 +5279,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.390Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.126Z"
+    "updated_at": "2026-07-01T15:01:58.199Z"
   },
   {
     "id": "egyel-jot-budapest",
@@ -5234,12 +5312,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.395Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.158Z"
+    "updated_at": "2026-07-01T15:01:58.206Z"
   },
   {
     "id": "kaj-alom-budapest",
@@ -5267,12 +5345,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.400Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.192Z"
+    "updated_at": "2026-07-01T15:01:58.210Z"
   },
   {
     "id": "volgy-bistro-budapest",
@@ -5300,12 +5378,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.414Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.229Z"
+    "updated_at": "2026-07-01T15:01:58.214Z"
   },
   {
     "id": "la-panna-sutemeny-budapest",
@@ -5333,12 +5411,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.427Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.264Z"
+    "updated_at": "2026-07-01T15:01:58.218Z"
   },
   {
     "id": "sweetie-shop-budapest",
@@ -5366,12 +5444,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.438Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.299Z"
+    "updated_at": "2026-07-01T15:01:58.223Z"
   },
   {
     "id": "nass-cukraszda-budapest",
@@ -5399,12 +5477,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.449Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.331Z"
+    "updated_at": "2026-07-01T15:01:58.227Z"
   },
   {
     "id": "bagetto-budapest",
@@ -5432,12 +5510,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.489Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.364Z"
+    "updated_at": "2026-07-01T15:01:58.231Z"
   },
   {
     "id": "pulled-chicken-bistro-budapest",
@@ -5465,12 +5543,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.497Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.399Z"
+    "updated_at": "2026-07-01T15:01:58.235Z"
   },
   {
     "id": "anyu-konyha-budapest",
@@ -5498,12 +5576,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.505Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.434Z"
+    "updated_at": "2026-07-01T15:01:58.239Z"
   },
   {
     "id": "menzay-bufe-budapest",
@@ -5531,12 +5609,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.517Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.470Z"
+    "updated_at": "2026-07-01T15:01:58.246Z"
   },
   {
     "id": "pauza-etterem-es-kavezo-budapest",
@@ -5564,12 +5642,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.523Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.503Z"
+    "updated_at": "2026-07-01T15:01:58.250Z"
   },
   {
     "id": "edes-szelet-budapest",
@@ -5597,12 +5675,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.605Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.536Z"
+    "updated_at": "2026-07-01T15:01:58.254Z"
   },
   {
     "id": "jokenyer-budapest",
@@ -5630,12 +5708,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.610Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.573Z"
+    "updated_at": "2026-07-01T15:01:58.258Z"
   },
   {
     "id": "retek-bisztro-budapest",
@@ -5663,12 +5741,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.628Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.607Z"
+    "updated_at": "2026-07-01T15:01:58.263Z"
   },
   {
     "id": "mishto-cafe-deli-budapest",
@@ -5696,12 +5774,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.636Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.643Z"
+    "updated_at": "2026-07-01T15:01:58.267Z"
   },
   {
     "id": "barlang-budapest",
@@ -5729,12 +5807,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.687Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.677Z"
+    "updated_at": "2026-07-01T15:01:58.271Z"
   },
   {
     "id": "sweet-side-cafe-budapest",
@@ -5762,12 +5840,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.731Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.711Z"
+    "updated_at": "2026-07-01T15:01:58.275Z"
   },
   {
     "id": "sakura-ramen-budapest",
@@ -5795,12 +5873,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.795Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.745Z"
+    "updated_at": "2026-07-01T15:01:58.280Z"
   },
   {
     "id": "pho-74-budapest",
@@ -5828,12 +5906,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.865Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.780Z"
+    "updated_at": "2026-07-01T15:01:58.284Z"
   },
   {
     "id": "lashka-budapest",
@@ -5861,12 +5939,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.036Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.816Z"
+    "updated_at": "2026-07-01T15:01:58.291Z"
   },
   {
     "id": "fahej-kavezo-budapest",
@@ -5894,12 +5972,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.047Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.848Z"
+    "updated_at": "2026-07-01T15:01:58.295Z"
   },
   {
     "id": "la-trattoria-budapest",
@@ -5927,12 +6005,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.079Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.883Z"
+    "updated_at": "2026-07-01T15:01:58.299Z"
   },
   {
     "id": "nor-ma-budapest",
@@ -5960,12 +6038,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.151Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.918Z"
+    "updated_at": "2026-07-01T15:01:58.303Z"
   },
   {
     "id": "fofoto-budapest",
@@ -5993,12 +6071,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.226Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.955Z"
+    "updated_at": "2026-07-01T15:01:58.308Z"
   },
   {
     "id": "sis-bro-boutique-cafe-budapest",
@@ -6026,12 +6104,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.264Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:15.990Z"
+    "updated_at": "2026-07-01T15:01:58.312Z"
   },
   {
     "id": "garden-79-restaurant-bar-budapest",
@@ -6059,12 +6137,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.276Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.024Z"
+    "updated_at": "2026-07-01T15:01:58.316Z"
   },
   {
     "id": "jin-galbi-restaurant-budapest",
@@ -6092,12 +6170,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.444Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.060Z"
+    "updated_at": "2026-07-01T15:01:58.320Z"
   },
   {
     "id": "rozmaring-etterem-es-pizzeria-budapest",
@@ -6125,12 +6203,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.511Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.094Z"
+    "updated_at": "2026-07-01T15:01:58.324Z"
   },
   {
     "id": "halas-guszti-budapest",
@@ -6158,12 +6236,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.574Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.129Z"
+    "updated_at": "2026-07-01T15:01:58.331Z"
   },
   {
     "id": "the-dam-n-good-place-budapest",
@@ -6191,12 +6269,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.579Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.166Z"
+    "updated_at": "2026-07-01T15:01:58.335Z"
   },
   {
     "id": "nosh-budapest",
@@ -6224,12 +6302,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.589Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.200Z"
+    "updated_at": "2026-07-01T15:01:58.339Z"
   },
   {
     "id": "pokito-budapest",
@@ -6257,12 +6335,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.668Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.234Z"
+    "updated_at": "2026-07-01T15:01:58.343Z"
   },
   {
     "id": "kredenc-cafe-delicatesse-budapest",
@@ -6290,12 +6368,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.674Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.270Z"
+    "updated_at": "2026-07-01T15:01:58.348Z"
   },
   {
     "id": "coffee-works-budapest",
@@ -6323,12 +6401,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.732Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.304Z"
+    "updated_at": "2026-07-01T15:01:58.352Z"
   },
   {
     "id": "aranypinty-budapest",
@@ -6356,12 +6434,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.738Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.340Z"
+    "updated_at": "2026-07-01T15:01:58.356Z"
   },
   {
     "id": "trabant-60-budapest",
@@ -6389,12 +6467,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.759Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.374Z"
+    "updated_at": "2026-07-01T15:01:58.360Z"
   },
   {
     "id": "marischka-budapest",
@@ -6422,12 +6500,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.790Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.408Z"
+    "updated_at": "2026-07-01T15:01:58.364Z"
   },
   {
     "id": "wombat-coffeshop-budapest",
@@ -6455,12 +6533,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.807Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.443Z"
+    "updated_at": "2026-07-01T15:01:58.369Z"
   },
   {
     "id": "olee-s-pizza-budapest",
@@ -6488,12 +6566,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.827Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.477Z"
+    "updated_at": "2026-07-01T15:01:58.375Z"
   },
   {
     "id": "chez-hanna-budapest",
@@ -6521,12 +6599,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.005Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.511Z"
+    "updated_at": "2026-07-01T15:01:58.379Z"
   },
   {
     "id": "la-piccola-napoli-budapest",
@@ -6554,12 +6632,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.080Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.546Z"
+    "updated_at": "2026-07-01T15:01:58.384Z"
   },
   {
     "id": "stikli-budapest",
@@ -6587,12 +6665,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.102Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.581Z"
+    "updated_at": "2026-07-01T15:01:58.388Z"
   },
   {
     "id": "just-cantine-budapest",
@@ -6620,12 +6698,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.115Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.616Z"
+    "updated_at": "2026-07-01T15:01:58.392Z"
   },
   {
     "id": "majdnem-cafe-more-budapest",
@@ -6653,12 +6731,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.220Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.651Z"
+    "updated_at": "2026-07-01T15:01:58.397Z"
   },
   {
     "id": "cafe-bene-budapest",
@@ -6686,12 +6764,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.261Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.688Z"
+    "updated_at": "2026-07-01T15:01:58.401Z"
   },
   {
     "id": "dose-espresso-budapest",
@@ -6719,12 +6797,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.271Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.720Z"
+    "updated_at": "2026-07-01T15:01:58.405Z"
   },
   {
     "id": "pilot-cafe-budapest",
@@ -6752,12 +6830,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.285Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.755Z"
+    "updated_at": "2026-07-01T15:01:58.409Z"
   },
   {
     "id": "tosti-budapest",
@@ -6785,12 +6863,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.291Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.791Z"
+    "updated_at": "2026-07-01T15:01:58.415Z"
   },
   {
     "id": "falu-budapest",
@@ -6818,12 +6896,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.306Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.824Z"
+    "updated_at": "2026-07-01T15:01:58.419Z"
   },
   {
     "id": "kicsi-japan-dining-budapest",
@@ -6851,12 +6929,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.314Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.860Z"
+    "updated_at": "2026-07-01T15:01:58.424Z"
   },
   {
     "id": "kajaszunet-budapest",
@@ -6884,12 +6962,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.320Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.894Z"
+    "updated_at": "2026-07-01T15:01:58.428Z"
   },
   {
     "id": "oriental-teahaz-budapest",
@@ -6917,12 +6995,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.342Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.929Z"
+    "updated_at": "2026-07-01T15:01:58.432Z"
   },
   {
     "id": "lin-mester-konyhaja-budapest",
@@ -6950,12 +7028,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.375Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.965Z"
+    "updated_at": "2026-07-01T15:01:58.436Z"
   },
   {
     "id": "blokk-bbq-budapest",
@@ -6983,12 +7061,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.430Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:16.999Z"
+    "updated_at": "2026-07-01T15:01:58.440Z"
   },
   {
     "id": "levant-lebanese-bistro-budapest",
@@ -7016,12 +7094,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.464Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.036Z"
+    "updated_at": "2026-07-01T15:01:58.445Z"
   },
   {
     "id": "deszka-budapest",
@@ -7049,12 +7127,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.470Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.070Z"
+    "updated_at": "2026-07-01T15:01:58.449Z"
   },
   {
     "id": "varoshaz-snack-budapest",
@@ -7082,12 +7160,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.489Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.104Z"
+    "updated_at": "2026-07-01T15:01:58.453Z"
   },
   {
     "id": "winestone-budapest",
@@ -7115,12 +7193,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.522Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.139Z"
+    "updated_at": "2026-07-01T15:01:58.459Z"
   },
   {
     "id": "all-day-coffee-budapest",
@@ -7148,12 +7226,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.537Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.175Z"
+    "updated_at": "2026-07-01T15:01:58.463Z"
   },
   {
     "id": "k30-art-cafe-budapest",
@@ -7181,12 +7259,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.566Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.212Z"
+    "updated_at": "2026-07-01T15:01:58.468Z"
   },
   {
     "id": "goat-bistro-budapest",
@@ -7214,12 +7292,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.594Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.246Z"
+    "updated_at": "2026-07-01T15:01:58.472Z"
   },
   {
     "id": "khraw-pak-thai-budapest",
@@ -7247,12 +7325,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.766Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.282Z"
+    "updated_at": "2026-07-01T15:01:58.476Z"
   },
   {
     "id": "pagony-cafe-dio-budapest",
@@ -7280,12 +7358,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.781Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.315Z"
+    "updated_at": "2026-07-01T15:01:58.480Z"
   },
   {
     "id": "kiscsibe-reggelizo-etterem-budapest",
@@ -7313,12 +7391,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.884Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.349Z"
+    "updated_at": "2026-07-01T15:01:58.484Z"
   },
   {
     "id": "tompa17-budapest",
@@ -7346,12 +7424,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:06.937Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.385Z"
+    "updated_at": "2026-07-01T15:01:58.489Z"
   },
   {
     "id": "rubin-grill-cafe-budapest",
@@ -7379,12 +7457,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.015Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.419Z"
+    "updated_at": "2026-07-01T15:01:58.493Z"
   },
   {
     "id": "ph-st-budapest",
@@ -7412,12 +7490,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.026Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.454Z"
+    "updated_at": "2026-07-01T15:01:58.499Z"
   },
   {
     "id": "ben-the-goose-coffe-bar-budapest",
@@ -7445,12 +7523,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.053Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.490Z"
+    "updated_at": "2026-07-01T15:01:58.503Z"
   },
   {
     "id": "bubci-cafe-budapest",
@@ -7478,12 +7556,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.059Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.525Z"
+    "updated_at": "2026-07-01T15:01:58.507Z"
   },
   {
     "id": "negro-mangalica-budapest",
@@ -7511,12 +7589,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.194Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.561Z"
+    "updated_at": "2026-07-01T15:01:58.511Z"
   },
   {
     "id": "cafe-padru-budapest",
@@ -7544,12 +7622,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.200Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.596Z"
+    "updated_at": "2026-07-01T15:01:58.516Z"
   },
   {
     "id": "baby-bamboo-restaurant-budapest",
@@ -7577,12 +7655,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.234Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.630Z"
+    "updated_at": "2026-07-01T15:01:58.520Z"
   },
   {
     "id": "im-oon-thai-food-budapest",
@@ -7610,12 +7688,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.288Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.665Z"
+    "updated_at": "2026-07-01T15:01:58.524Z"
   },
   {
     "id": "vegazzi-specialty-pizzeria-budapest",
@@ -7643,12 +7721,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.297Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.700Z"
+    "updated_at": "2026-07-01T15:01:58.528Z"
   },
   {
     "id": "insula-kavezo-budapest",
@@ -7676,12 +7754,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.370Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.736Z"
+    "updated_at": "2026-07-01T15:01:58.532Z"
   },
   {
     "id": "meron-budapest",
@@ -7709,12 +7787,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.425Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.770Z"
+    "updated_at": "2026-07-01T15:01:58.537Z"
   },
   {
     "id": "reggel-delben-budapest",
@@ -7742,12 +7820,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.467Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.805Z"
+    "updated_at": "2026-07-01T15:01:58.543Z"
   },
   {
     "id": "ttk-etterem-es-kavezo-budapest",
@@ -7775,12 +7853,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.483Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.840Z"
+    "updated_at": "2026-07-01T15:01:58.547Z"
   },
   {
     "id": "sorompo-etterem-es-rocksarok-budapest",
@@ -7808,12 +7886,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.559Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.875Z"
+    "updated_at": "2026-07-01T15:01:58.551Z"
   },
   {
     "id": "lua-vietnami-etterem-budapest",
@@ -7841,12 +7919,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.601Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.913Z"
+    "updated_at": "2026-07-01T15:01:58.556Z"
   },
   {
     "id": "taco-bar-budapest-budapest",
@@ -7874,12 +7952,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:07.617Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.946Z"
+    "updated_at": "2026-07-01T15:01:58.560Z"
   },
   {
     "id": "vintochina-budapest",
@@ -7907,12 +7985,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.058Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:17.981Z"
+    "updated_at": "2026-07-01T15:01:58.564Z"
   },
   {
     "id": "muci-budapest",
@@ -7940,12 +8018,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.239Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.017Z"
+    "updated_at": "2026-07-01T15:01:58.568Z"
   },
   {
     "id": "the-social-space-budapest",
@@ -7973,12 +8051,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.377Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.051Z"
+    "updated_at": "2026-07-01T15:01:58.572Z"
   },
   {
     "id": "csakis-kave-budapest",
@@ -8006,12 +8084,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.411Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.087Z"
+    "updated_at": "2026-07-01T15:01:58.576Z"
   },
   {
     "id": "tunderkes-budapest",
@@ -8039,12 +8117,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.438Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.123Z"
+    "updated_at": "2026-07-01T15:01:58.582Z"
   },
   {
     "id": "leon-cafe-budapest",
@@ -8072,12 +8150,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.529Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.159Z"
+    "updated_at": "2026-07-01T15:01:58.587Z"
   },
   {
     "id": "kv-budapest",
@@ -8105,12 +8183,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.551Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.196Z"
+    "updated_at": "2026-07-01T15:01:58.591Z"
   },
   {
     "id": "matyas-pekseg-budapest",
@@ -8138,12 +8216,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.570Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.232Z"
+    "updated_at": "2026-07-01T15:01:58.595Z"
   },
   {
     "id": "momenti-bistro-budapest",
@@ -8171,12 +8249,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.650Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.268Z"
+    "updated_at": "2026-07-01T15:01:58.599Z"
   },
   {
     "id": "em-oi-pho-budapest",
@@ -8204,12 +8282,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:08.659Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.303Z"
+    "updated_at": "2026-07-01T15:01:58.604Z"
   },
   {
     "id": "il-gruppo-pizzeria-budapest",
@@ -8237,12 +8315,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:09.371Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.339Z"
+    "updated_at": "2026-07-01T15:01:58.608Z"
   },
   {
     "id": "coco7-csokolade-budapest",
@@ -8270,12 +8348,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:09.707Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.374Z"
+    "updated_at": "2026-07-01T15:01:58.612Z"
   },
   {
     "id": "azsia-lotusz-budapest",
@@ -8303,12 +8381,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:09.932Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.412Z"
+    "updated_at": "2026-07-01T15:01:58.617Z"
   },
   {
     "id": "autopont24-budapest",
@@ -8336,12 +8414,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:34.459Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.446Z"
+    "updated_at": "2026-07-01T15:01:58.621Z"
   },
   {
     "id": "szerviz-trans-kft-budapest",
@@ -8369,12 +8447,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:34.598Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.482Z"
+    "updated_at": "2026-07-01T15:01:58.628Z"
   },
   {
     "id": "dekany-zoltan-autojavito-auto-klima-budapest",
@@ -8402,12 +8480,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:34.653Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.518Z"
+    "updated_at": "2026-07-01T15:01:58.632Z"
   },
   {
     "id": "airport-garazs-budapest",
@@ -8435,12 +8513,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:34.747Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.554Z"
+    "updated_at": "2026-07-01T15:01:58.636Z"
   },
   {
     "id": "praktikus-motor-motorszerviz-budapest",
@@ -8468,12 +8546,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:34.971Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.589Z"
+    "updated_at": "2026-07-01T15:01:58.641Z"
   },
   {
     "id": "sinaro-autoszerviz-budapest",
@@ -8501,12 +8579,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:35.164Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.625Z"
+    "updated_at": "2026-07-01T15:01:58.645Z"
   },
   {
     "id": "karosszeria-centrum-budapest",
@@ -8534,12 +8612,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:35.346Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.662Z"
+    "updated_at": "2026-07-01T15:01:58.649Z"
   },
   {
     "id": "gyurkoczi-motor-es-robogo-szerviz-budapest",
@@ -8567,12 +8645,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:35.355Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.698Z"
+    "updated_at": "2026-07-01T15:01:58.653Z"
   },
   {
     "id": "mercedes-electronic-budapest",
@@ -8600,12 +8678,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:35.538Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.735Z"
+    "updated_at": "2026-07-01T15:01:58.658Z"
   },
   {
     "id": "profi-karosszeria-budapest",
@@ -8633,12 +8711,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:35.715Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.772Z"
+    "updated_at": "2026-07-01T15:01:58.662Z"
   },
   {
     "id": "kontor-benzin-es-gazauto-szerviz-budapest",
@@ -8666,12 +8744,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:35.724Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.809Z"
+    "updated_at": "2026-07-01T15:01:58.668Z"
   },
   {
     "id": "kostyal-gumiklinika-gyorsszerviz-budapest",
@@ -8699,12 +8777,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:36.179Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.846Z"
+    "updated_at": "2026-07-01T15:01:58.672Z"
   },
   {
     "id": "z-max-team-nissan-szerviz-budapest",
@@ -8732,12 +8810,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:36.214Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.882Z"
+    "updated_at": "2026-07-01T15:01:58.676Z"
   },
   {
     "id": "musztang-vizsga-kft-budapest",
@@ -8765,12 +8843,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:36.320Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.917Z"
+    "updated_at": "2026-07-01T15:01:58.680Z"
   },
   {
     "id": "szelvedo-javitas-fenyszoro-polirozas-budapest",
@@ -8798,12 +8876,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:40:36.427Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.953Z"
+    "updated_at": "2026-07-01T15:01:58.684Z"
   },
   {
     "id": "clubgym-zuglo-budapest",
@@ -8831,12 +8909,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:07.751Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:18.989Z"
+    "updated_at": "2026-07-01T15:01:58.689Z"
   },
   {
     "id": "you-can-fight-budapest",
@@ -8864,12 +8942,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:08.021Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.026Z"
+    "updated_at": "2026-07-01T15:01:58.693Z"
   },
   {
     "id": "fitness-m-budapest",
@@ -8897,12 +8975,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:08.099Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.062Z"
+    "updated_at": "2026-07-01T15:01:58.697Z"
   },
   {
     "id": "aries-fitness-budapest",
@@ -8930,12 +9008,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:08.158Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.097Z"
+    "updated_at": "2026-07-01T15:01:58.701Z"
   },
   {
     "id": "joga7-studio-budapest",
@@ -8963,12 +9041,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:08.202Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.133Z"
+    "updated_at": "2026-07-01T15:01:58.705Z"
   },
   {
     "id": "kele-fitt-budapest",
@@ -8996,12 +9074,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:08.639Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.169Z"
+    "updated_at": "2026-07-01T15:01:58.712Z"
   },
   {
     "id": "slowly-kozpont-budapest",
@@ -9029,12 +9107,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:08.727Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.206Z"
+    "updated_at": "2026-07-01T15:01:58.716Z"
   },
   {
     "id": "victory-fitness-kispest-budapest",
@@ -9062,12 +9140,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:08.925Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.242Z"
+    "updated_at": "2026-07-01T15:01:58.721Z"
   },
   {
     "id": "ebl-holding-kft-budapest",
@@ -9095,12 +9173,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:29.312Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.280Z"
+    "updated_at": "2026-07-01T15:01:58.725Z"
   },
   {
     "id": "otp-ingatlanpont-budapest",
@@ -9128,12 +9206,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:34.781Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.315Z"
+    "updated_at": "2026-07-01T15:01:58.729Z"
   },
   {
     "id": "dr-makkos-ingatlan-budapest",
@@ -9161,12 +9239,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:34.857Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.351Z"
+    "updated_at": "2026-07-01T15:01:58.733Z"
   },
   {
     "id": "duna-house-budapest",
@@ -9194,12 +9272,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:35.018Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.386Z"
+    "updated_at": "2026-07-01T15:01:58.738Z"
   },
   {
     "id": "dr-eory-dr-wellmann-allatorvosi-rendelo-budapest",
@@ -9227,12 +9305,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:37.535Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.422Z"
+    "updated_at": "2026-07-01T15:01:58.742Z"
   },
   {
     "id": "bell-allatorvosi-rendelo-budapest",
@@ -9260,12 +9338,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:38.020Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.459Z"
+    "updated_at": "2026-07-01T15:01:58.746Z"
   },
   {
     "id": "margit-koruti-allatpatika-budapest",
@@ -9293,12 +9371,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:38.091Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.496Z"
+    "updated_at": "2026-07-01T15:01:58.753Z"
   },
   {
     "id": "pegi-vet-krisztinavarosi-kisallatrendelo-budapest",
@@ -9326,12 +9404,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:38.277Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.531Z"
+    "updated_at": "2026-07-01T15:01:58.757Z"
   },
   {
     "id": "gordiosz-budapest",
@@ -9359,12 +9437,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:38.338Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.567Z"
+    "updated_at": "2026-07-01T15:01:58.761Z"
   },
   {
     "id": "julika-virag-ajandek-budapest",
@@ -9392,12 +9470,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:43.577Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.603Z"
+    "updated_at": "2026-07-01T15:01:58.765Z"
   },
   {
     "id": "budenz-virag-udvar-budapest",
@@ -9425,12 +9503,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:43.708Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.639Z"
+    "updated_at": "2026-07-01T15:01:58.770Z"
   },
   {
     "id": "vasvirag-budapest",
@@ -9458,12 +9536,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:43.920Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.676Z"
+    "updated_at": "2026-07-01T15:01:58.774Z"
   },
   {
     "id": "neked-szedtem-budapest",
@@ -9491,12 +9569,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:43.993Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.712Z"
+    "updated_at": "2026-07-01T15:01:58.778Z"
   },
   {
     "id": "feher-tulipan-virag-es-ajandek-budapest",
@@ -9524,12 +9602,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:44.284Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.749Z"
+    "updated_at": "2026-07-01T15:01:58.782Z"
   },
   {
     "id": "all-for-you-budapest",
@@ -9557,12 +9635,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:44.646Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.786Z"
+    "updated_at": "2026-07-01T15:01:58.787Z"
   },
   {
     "id": "almaid-viraga-budapest",
@@ -9590,12 +9668,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:44.730Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.823Z"
+    "updated_at": "2026-07-01T15:01:58.791Z"
   },
   {
     "id": "pran-budapest",
@@ -9623,12 +9701,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:44.823Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.859Z"
+    "updated_at": "2026-07-01T15:01:58.798Z"
   },
   {
     "id": "dora-flowers-budapest",
@@ -9656,12 +9734,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:44.916Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.894Z"
+    "updated_at": "2026-07-01T15:01:58.802Z"
   },
   {
     "id": "zinnia-budapest",
@@ -9689,12 +9767,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:45.152Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.931Z"
+    "updated_at": "2026-07-01T15:01:58.807Z"
   },
   {
     "id": "hermitage-budapest",
@@ -9722,12 +9800,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:45.462Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:19.966Z"
+    "updated_at": "2026-07-01T15:01:58.811Z"
   },
   {
     "id": "berni-virag-kucko-budapest",
@@ -9755,12 +9833,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:45.537Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.004Z"
+    "updated_at": "2026-07-01T15:01:58.815Z"
   },
   {
     "id": "hegyi-viraghaz-budapest",
@@ -9788,12 +9866,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:45.901Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.039Z"
+    "updated_at": "2026-07-01T15:01:58.820Z"
   },
   {
     "id": "merci-fleur-budapest",
@@ -9821,12 +9899,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:45.913Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.077Z"
+    "updated_at": "2026-07-01T15:01:58.824Z"
   },
   {
     "id": "ruhakeszito-es-ruhajavito-szalon-budapest",
@@ -9854,12 +9932,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:47.497Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.113Z"
+    "updated_at": "2026-07-01T15:01:58.828Z"
   },
   {
     "id": "dotti-varroszalon-budapest",
@@ -9887,12 +9965,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:48.102Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.150Z"
+    "updated_at": "2026-07-01T15:01:58.833Z"
   },
   {
     "id": "aquarius-carwash-budapest",
@@ -9920,12 +9998,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:41:56.621Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.187Z"
+    "updated_at": "2026-07-01T15:01:58.839Z"
   },
   {
     "id": "carspa-automoso-budapest",
@@ -9953,12 +10031,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:41:57.496Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.222Z"
+    "updated_at": "2026-07-01T15:01:58.844Z"
   },
   {
     "id": "adresz-szofia-kozmetika-budapest",
@@ -9986,12 +10064,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:05.206Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.259Z"
+    "updated_at": "2026-07-01T15:01:58.848Z"
   },
   {
     "id": "lucky-sun-szolarium-budapest",
@@ -10019,12 +10097,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:06.027Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.295Z"
+    "updated_at": "2026-07-01T15:01:58.852Z"
   },
   {
     "id": "korona-szepsegszalon-budapest",
@@ -10052,12 +10130,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:06.150Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.333Z"
+    "updated_at": "2026-07-01T15:01:58.857Z"
   },
   {
     "id": "najaza-aesthetics-budapest",
@@ -10085,12 +10163,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:06.163Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.370Z"
+    "updated_at": "2026-07-01T15:01:58.861Z"
   },
   {
     "id": "tucsi-szalon-budapest",
@@ -10118,12 +10196,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:07.024Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.407Z"
+    "updated_at": "2026-07-01T15:01:58.865Z"
   },
   {
     "id": "szazszorszep-szalon-budapest",
@@ -10151,12 +10229,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:07.548Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.443Z"
+    "updated_at": "2026-07-01T15:01:58.870Z"
   },
   {
     "id": "nails-by-betty-budapest",
@@ -10184,12 +10262,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:08.434Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.479Z"
+    "updated_at": "2026-07-01T15:01:58.874Z"
   },
   {
     "id": "pretabelle-premium-beauty-budapest",
@@ -10217,12 +10295,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:08.640Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.515Z"
+    "updated_at": "2026-07-01T15:01:58.878Z"
   },
   {
     "id": "beauty-touch-budapest",
@@ -10250,12 +10328,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:08.822Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.551Z"
+    "updated_at": "2026-07-01T15:01:58.885Z"
   },
   {
     "id": "m-m-nail-and-foot-studio-budapest",
@@ -10283,12 +10361,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:10.689Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.589Z"
+    "updated_at": "2026-07-01T15:01:58.889Z"
   },
   {
     "id": "lovely-skin-kozmetika-budapest",
@@ -10316,12 +10394,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:10.726Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.624Z"
+    "updated_at": "2026-07-01T15:01:58.894Z"
   },
   {
     "id": "szepseg-studio-budapest",
@@ -10349,12 +10427,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:10.751Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.661Z"
+    "updated_at": "2026-07-01T15:01:58.898Z"
   },
   {
     "id": "tuzko-ergoline-budapest",
@@ -10382,12 +10460,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:10.813Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.698Z"
+    "updated_at": "2026-07-01T15:01:58.902Z"
   },
   {
     "id": "ergoline-budapest",
@@ -10415,12 +10493,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:11.190Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.737Z"
+    "updated_at": "2026-07-01T15:01:58.907Z"
   },
   {
     "id": "yomtov-nail-art-budapest",
@@ -10448,12 +10526,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:11.597Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.773Z"
+    "updated_at": "2026-07-01T15:01:58.911Z"
   },
   {
     "id": "beautyland-budapest",
@@ -10481,12 +10559,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:11.658Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.811Z"
+    "updated_at": "2026-07-01T15:01:58.916Z"
   },
   {
     "id": "carina-szepsegszalon-budapest",
@@ -10514,12 +10592,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:11.695Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.849Z"
+    "updated_at": "2026-07-01T15:01:58.920Z"
   },
   {
     "id": "toscana-szolarium-budapest",
@@ -10547,12 +10625,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:11.793Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.887Z"
+    "updated_at": "2026-07-01T15:01:58.926Z"
   },
   {
     "id": "mokoa-beauty-style-budapest",
@@ -10580,12 +10658,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:12.064Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.924Z"
+    "updated_at": "2026-07-01T15:01:58.931Z"
   },
   {
     "id": "figaro-studio-buda-budapest",
@@ -10613,12 +10691,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:12.125Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.962Z"
+    "updated_at": "2026-07-01T15:01:58.935Z"
   },
   {
     "id": "milla-s-beauty-bar-budapest",
@@ -10646,12 +10724,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:12.468Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:20.998Z"
+    "updated_at": "2026-07-01T15:01:58.939Z"
   },
   {
     "id": "clous-studio-budapest",
@@ -10679,12 +10757,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:12.636Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.036Z"
+    "updated_at": "2026-07-01T15:01:58.944Z"
   },
   {
     "id": "rabnecz-szalon-budapest",
@@ -10712,12 +10790,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:13.141Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.073Z"
+    "updated_at": "2026-07-01T15:01:58.948Z"
   },
   {
     "id": "frankelszoli-szalon-budapest",
@@ -10745,12 +10823,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:13.333Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.109Z"
+    "updated_at": "2026-07-01T15:01:58.952Z"
   },
   {
     "id": "ancsy-nails-budapest",
@@ -10778,12 +10856,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:13.792Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.145Z"
+    "updated_at": "2026-07-01T15:01:58.957Z"
   },
   {
     "id": "epkezlab-budapest",
@@ -10811,12 +10889,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:13.857Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.182Z"
+    "updated_at": "2026-07-01T15:01:58.961Z"
   },
   {
     "id": "alfaparf-szepsegstudio-budapest",
@@ -10844,12 +10922,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:14.126Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.219Z"
+    "updated_at": "2026-07-01T15:01:58.965Z"
   },
   {
     "id": "w-w-anti-aging-studio-budapest",
@@ -10877,12 +10955,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:14.212Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.256Z"
+    "updated_at": "2026-07-01T15:01:58.971Z"
   },
   {
     "id": "eva-professional-nails-budapest",
@@ -10910,12 +10988,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:14.240Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.294Z"
+    "updated_at": "2026-07-01T15:01:58.976Z"
   },
   {
     "id": "express-nails-budapest",
@@ -10943,12 +11021,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:14.811Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.332Z"
+    "updated_at": "2026-07-01T15:01:58.980Z"
   },
   {
     "id": "ergoline-automata-szolarium-budapest",
@@ -10976,12 +11054,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:14.875Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.370Z"
+    "updated_at": "2026-07-01T15:01:58.984Z"
   },
   {
     "id": "queen-bee-tattoo-studio-budapest",
@@ -11009,12 +11087,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:33.458Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.406Z"
+    "updated_at": "2026-07-01T15:01:58.989Z"
   },
   {
     "id": "wonderland-tattoo-budapest",
@@ -11042,12 +11120,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:33.488Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.443Z"
+    "updated_at": "2026-07-01T15:01:58.993Z"
   },
   {
     "id": "mad-cats-tattoo-budapest",
@@ -11075,12 +11153,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:33.665Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.481Z"
+    "updated_at": "2026-07-01T15:01:58.997Z"
   },
   {
     "id": "toci-tattoo-art-budapest",
@@ -11108,12 +11186,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:33.976Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.520Z"
+    "updated_at": "2026-07-01T15:01:59.001Z"
   },
   {
     "id": "moo-ink-tattoo-and-piercing-budapest",
@@ -11141,12 +11219,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:34.016Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.558Z"
+    "updated_at": "2026-07-01T15:01:59.005Z"
   },
   {
     "id": "tintabetyar-tetovalo-studio-budapest",
@@ -11174,12 +11252,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:34.057Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.594Z"
+    "updated_at": "2026-07-01T15:01:59.012Z"
   },
   {
     "id": "jozyzoo-allateledel-budapest",
@@ -11207,12 +11285,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:36.264Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.631Z"
+    "updated_at": "2026-07-01T15:01:59.016Z"
   },
   {
     "id": "franci-kedvencek-boltja-budapest",
@@ -11240,12 +11318,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:36.717Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.667Z"
+    "updated_at": "2026-07-01T15:01:59.020Z"
   },
   {
     "id": "hunter-budapest",
@@ -11273,12 +11351,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:36.746Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.706Z"
+    "updated_at": "2026-07-01T15:01:59.025Z"
   },
   {
     "id": "kope-allateledel-budapest",
@@ -11306,12 +11384,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:36.787Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.743Z"
+    "updated_at": "2026-07-01T15:01:59.029Z"
   },
   {
     "id": "pet-s-home-allateledel-budapest",
@@ -11339,12 +11417,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:37.191Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.780Z"
+    "updated_at": "2026-07-01T15:01:59.033Z"
   },
   {
     "id": "bio-optika-budapest",
@@ -11372,12 +11450,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:47.624Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.817Z"
+    "updated_at": "2026-07-01T15:01:59.037Z"
   },
   {
     "id": "korona-optika-budapest",
@@ -11405,12 +11483,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:48.072Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.857Z"
+    "updated_at": "2026-07-01T15:01:59.041Z"
   },
   {
     "id": "smaragd-optika-budapest",
@@ -11438,12 +11516,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:42:49.239Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.895Z"
+    "updated_at": "2026-07-01T15:01:59.045Z"
   },
   {
     "id": "tuzko-optika-budapest",
@@ -11471,12 +11549,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:42:49.293Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.930Z"
+    "updated_at": "2026-07-01T15:01:59.050Z"
   },
   {
     "id": "loboncz-debrecen",
@@ -11504,12 +11582,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:43:19.215Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:21.968Z"
+    "updated_at": "2026-07-01T15:01:59.056Z"
   },
   {
     "id": "beaster-debrecen",
@@ -11537,12 +11615,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:43:46.060Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.005Z"
+    "updated_at": "2026-07-01T15:01:59.060Z"
   },
   {
     "id": "debreceni-ugyvedi-kamara-debrecen",
@@ -11570,12 +11648,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:43:54.656Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.041Z"
+    "updated_at": "2026-07-01T15:01:59.064Z"
   },
   {
     "id": "promove-ingatlaniroda-debrecen",
@@ -11603,12 +11681,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:44:07.816Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.078Z"
+    "updated_at": "2026-07-01T15:01:59.068Z"
   },
   {
     "id": "kis-virag-cukraszda-szeged",
@@ -11636,12 +11714,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:45.726Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.115Z"
+    "updated_at": "2026-07-01T15:01:59.073Z"
   },
   {
     "id": "essentiale-szeged",
@@ -11669,12 +11747,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:45.795Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.153Z"
+    "updated_at": "2026-07-01T15:01:59.077Z"
   },
   {
     "id": "rio-cafe-szeged",
@@ -11702,12 +11780,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:46.210Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.190Z"
+    "updated_at": "2026-07-01T15:01:59.081Z"
   },
   {
     "id": "napfeny-muterem-szeged",
@@ -11735,12 +11813,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:46.462Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.225Z"
+    "updated_at": "2026-07-01T15:01:59.085Z"
   },
   {
     "id": "szia-coffee-sweets-szeged",
@@ -11768,12 +11846,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:47.041Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.264Z"
+    "updated_at": "2026-07-01T15:01:59.089Z"
   },
   {
     "id": "prezli-szeged",
@@ -11801,12 +11879,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:47.058Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.301Z"
+    "updated_at": "2026-07-01T15:01:59.095Z"
   },
   {
     "id": "smith-cafe-lounge-szeged",
@@ -11834,12 +11912,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:47.266Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.339Z"
+    "updated_at": "2026-07-01T15:01:59.099Z"
   },
   {
     "id": "delici-bistro-szeged",
@@ -11867,12 +11945,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:47.544Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.376Z"
+    "updated_at": "2026-07-01T15:01:59.103Z"
   },
   {
     "id": "plebs-crust-craft-szeged",
@@ -11900,12 +11978,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:47.655Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.413Z"
+    "updated_at": "2026-07-01T15:01:59.108Z"
   },
   {
     "id": "somogyi-pince-szeged",
@@ -11933,12 +12011,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:47.687Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.449Z"
+    "updated_at": "2026-07-01T15:01:59.112Z"
   },
   {
     "id": "ambrozia-szeged",
@@ -11966,12 +12044,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:47.911Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.487Z"
+    "updated_at": "2026-07-01T15:01:59.116Z"
   },
   {
     "id": "noe-barja-szeged",
@@ -11999,12 +12077,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:45:48.463Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.523Z"
+    "updated_at": "2026-07-01T15:01:59.120Z"
   },
   {
     "id": "jm-fitness-szeged",
@@ -12032,12 +12110,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:46:54.623Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.560Z"
+    "updated_at": "2026-07-01T15:01:59.124Z"
   },
   {
     "id": "dr-kiss-istvan-viktor-szeged",
@@ -12065,12 +12143,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:46:57.032Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.598Z"
+    "updated_at": "2026-07-01T15:01:59.128Z"
   },
   {
     "id": "szarvas-foto-video-szeged",
@@ -12098,12 +12176,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:47:23.994Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.637Z"
+    "updated_at": "2026-07-01T15:01:59.133Z"
   },
   {
     "id": "diana-virag-szeged",
@@ -12131,12 +12209,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:47:39.490Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.675Z"
+    "updated_at": "2026-07-01T15:01:59.139Z"
   },
   {
     "id": "gabriella-ruhazat-szeged",
@@ -12164,12 +12242,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:47:46.954Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.711Z"
+    "updated_at": "2026-07-01T15:01:59.143Z"
   },
   {
     "id": "beauty-city-szeged",
@@ -12197,12 +12275,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:48:09.170Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.749Z"
+    "updated_at": "2026-07-01T15:01:59.147Z"
   },
   {
     "id": "looney-tattoones-szeged",
@@ -12230,12 +12308,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:48:27.563Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.787Z"
+    "updated_at": "2026-07-01T15:01:59.151Z"
   },
   {
     "id": "eywa-tattoo-studio-szeged",
@@ -12263,12 +12341,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:48:27.586Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.824Z"
+    "updated_at": "2026-07-01T15:01:59.156Z"
   },
   {
     "id": "benu-gyogyszertar-szeged",
@@ -12296,12 +12374,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:48:38.662Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.862Z"
+    "updated_at": "2026-07-01T15:01:59.160Z"
   },
   {
     "id": "koranyi-gyogyszertar-szeged",
@@ -12329,12 +12407,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:48:39.192Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.899Z"
+    "updated_at": "2026-07-01T15:01:59.164Z"
   },
   {
     "id": "lipo-optika-szeged",
@@ -12362,12 +12440,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:48:44.153Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.936Z"
+    "updated_at": "2026-07-01T15:01:59.168Z"
   },
   {
     "id": "dental-surgery-pecs",
@@ -12395,12 +12473,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-28T11:50:20.551Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-28T11:52:22.974Z"
+    "updated_at": "2026-07-01T15:01:59.172Z"
   },
   {
     "id": "topuzidisz-dimitrisz-budapest",
@@ -12428,12 +12506,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:53:40.478Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.494Z"
+    "updated_at": "2026-07-01T15:01:59.178Z"
   },
   {
     "id": "dr-farkas-gergely-adam-ugyvedi-iroda-budapest",
@@ -12461,12 +12539,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:53:40.506Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.522Z"
+    "updated_at": "2026-07-01T15:01:59.182Z"
   },
   {
     "id": "ugyvedi-iroda-budapest",
@@ -12494,12 +12572,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:53:40.651Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.551Z"
+    "updated_at": "2026-07-01T15:01:59.186Z"
   },
   {
     "id": "dr-fener-viktor-budapest",
@@ -12527,12 +12605,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T11:53:40.747Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.580Z"
+    "updated_at": "2026-07-01T15:01:59.191Z"
   },
   {
     "id": "dr-balogi-laszlo-ugyved-budapest",
@@ -12560,12 +12638,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:53:40.841Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.610Z"
+    "updated_at": "2026-07-01T15:01:59.195Z"
   },
   {
     "id": "dr-acs-tamas-ugyved-budapest",
@@ -12593,12 +12671,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:53:41.006Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.640Z"
+    "updated_at": "2026-07-01T15:01:59.199Z"
   },
   {
     "id": "apollo-gyogyszertar-budapest",
@@ -12626,12 +12704,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:33.548Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.668Z"
+    "updated_at": "2026-07-01T15:01:59.203Z"
   },
   {
     "id": "budai-szent-anna-gyogyszertar-budapest",
@@ -12659,12 +12737,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:33.564Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.699Z"
+    "updated_at": "2026-07-01T15:01:59.207Z"
   },
   {
     "id": "mikszath-gyogyszertar-budapest",
@@ -12692,12 +12770,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:33.668Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.729Z"
+    "updated_at": "2026-07-01T15:01:59.212Z"
   },
   {
     "id": "kamilla-budapest",
@@ -12725,12 +12803,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:33.772Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.757Z"
+    "updated_at": "2026-07-01T15:01:59.216Z"
   },
   {
     "id": "benu-budapest",
@@ -12758,12 +12836,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:33.905Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.787Z"
+    "updated_at": "2026-07-01T15:01:59.222Z"
   },
   {
     "id": "benu-aurora-gyogyszertar-budapest",
@@ -12791,12 +12869,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:34.266Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.817Z"
+    "updated_at": "2026-07-01T15:01:59.226Z"
   },
   {
     "id": "arpad-gyogyszertar-budapest",
@@ -12824,12 +12902,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:34.383Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.846Z"
+    "updated_at": "2026-07-01T15:01:59.230Z"
   },
   {
     "id": "palatinus-gyogyszertar-budapest",
@@ -12857,12 +12935,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:34.446Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.876Z"
+    "updated_at": "2026-07-01T15:01:59.235Z"
   },
   {
     "id": "budai-aranymerleg-gyogyszertar-budapest",
@@ -12890,12 +12968,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:34.500Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.906Z"
+    "updated_at": "2026-07-01T15:01:59.239Z"
   },
   {
     "id": "batthyany-gyogyszertar-budapest",
@@ -12923,12 +13001,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:34.516Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.935Z"
+    "updated_at": "2026-07-01T15:01:59.243Z"
   },
   {
     "id": "smaragd-patika-budapest",
@@ -12956,12 +13034,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:34.747Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.965Z"
+    "updated_at": "2026-07-01T15:01:59.247Z"
   },
   {
     "id": "tilia-patika-budapest",
@@ -12989,12 +13067,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:34.987Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:22.995Z"
+    "updated_at": "2026-07-01T15:01:59.251Z"
   },
   {
     "id": "csepel-patika-budapest",
@@ -13022,12 +13100,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:35.063Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.024Z"
+    "updated_at": "2026-07-01T15:01:59.255Z"
   },
   {
     "id": "ferencvarosi-gyogyszertar-budapest",
@@ -13055,12 +13133,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:35.261Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.053Z"
+    "updated_at": "2026-07-01T15:01:59.262Z"
   },
   {
     "id": "gombpatika-gyogyszertar-budapest",
@@ -13088,12 +13166,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:35.518Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.084Z"
+    "updated_at": "2026-07-01T15:01:59.266Z"
   },
   {
     "id": "kolonia-gyogyszertar-budapest",
@@ -13121,12 +13199,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:35.687Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.113Z"
+    "updated_at": "2026-07-01T15:01:59.270Z"
   },
   {
     "id": "damjanich-gyogyszertar-budapest",
@@ -13154,12 +13232,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:35.927Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.144Z"
+    "updated_at": "2026-07-01T15:01:59.274Z"
   },
   {
     "id": "szinyei-patika-budapest",
@@ -13187,12 +13265,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:35.994Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.173Z"
+    "updated_at": "2026-07-01T15:01:59.278Z"
   },
   {
     "id": "viztorony-gyogyszertar-budapest",
@@ -13220,12 +13298,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.071Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.201Z"
+    "updated_at": "2026-07-01T15:01:59.282Z"
   },
   {
     "id": "erkel-patika-budapest",
@@ -13253,12 +13331,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.569Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.231Z"
+    "updated_at": "2026-07-01T15:01:59.287Z"
   },
   {
     "id": "sashalom-patika-budapest",
@@ -13286,12 +13364,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.605Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.262Z"
+    "updated_at": "2026-07-01T15:01:59.291Z"
   },
   {
     "id": "benu-gubacsi-gyogyszertar-budapest",
@@ -13319,12 +13397,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.619Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.291Z"
+    "updated_at": "2026-07-01T15:01:59.295Z"
   },
   {
     "id": "adria-patika-gyogyszertar-budapest",
@@ -13352,12 +13430,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.645Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.322Z"
+    "updated_at": "2026-07-01T15:01:59.299Z"
   },
   {
     "id": "flexomed-gyogyszertar-budapest",
@@ -13385,12 +13463,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.682Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.351Z"
+    "updated_at": "2026-07-01T15:01:59.306Z"
   },
   {
     "id": "szent-palota-gyogyszertar-budapest",
@@ -13418,12 +13496,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.769Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.380Z"
+    "updated_at": "2026-07-01T15:01:59.310Z"
   },
   {
     "id": "alkotas-gyogyszertar-budapest",
@@ -13451,12 +13529,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.795Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.409Z"
+    "updated_at": "2026-07-01T15:01:59.314Z"
   },
   {
     "id": "romai-teri-gyogyszertar-budapest",
@@ -13484,12 +13562,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:36.841Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.438Z"
+    "updated_at": "2026-07-01T15:01:59.318Z"
   },
   {
     "id": "achillea-gyogyszertar-budapest",
@@ -13517,12 +13595,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:37.063Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.467Z"
+    "updated_at": "2026-07-01T15:01:59.323Z"
   },
   {
     "id": "madardomb-gyogyszertar-budapest",
@@ -13550,12 +13628,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:37.309Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.498Z"
+    "updated_at": "2026-07-01T15:01:59.327Z"
   },
   {
     "id": "medicina-gyogyszertar-budapest",
@@ -13583,12 +13661,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:37.574Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.529Z"
+    "updated_at": "2026-07-01T15:01:59.331Z"
   },
   {
     "id": "pharmatrend-patika-budapest",
@@ -13616,12 +13694,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:37.590Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.558Z"
+    "updated_at": "2026-07-01T15:01:59.335Z"
   },
   {
     "id": "karina-gyogyszertar-budapest",
@@ -13649,12 +13727,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:37.794Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.588Z"
+    "updated_at": "2026-07-01T15:01:59.339Z"
   },
   {
     "id": "kafarnaum-gyogyszertar-budapest",
@@ -13682,12 +13760,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T11:55:37.832Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.618Z"
+    "updated_at": "2026-07-01T15:01:59.345Z"
   },
   {
     "id": "bubaj-kozmetika-debrecen",
@@ -13715,12 +13793,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T11:58:17.488Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.647Z"
+    "updated_at": "2026-07-01T15:01:59.350Z"
   },
   {
     "id": "piros-talicska-csarda-pecs",
@@ -13748,12 +13826,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T12:04:37.334Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.677Z"
+    "updated_at": "2026-07-01T15:01:59.354Z"
   },
   {
     "id": "lyr-etterem-pecs",
@@ -13781,12 +13859,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T12:04:37.514Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.707Z"
+    "updated_at": "2026-07-01T15:01:59.358Z"
   },
   {
     "id": "audoki-pecs",
@@ -13814,12 +13892,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T12:05:01.779Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.735Z"
+    "updated_at": "2026-07-01T15:01:59.362Z"
   },
   {
     "id": "ullrich-bt-pecs",
@@ -13847,12 +13925,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T12:05:01.806Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T12:07:23.764Z"
+    "updated_at": "2026-07-01T15:01:59.366Z"
   },
   {
     "id": "makos-panka-budapest",
@@ -13880,12 +13958,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:52.601Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.530Z"
+    "updated_at": "2026-07-01T15:01:59.371Z"
   },
   {
     "id": "ide-suss-manufaktura-budapest",
@@ -13913,12 +13991,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:52.941Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.560Z"
+    "updated_at": "2026-07-01T15:01:59.375Z"
   },
   {
     "id": "kisperec-kermuves-sutode-budapest",
@@ -13946,12 +14024,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:53.084Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.588Z"
+    "updated_at": "2026-07-01T15:01:59.379Z"
   },
   {
     "id": "free-budapest",
@@ -13979,12 +14057,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:53.589Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.617Z"
+    "updated_at": "2026-07-01T15:01:59.383Z"
   },
   {
     "id": "buzakovasz-kezmuves-pekseg-budapest",
@@ -14012,12 +14090,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:53.919Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.647Z"
+    "updated_at": "2026-07-01T15:01:59.390Z"
   },
   {
     "id": "fill-good-budapest",
@@ -14045,12 +14123,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:53.957Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.675Z"
+    "updated_at": "2026-07-01T15:01:59.394Z"
   },
   {
     "id": "peksuti-bolt-budapest",
@@ -14078,12 +14156,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.001Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.705Z"
+    "updated_at": "2026-07-01T15:01:59.398Z"
   },
   {
     "id": "le-petit-boulanger-budapest",
@@ -14111,12 +14189,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.036Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.733Z"
+    "updated_at": "2026-07-01T15:01:59.402Z"
   },
   {
     "id": "bredy-budapest",
@@ -14144,12 +14222,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.233Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.763Z"
+    "updated_at": "2026-07-01T15:01:59.407Z"
   },
   {
     "id": "jacques-liszt-budapest",
@@ -14177,12 +14255,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.269Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.793Z"
+    "updated_at": "2026-07-01T15:01:59.411Z"
   },
   {
     "id": "strudel-hugo-budapest",
@@ -14210,12 +14288,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.292Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.820Z"
+    "updated_at": "2026-07-01T15:01:59.415Z"
   },
   {
     "id": "csocsaj-pekseg-budapest",
@@ -14243,12 +14321,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.324Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.850Z"
+    "updated_at": "2026-07-01T15:01:59.419Z"
   },
   {
     "id": "vekni-budapest",
@@ -14276,12 +14354,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.341Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.880Z"
+    "updated_at": "2026-07-01T15:01:59.423Z"
   },
   {
     "id": "tortuga-es-pohanka-budapest",
@@ -14309,12 +14387,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.512Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.907Z"
+    "updated_at": "2026-07-01T15:01:59.429Z"
   },
   {
     "id": "megszegett-igeret-pekmuhely-budapest",
@@ -14342,12 +14420,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.560Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.936Z"
+    "updated_at": "2026-07-01T15:01:59.434Z"
   },
   {
     "id": "chez-matild-kezmuves-pekseg-budapest",
@@ -14375,12 +14453,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.620Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.965Z"
+    "updated_at": "2026-07-01T15:01:59.438Z"
   },
   {
     "id": "kifli-muvek-budapest",
@@ -14408,12 +14486,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.764Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:30.992Z"
+    "updated_at": "2026-07-01T15:01:59.442Z"
   },
   {
     "id": "tradi-budapest",
@@ -14441,12 +14519,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.792Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.023Z"
+    "updated_at": "2026-07-01T15:01:59.446Z"
   },
   {
     "id": "manfred-pekseg-budapest",
@@ -14474,12 +14552,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.808Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.051Z"
+    "updated_at": "2026-07-01T15:01:59.451Z"
   },
   {
     "id": "ropogos-sarki-pekseg-budapest",
@@ -14507,12 +14585,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.826Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.077Z"
+    "updated_at": "2026-07-01T15:01:59.455Z"
   },
   {
     "id": "bageri-budapest",
@@ -14540,12 +14618,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.894Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.106Z"
+    "updated_at": "2026-07-01T15:01:59.459Z"
   },
   {
     "id": "pok-pek-budapest",
@@ -14573,12 +14651,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:54.984Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.135Z"
+    "updated_at": "2026-07-01T15:01:59.463Z"
   },
   {
     "id": "morzsa-pekseg-budapest",
@@ -14606,12 +14684,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:42:55.032Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.163Z"
+    "updated_at": "2026-07-01T15:01:59.467Z"
   },
   {
     "id": "jacint-virag-es-ajandekbolt-debrecen",
@@ -14639,12 +14717,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 70,
+    "score": 80,
     "retries": 0,
     "created_at": "2026-06-29T15:47:01.570Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.192Z"
+    "updated_at": "2026-07-01T15:01:59.474Z"
   },
   {
     "id": "fenyes-patika-debrecen",
@@ -14672,12 +14750,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:48:03.336Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.222Z"
+    "updated_at": "2026-07-01T15:01:59.478Z"
   },
   {
     "id": "borbiro-patika-debrecen",
@@ -14705,12 +14783,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:48:03.364Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.250Z"
+    "updated_at": "2026-07-01T15:01:59.482Z"
   },
   {
     "id": "malom-patika-debrecen",
@@ -14738,12 +14816,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-29T15:48:03.503Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-29T15:56:31.280Z"
+    "updated_at": "2026-07-01T15:01:59.486Z"
   },
   {
     "id": "tisza-dent-szeged",
@@ -14771,12 +14849,12 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-30T10:27:27.015Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-30T10:34:15.444Z"
+    "updated_at": "2026-07-01T15:01:59.490Z"
   },
   {
     "id": "muszaki-allomas-szeged",
@@ -14804,11 +14882,11 @@
       "No mobile presence"
     ],
     "stage": "diagnosed",
-    "score": 75,
+    "score": 85,
     "retries": 0,
     "created_at": "2026-06-30T10:27:36.470Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-06-30T10:34:15.477Z"
+    "updated_at": "2026-07-01T15:01:59.495Z"
   }
 ]

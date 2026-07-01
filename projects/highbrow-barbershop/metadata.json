@@ -1,0 +1,14 @@
+{
+  "business_name": "Highbrow Barbershop",
+  "city": "Budapest",
+  "category": "hair salon",
+  "generated_at": "2026-07-01T15:04:00.871Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
