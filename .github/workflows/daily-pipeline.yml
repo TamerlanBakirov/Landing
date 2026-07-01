@@ -44,3 +44,14 @@ jobs:
           git diff --staged --quiet || git commit -m "Daily pipeline run $(date +%Y-%m-%d)"
           git pull --rebase --autostash origin main
           git push
+
+      # Commits pushed with the default GITHUB_TOKEN above do NOT trigger
+      # deploy-pages.yml's `on: push` (GitHub suppresses workflow-triggered-
+      # workflow chains to prevent loops), so the newly built sites would
+      # never reach gh-pages without deploying explicitly here.
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
