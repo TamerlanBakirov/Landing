@@ -1,4 +1,5 @@
 import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLeadsByStage } from '../lib/state.js';
+import { scoreLead } from './scout.js';
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from 'fs';
 import { generatePortfolio } from '../scripts/portfolio.js';
 import { generateHeroImage, generateLogo } from '../lib/openai-image.js';
@@ -1332,9 +1333,28 @@ export async function runBuilder() {
   logAction('builder', 'run_start');
 
   const config = loadConfig();
-  const leads = getLeadsByStage('diagnosed').filter(l => (l.score || 0) >= config.goals.min_build_score);
 
-  console.log(`[Builder] ${leads.length} high-score leads to build for`);
+  // Self-heal: recompute scores with the current formula so leads scored by
+  // an earlier (buggy) version are re-evaluated. Without this, leads scored
+  // under the old rating penalty stay stuck below the build gate forever.
+  const diagnosed = getLeadsByStage('diagnosed');
+  for (const lead of diagnosed) {
+    const fresh = scoreLead(lead);
+    if (fresh !== lead.score) {
+      updateLead(lead.name, lead.city, { score: fresh });
+      lead.score = fresh;
+    }
+  }
+
+  // Build the highest-scoring qualified leads first, capped per run so we keep
+  // AI-generation cost/time bounded and roughly in step with the daily send rate.
+  const buildLimit = config.goals.daily_build_limit || config.goals.daily_outreach_limit || 10;
+  const leads = diagnosed
+    .filter(l => (l.score || 0) >= config.goals.min_build_score)
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .slice(0, buildLimit);
+
+  console.log(`[Builder] ${diagnosed.length} diagnosed leads; building top ${leads.length} (limit ${buildLimit})`);
 
   let built = 0;
 
