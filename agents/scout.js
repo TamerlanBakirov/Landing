@@ -9,16 +9,19 @@ function isChain(name) {
   return CHAINS.some(chain => lower.includes(chain));
 }
 
-function scoreLead(data) {
+export function scoreLead(data) {
   let score = 50;
 
   if (!data.website || data.website === '') score += 25;
   else if (data.website_issues?.length > 3) score += 15;
   else if (data.website_issues?.length > 0) score += 5;
 
+  // Rating is only informative when it exists. Our source (OpenStreetMap)
+  // never provides ratings, so `rating` is 0 for every lead — treat 0 as
+  // "unknown" (neutral), and only penalise a genuinely poor rating.
   if (data.rating >= 4.0) score += 10;
   else if (data.rating >= 3.0) score += 5;
-  else if (data.rating < 3.0) score -= 10;
+  else if (data.rating > 0 && data.rating < 3.0) score -= 10;
 
   if (data.reviews >= 50) score += 5;
   else if (data.reviews >= 20) score += 3;
