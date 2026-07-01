@@ -1,0 +1,26 @@
+{
+  "business_name": "Marilyn Studio",
+  "city": "Budapest",
+  "checked_at": "2026-07-01T15:17:54.941Z",
+  "confidence": 96,
+  "spam_score": 90,
+  "passed": true,
+  "issues": [
+    {
+      "field": "grammar",
+      "severity": "minor",
+      "message": "Multiple consecutive spaces found"
+    },
+    {
+      "field": "grammar",
+      "severity": "minor",
+      "message": "Excessive capitalization detected"
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "warnings": 0,
+    "minor": 2,
+    "total": 2
+  }
+}

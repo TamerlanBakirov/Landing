@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-06-27",
+  "last_reset": "2026-07-01",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -111,6 +111,106 @@
       "subject": "Ingyenes weboldal előnézet - Dot",
       "to": "dotgroupkft@gmail.com",
       "follow_up_sent": "2026-06-30T13:08:45.155Z"
+    },
+    {
+      "lead_id": "haircoctail-budapest",
+      "business_name": "Haircoctail",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:17:56.327Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Haircoctail számára",
+      "to": "tothlajos@gmail.com"
+    },
+    {
+      "lead_id": "highbrow-barbershop-budapest",
+      "business_name": "Highbrow Barbershop",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:17:57.366Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Highbrow Barbershop számára",
+      "to": "highbrowbarbers@gmail.com"
+    },
+    {
+      "lead_id": "lumberjack-barber-corner-budapest",
+      "business_name": "Lumberjack Barber Corner",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:17:58.312Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Lumberjack Barber Corner számára",
+      "to": "lumberjackbarber@gmail.com"
+    },
+    {
+      "lead_id": "strochmayer-regina-hair-budapest",
+      "business_name": "Strochmayer Regina Hair",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:17:59.303Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Strochmayer Regina Hair számára",
+      "to": "fodraszregina@gmail.com"
+    },
+    {
+      "lead_id": "hair-gallery-fodraszat-budapest",
+      "business_name": "Hair-Gallery Fodrászat",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:18:00.479Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Hair-Gallery Fodrászat számára",
+      "to": "hairgallerykft@gmail.com"
+    },
+    {
+      "lead_id": "fresh-cut-z-barber-shop-budapest",
+      "business_name": "Fresh Cut’z Barber Shop",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:18:01.461Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Fresh Cut’z Barber Shop számára",
+      "to": "foglalas@freshcutzbarber.hu"
+    },
+    {
+      "lead_id": "marilyn-studio-budapest",
+      "business_name": "Marilyn Studio",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:18:02.339Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Marilyn Studio számára",
+      "to": "marilynmonroe71@gmail.com"
+    },
+    {
+      "lead_id": "hello-hair-budapest",
+      "business_name": "Hello Hair",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:18:04.421Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Hello Hair számára",
+      "to": "hellohairbp@gmail.com"
+    },
+    {
+      "lead_id": "linh-barber-shop-budapest",
+      "business_name": "Linh Barber Shop",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:18:05.277Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Linh Barber Shop számára",
+      "to": "quang20042004@gmail.com"
+    },
+    {
+      "lead_id": "ilia-hair-design-budapest",
+      "business_name": "Ilia hair design",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-01T15:18:09.586Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Ilia hair design számára",
+      "to": "andee.ilia@gmail.com"
     }
   ]
 }

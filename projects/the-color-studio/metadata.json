@@ -1,0 +1,14 @@
+{
+  "business_name": "The color studio",
+  "city": "Budapest",
+  "category": "hair salon",
+  "generated_at": "2026-07-01T15:12:17.014Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

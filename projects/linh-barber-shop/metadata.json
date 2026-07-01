@@ -1,0 +1,14 @@
+{
+  "business_name": "Linh Barber Shop",
+  "city": "Budapest",
+  "category": "hair salon",
+  "generated_at": "2026-07-01T15:08:46.151Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
