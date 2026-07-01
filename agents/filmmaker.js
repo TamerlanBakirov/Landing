@@ -1,5 +1,6 @@
 import { getLeadsByStage, updateLead, loadConfig, slugify, logAction } from '../lib/state.js';
 import { categoryHu } from '../lib/categories.js';
+import { buildForLead } from './builder.js';
 import { execFileSync } from 'child_process';
 import { existsSync, mkdirSync, copyFileSync, unlinkSync } from 'fs';
 import sharp from 'sharp';
@@ -64,6 +65,13 @@ export async function filmForLead(lead) {
   ensureBrowser();
   const { projectDir, stillAbs } = renderForLead(lead);
   if (existsSync(stillAbs)) await makePosters(projectDir, stillAbs);
+  // The site was built before the video existed, so its HTML has no video
+  // section. Regenerate it now that promo.mp4 is on disk (assets are reused).
+  try {
+    await buildForLead(lead, { keepStage: true });
+  } catch (err) {
+    console.error(`[Filmmaker] HTML refresh with video failed: ${err.message}`);
+  }
   updateLead(lead.name, lead.city, { stage: 'filmed', has_video: true });
   console.log(`[Filmmaker] ${lead.name}: promo.mp4 + posters ready`);
   logAction('filmmaker', 'render_complete', { name: lead.name });

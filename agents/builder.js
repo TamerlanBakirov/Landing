@@ -565,6 +565,18 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .orb1 { width: 360px; height: 360px; background: ${cat.accent}; top: -80px; left: -60px; opacity: 0.5; }
     .orb2 { width: 320px; height: 320px; background: #ffffff; bottom: -60px; right: -40px; opacity: 0.16; animation-delay: 2.5s; }
     @keyframes orbPulse { from { opacity: 0.3; } to { opacity: 0.6; } }
+    /* Floating 3D geometry (outer div = mouse parallax, inner span = float loop) */
+    .hero-shape { position: absolute; z-index: 2; pointer-events: none; transition: transform 0.5s cubic-bezier(0.2,0,0.2,1); }
+    .hs-ring { top: 16%; right: 9%; }
+    .hs-ring span { display: block; width: 150px; height: 150px; border: 2px solid rgba(255,255,255,0.18); border-radius: 50%; position: relative; animation: floatA 9s ease-in-out infinite; }
+    .hs-ring span::after { content: ''; position: absolute; inset: 22px; border: 1px dashed rgba(255,255,255,0.25); border-radius: 50%; }
+    .hs-dots { bottom: 20%; left: 7%; }
+    .hs-dots span { display: block; width: 130px; height: 130px; background-image: radial-gradient(rgba(255,255,255,0.3) 2px, transparent 2px); background-size: 22px 22px; animation: floatB 11s ease-in-out infinite; }
+    .hs-diamond { top: 32%; left: 13%; }
+    .hs-diamond span { display: block; width: 44px; height: 44px; border: 2px solid ${cat.accent}; opacity: 0.75; animation: floatC 8s ease-in-out infinite; }
+    @keyframes floatA { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-22px) rotate(10deg); } }
+    @keyframes floatB { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(18px); } }
+    @keyframes floatC { 0%, 100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(60deg) translateY(-14px); } }
     .hero-content { position: relative; z-index: 3; text-align: center; max-width: 800px; transition: transform 0.1s linear; }
     @keyframes heroIn { from { opacity: 0; transform: translateY(34px); } to { opacity: 1; transform: translateY(0); } }
     .hero-badge {
@@ -578,6 +590,17 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       font-size: clamp(40px, 6vw, 72px); font-weight: 900; color: #fff; line-height: 1.1;
       margin-bottom: 24px; letter-spacing: -2px; animation: heroIn 0.7s 0.25s both;
     }
+    /* Animated gradient shimmer across the headline (graceful fallback: solid white) */
+    @supports ((-webkit-background-clip: text) or (background-clip: text)) {
+      .hero h1 {
+        background: linear-gradient(110deg, #fff 38%, ${cat.accent} 50%, #fff 62%);
+        background-size: 250% 100%; background-position: 110% 0;
+        -webkit-background-clip: text; background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: heroIn 0.7s 0.25s both, titleShimmer 7s ease-in-out 2s infinite;
+      }
+    }
+    @keyframes titleShimmer { 0%, 100% { background-position: 110% 0; } 50% { background-position: -10% 0; } }
     .hero-sub {
       font-size: clamp(17px, 2vw, 21px); color: rgba(255,255,255,0.8); max-width: 600px;
       margin: 0 auto 40px; line-height: 1.7; animation: heroIn 0.7s 0.4s both;
@@ -587,8 +610,14 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       display: inline-flex; align-items: center; gap: 8px; background: ${cat.accentGrad}; color: #fff;
       padding: 16px 36px; border-radius: 50px; font-size: 16px; font-weight: 700; text-decoration: none;
       border: none; cursor: pointer; box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-      transition: transform 0.2s, box-shadow 0.2s;
+      transition: transform 0.2s, box-shadow 0.2s; position: relative; overflow: hidden;
     }
+    .btn-primary::after {
+      content: ''; position: absolute; top: 0; left: -80%; width: 55%; height: 100%;
+      background: linear-gradient(105deg, transparent, rgba(255,255,255,0.35), transparent);
+      transform: skewX(-20deg); animation: btnShine 4.5s ease-in-out infinite;
+    }
+    @keyframes btnShine { 0%, 55% { left: -80%; } 100% { left: 140%; } }
     .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
     .btn-secondary {
       display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); color: #fff;
@@ -603,6 +632,18 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .hero-stat { text-align: center; }
     .hero-stat-num { font-size: 36px; font-weight: 900; color: #fff; }
     .hero-stat-label { font-size: 14px; color: rgba(255,255,255,0.6); margin-top: 4px; }
+
+    /* ═══ MARQUEE RIBBON ═══ */
+    .marquee-bar {
+      background: #0b1120; padding: 17px 0; overflow: hidden;
+      border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .marquee-track { display: flex; width: max-content; animation: marqueeMove 32s linear infinite; }
+    .marquee-bar:hover .marquee-track { animation-play-state: paused; }
+    .mq-half { display: flex; align-items: center; gap: 44px; padding-right: 44px; }
+    .mq-half span { color: rgba(255,255,255,0.7); font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase; white-space: nowrap; }
+    .mq-half .mq-sep { color: ${cat.accent}; font-size: 15px; letter-spacing: 0; }
+    @keyframes marqueeMove { to { transform: translateX(-50%); } }
 
     /* ═══ SECTIONS ═══ */
     .section { padding: 100px 0; }
@@ -630,6 +671,13 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .service-card:hover::before { transform: scaleX(1); }
     /* 3D tilt (applied via JS on devices with a real pointer) */
     .tilt { transform-style: preserve-3d; will-change: transform; transition: transform 0.18s ease-out, box-shadow 0.3s; }
+    /* Pointer-tracking glare highlight on tilted service cards */
+    .service-card.tilt::after {
+      content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+      opacity: 0; transition: opacity 0.3s; z-index: 3;
+      background: radial-gradient(500px circle at var(--mx, 50%) var(--my, 50%), rgba(255,255,255,0.35), transparent 45%);
+    }
+    .service-card.tilt:hover::after { opacity: 1; }
     .service-icon-wrap {
       width: 64px; height: 64px; border-radius: 16px; background: var(--accent-light);
       display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent);
@@ -642,6 +690,12 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     /* ═══ STATS BAR ═══ */
     .stats-bar { background: ${cat.gradient}; padding: 60px 0; position: relative; overflow: hidden; }
     .stats-bar::before { content: ''; position: absolute; inset: 0; background: ${cat.pattern}; }
+    .stats-bar::after {
+      content: ''; position: absolute; top: 0; bottom: 0; left: 0; width: 180px;
+      background: linear-gradient(105deg, transparent, rgba(255,255,255,0.09), transparent);
+      transform: translateX(-100%) skewX(-18deg); animation: statSweep 6s ease-in-out infinite;
+    }
+    @keyframes statSweep { 0%, 45% { transform: translateX(-100%) skewX(-18deg); } 100% { transform: translateX(calc(100vw + 200px)) skewX(-18deg); } }
     .stats-grid { display: flex; justify-content: center; gap: 80px; position: relative; z-index: 2; }
     .stat-item { text-align: center; }
     .stat-num { font-size: 48px; font-weight: 900; color: #fff; }
@@ -739,17 +793,18 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .reveal { opacity: 1; transform: none; }
     /* CSS safety net: even if JS never runs, content is forced visible after
        3s so a page can never get stuck blank/white. JS reveals it instantly. */
-    .js .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1); animation: revealSafety 0.01s linear 3s forwards; }
-    @keyframes revealSafety { to { opacity: 1; transform: none; } }
+    .js .reveal { opacity: 0; transform: translateY(36px); filter: blur(10px); transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1), filter 0.8s cubic-bezier(0.4,0,0.2,1); animation: revealSafety 0.01s linear 3s forwards; }
+    @keyframes revealSafety { to { opacity: 1; transform: none; filter: none; } }
     .js .reveal-zoom { transform: scale(0.92) translateY(24px); }
-    .js .reveal.visible { opacity: 1; transform: none; animation: none; }
+    .js .reveal.visible { opacity: 1; transform: none; filter: none; animation: none; }
     .reveal-delay-1 { transition-delay: 0.08s; }
     .reveal-delay-2 { transition-delay: 0.16s; }
     .reveal-delay-3 { transition-delay: 0.24s; }
     @media (prefers-reduced-motion: reduce) {
-      .js .reveal { opacity: 1 !important; transform: none !important; }
+      .js .reveal { opacity: 1 !important; transform: none !important; filter: none !important; }
       .hero-bg { animation: none; }
       .hero-badge, .hero h1, .hero-sub, .hero-btns, .hero-stats { animation: none; }
+      .hero-shape span, .marquee-track, .btn-primary::after, .stats-bar::after, .hero-aurora { animation: none; }
     }
 
     /* ═══ MOBILE ═══ */
@@ -775,6 +830,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       .footer-grid { grid-template-columns: 1fr; gap: 32px; }
       .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
       .hero { min-height: auto; padding: 140px 24px 80px; }
+      .hero-shape { display: none; }
     }
   </style>
 </head>
@@ -810,6 +866,9 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     <div class="hero-aurora"></div>
     <div class="hero-orb orb1"></div>
     <div class="hero-orb orb2"></div>
+    <div class="hero-shape hs-ring" data-depth="34"><span></span></div>
+    <div class="hero-shape hs-dots" data-depth="-26"><span></span></div>
+    <div class="hero-shape hs-diamond" data-depth="48"><span></span></div>
     <div class="hero-content">
       <div class="hero-badge"><span>${cat.icon} ${esc(lead.city)} | ${esc(lead.category)}</span></div>
       <h1>${esc(lead.name)}</h1>
@@ -827,6 +886,14 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       </div>
     </div>
   </section>
+
+  <!-- MARQUEE RIBBON -->
+  <div class="marquee-bar" aria-hidden="true">
+    <div class="marquee-track">
+      ${[0, 1].map(() => `<div class="mq-half">${cat.services.map(s =>
+        `<span ${L({ hu: s.hu[0], en: s.en[0] })}>${esc(s.hu[0])}</span><span class="mq-sep">✦</span>`).join('')}</div>`).join('')}
+    </div>
+  </div>
 
   <!-- SERVICES -->
   <section class="section services-section" id="services">
@@ -1093,19 +1160,24 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
     });
 
-    // Mouse-reactive parallax orbs in the hero
+    // Mouse-reactive parallax: orbs + floating 3D shapes (depth per element)
     var hero = document.getElementById('hero');
     var orbs = document.querySelectorAll('.hero-orb');
-    if (hero && orbs.length && window.matchMedia('(hover: hover)').matches) {
+    var shapes = document.querySelectorAll('.hero-shape');
+    if (hero && window.matchMedia('(hover: hover)').matches) {
       hero.addEventListener('mousemove', function (e) {
         var cx = e.clientX / window.innerWidth - 0.5;
         var cy = e.clientY / window.innerHeight - 0.5;
         if (orbs[0]) orbs[0].style.transform = 'translate(' + (cx * 50) + 'px,' + (cy * 50) + 'px)';
         if (orbs[1]) orbs[1].style.transform = 'translate(' + (cx * -38) + 'px,' + (cy * -38) + 'px)';
+        for (var si = 0; si < shapes.length; si++) {
+          var d = parseFloat(shapes[si].getAttribute('data-depth')) || 20;
+          shapes[si].style.transform = 'translate(' + (cx * d) + 'px,' + (cy * d) + 'px)';
+        }
       });
     }
 
-    // 3D tilt on cards (pointer devices only)
+    // 3D tilt on cards + pointer-tracking glare (pointer devices only)
     if (window.matchMedia('(hover: hover)').matches) {
       var tiltEls = document.querySelectorAll('.tilt');
       for (var ti = 0; ti < tiltEls.length; ti++) {
@@ -1116,9 +1188,25 @@ function generateHTML(lead, diagnosis, logoDataUri) {
             var px = (e.clientX - r.left) / r.width - 0.5;
             var py = (e.clientY - r.top) / r.height - 0.5;
             el.style.transform = 'perspective(800px) rotateX(' + (-py * max) + 'deg) rotateY(' + (px * max) + 'deg) translateY(-6px)';
+            el.style.setProperty('--mx', ((px + 0.5) * 100) + '%');
+            el.style.setProperty('--my', ((py + 0.5) * 100) + '%');
           });
           el.addEventListener('mouseleave', function () { el.style.transform = ''; });
         })(tiltEls[ti]);
+      }
+
+      // Magnetic pull on primary buttons
+      var magBtns = document.querySelectorAll('.btn-primary');
+      for (var mi = 0; mi < magBtns.length; mi++) {
+        (function (btn) {
+          btn.addEventListener('mousemove', function (e) {
+            var r = btn.getBoundingClientRect();
+            var mx = (e.clientX - r.left - r.width / 2) * 0.18;
+            var my = (e.clientY - r.top - r.height / 2) * 0.3;
+            btn.style.transform = 'translate(' + mx + 'px,' + (my - 2) + 'px)';
+          });
+          btn.addEventListener('mouseleave', function () { btn.style.transform = ''; });
+        })(magBtns[mi]);
       }
     }
 
@@ -1265,7 +1353,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
 </html>`;
 }
 
-export async function buildForLead(lead) {
+export async function buildForLead(lead, opts = {}) {
   const slug = slugify(lead.name);
   const projectDir = `projects/${slug}`;
 
@@ -1321,7 +1409,10 @@ export async function buildForLead(lead) {
   };
 
   saveJSON(`${projectDir}/metadata.json`, metadata);
-  updateLead(lead.name, lead.city, { stage: 'built', project_dir: projectDir });
+  // keepStage: refreshing an already-published site (e.g. template upgrade)
+  // must not drag a pitched/checked lead back to 'built' in the pipeline.
+  if (opts.keepStage) updateLead(lead.name, lead.city, { project_dir: projectDir });
+  else updateLead(lead.name, lead.city, { stage: 'built', project_dir: projectDir });
 
   logAction('builder', 'build_complete', { name: lead.name, project_dir: projectDir });
   console.log(`[Builder] ${lead.name} website generated at ${projectDir}/`);
