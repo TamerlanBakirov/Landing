@@ -1013,17 +1013,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.507Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T22:57:31.180Z",
+    "updated_at": "2026-07-02T10:17:19.972Z",
     "project_dir": "projects/haj-sokk",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:19.969Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "the-color-studio-budapest",
@@ -1050,17 +1053,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.523Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T22:57:31.207Z",
+    "updated_at": "2026-07-02T10:17:20.860Z",
     "project_dir": "projects/the-color-studio",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:20.857Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "rebelle-salon-budapest",
@@ -1087,13 +1093,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.532Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.618Z"
+    "updated_at": "2026-07-02T10:17:21.795Z",
+    "project_dir": "projects/rebelle-salon",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:21.792Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "semmi-gubanc-fodraszmuhely-budapest",
@@ -1120,13 +1133,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.541Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.624Z"
+    "updated_at": "2026-07-02T10:17:22.614Z",
+    "project_dir": "projects/semmi-gubanc-fodraszmuhely",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:22.611Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "aligvarom-fodraszat-budapest",
@@ -1219,13 +1239,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.712Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.641Z"
+    "updated_at": "2026-07-02T10:17:23.492Z",
+    "project_dir": "projects/riener-studio",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:23.490Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "wonderland-budapest",
@@ -1252,13 +1279,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.778Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.645Z"
+    "updated_at": "2026-07-02T10:17:24.386Z",
+    "project_dir": "projects/wonderland",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:24.383Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "reborn-budapest",
@@ -1285,13 +1319,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.783Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.650Z"
+    "updated_at": "2026-07-02T10:17:25.170Z",
+    "project_dir": "projects/reborn",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:25.167Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "varga-szalon-budapest",
@@ -1318,13 +1359,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.786Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.654Z"
+    "updated_at": "2026-07-02T10:17:26.090Z",
+    "project_dir": "projects/varga-szalon",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:26.087Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "lacza-szalon-budapest",
@@ -1351,13 +1399,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.799Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.659Z"
+    "updated_at": "2026-07-02T10:17:27.226Z",
+    "project_dir": "projects/lacza-szalon",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:27.223Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "andi-fodraszmuhely-budapest",
@@ -1417,13 +1472,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-27T11:54:25.910Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.667Z"
+    "updated_at": "2026-07-02T10:17:28.065Z",
+    "project_dir": "projects/hair-moni",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-02T10:17:28.063Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "qui-budapest",
@@ -1450,13 +1512,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.685Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.672Z"
+    "updated_at": "2026-07-02T10:17:19.000Z",
+    "project_dir": "projects/qui",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "szeraj-torok-etterem-budapest",
@@ -1483,13 +1549,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.688Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.676Z"
+    "updated_at": "2026-07-02T10:17:19.034Z",
+    "project_dir": "projects/szeraj-torok-etterem",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "toth-kocsma-budapest",
@@ -1516,13 +1586,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.689Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.680Z"
+    "updated_at": "2026-07-02T10:17:19.068Z",
+    "project_dir": "projects/toth-kocsma",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "csarnok-vendeglo-budapest",
@@ -1549,13 +1623,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.692Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.687Z"
+    "updated_at": "2026-07-02T10:17:19.100Z",
+    "project_dir": "projects/csarnok-vendeglo",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "terv-presszo-budapest",
@@ -14888,5 +14966,71 @@
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
     "updated_at": "2026-07-01T15:01:59.495Z"
+  },
+  {
+    "id": "cseko-kavehaz-gyorsetterem-debrecen",
+    "name": "Csekő Kávéház & Gyorsétterem",
+    "city": "Debrecen",
+    "country": "Hungary",
+    "category": "restaurant",
+    "address": "",
+    "website": "",
+    "email": "debrecen@csekokavehaz.hu",
+    "phone": "",
+    "rating": 0,
+    "reviews": 0,
+    "opening_hours": "",
+    "place_id": "4774583124",
+    "screenshot": null,
+    "social_links": [],
+    "has_social_media": false,
+    "website_issues": [
+      "No website exists",
+      "Missing online presence entirely",
+      "No way for customers to find info online",
+      "No contact form for online inquiries",
+      "No SEO - invisible in search results",
+      "No mobile presence"
+    ],
+    "stage": "diagnosed",
+    "score": 80,
+    "retries": 0,
+    "created_at": "2026-07-02T09:54:10.884Z",
+    "diagnosis_score": 70,
+    "recommended_package": "Weboldal csomag",
+    "updated_at": "2026-07-02T10:03:58.778Z"
+  },
+  {
+    "id": "aranytolgy-kavezo-debrecen",
+    "name": "Aranytölgy Kávézó",
+    "city": "Debrecen",
+    "country": "Hungary",
+    "category": "restaurant",
+    "address": "Hatvan utca 1-3 Debrecen",
+    "website": "",
+    "email": "aranytolgykavezo@gmail.com",
+    "phone": "",
+    "rating": 0,
+    "reviews": 0,
+    "opening_hours": "Mo-Th 07:30-19:00; Fr-Sa 07:30-20:00; Su 07:30-19:00",
+    "place_id": "4940553305",
+    "screenshot": null,
+    "social_links": [],
+    "has_social_media": false,
+    "website_issues": [
+      "No website exists",
+      "Missing online presence entirely",
+      "No way for customers to find info online",
+      "No contact form for online inquiries",
+      "No SEO - invisible in search results",
+      "No mobile presence"
+    ],
+    "stage": "diagnosed",
+    "score": 80,
+    "retries": 0,
+    "created_at": "2026-07-02T09:54:11.020Z",
+    "diagnosis_score": 70,
+    "recommended_package": "Weboldal csomag",
+    "updated_at": "2026-07-02T10:03:58.811Z"
   }
 ]
