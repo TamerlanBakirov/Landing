@@ -1,0 +1,14 @@
+{
+  "business_name": "Lacza Szalon",
+  "city": "Budapest",
+  "category": "hair salon",
+  "generated_at": "2026-07-02T10:15:21.533Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

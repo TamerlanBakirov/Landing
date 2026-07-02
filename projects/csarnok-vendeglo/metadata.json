@@ -1,0 +1,14 @@
+{
+  "business_name": "Csarnok Vendéglő",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-02T10:17:18.583Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

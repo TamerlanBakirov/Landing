@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-01",
+  "last_reset": "2026-07-02",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -211,6 +211,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Ilia hair design számára",
       "to": "andee.ilia@gmail.com"
+    },
+    {
+      "lead_id": "haj-sokk-budapest",
+      "business_name": "Haj-sokk",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:19.969Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Haj-sokk számára",
+      "to": "haj.sokk@gmail.com"
+    },
+    {
+      "lead_id": "the-color-studio-budapest",
+      "business_name": "The color studio",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:20.857Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a The color studio számára",
+      "to": "colorstudiobudapest@gmail.com"
+    },
+    {
+      "lead_id": "rebelle-salon-budapest",
+      "business_name": "Rebelle salon",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:21.792Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Rebelle salon számára",
+      "to": "szeitzlili@hotmail.com"
+    },
+    {
+      "lead_id": "semmi-gubanc-fodraszmuhely-budapest",
+      "business_name": "Semmi Gubanc Fodrászműhely",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:22.611Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Semmi Gubanc Fodrászműhely számára",
+      "to": "ovariart@gmail.com"
+    },
+    {
+      "lead_id": "riener-studio-budapest",
+      "business_name": "Riener Studio",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:23.489Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Riener Studio számára",
+      "to": "studio.riener@gmail.com"
+    },
+    {
+      "lead_id": "wonderland-budapest",
+      "business_name": "Wonderland",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:24.383Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Wonderland számára",
+      "to": "wonderlandhairandnail@gmail.com"
+    },
+    {
+      "lead_id": "reborn-budapest",
+      "business_name": "Reborn",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:25.167Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Reborn számára",
+      "to": "soos.vilo@gmail.com"
+    },
+    {
+      "lead_id": "varga-szalon-budapest",
+      "business_name": "Varga Szalon",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:26.087Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Varga Szalon számára",
+      "to": "vargaszalon@hotmail.com"
+    },
+    {
+      "lead_id": "lacza-szalon-budapest",
+      "business_name": "Lacza Szalon",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:27.223Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Lacza Szalon számára",
+      "to": "lacza.nandi@freemail.hu"
+    },
+    {
+      "lead_id": "hair-moni-budapest",
+      "business_name": "Hair-Moni",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-02T10:17:28.062Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Hair-Moni számára",
+      "to": "sigyi@freemail.hu"
     }
   ]
 }

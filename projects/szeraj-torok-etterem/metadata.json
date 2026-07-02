@@ -1,0 +1,14 @@
+{
+  "business_name": "Szeráj Török Étterem",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-02T10:16:31.638Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
