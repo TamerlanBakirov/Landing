@@ -1512,17 +1512,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.685Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-02T10:17:19.000Z",
+    "updated_at": "2026-07-03T10:12:23.756Z",
     "project_dir": "projects/qui",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:23.753Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "szeraj-torok-etterem-budapest",
@@ -1549,17 +1552,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.688Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-02T10:17:19.034Z",
+    "updated_at": "2026-07-03T10:12:24.799Z",
     "project_dir": "projects/szeraj-torok-etterem",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:24.796Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "toth-kocsma-budapest",
@@ -1586,17 +1592,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.689Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-02T10:17:19.068Z",
+    "updated_at": "2026-07-03T10:12:25.667Z",
     "project_dir": "projects/toth-kocsma",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:25.664Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "csarnok-vendeglo-budapest",
@@ -1623,17 +1632,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.692Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-02T10:17:19.100Z",
+    "updated_at": "2026-07-03T10:12:26.443Z",
     "project_dir": "projects/csarnok-vendeglo",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:26.440Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "terv-presszo-budapest",
@@ -1660,13 +1672,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.693Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.692Z"
+    "updated_at": "2026-07-03T10:12:27.166Z",
+    "project_dir": "projects/terv-presszo",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:27.163Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "parasztkonyha-budapest",
@@ -1693,13 +1712,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.696Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.696Z"
+    "updated_at": "2026-07-03T10:12:28.069Z",
+    "project_dir": "projects/parasztkonyha",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:28.066Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "strudli-budapest",
@@ -1759,13 +1785,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.698Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.705Z"
+    "updated_at": "2026-07-03T10:12:28.855Z",
+    "project_dir": "projects/belvarosi-lugas-etterem",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:28.852Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "tulipano-restaurant-budapest",
@@ -1792,13 +1825,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.702Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.709Z"
+    "updated_at": "2026-07-03T10:12:29.708Z",
+    "project_dir": "projects/tulipano-restaurant",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:29.705Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "spraneats-drinks-budapest",
@@ -1825,13 +1865,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.704Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.713Z"
+    "updated_at": "2026-07-03T10:12:30.592Z",
+    "project_dir": "projects/spraneats-drinks",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:30.590Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "tulipan-bisztro-budapest",
@@ -1858,13 +1905,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.705Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.718Z"
+    "updated_at": "2026-07-03T10:12:31.450Z",
+    "project_dir": "projects/tulipan-bisztro",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-03T10:12:31.447Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "himba-kitchen-budapest",
@@ -1891,13 +1945,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.707Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.722Z"
+    "updated_at": "2026-07-03T10:12:22.362Z",
+    "project_dir": "projects/himba-kitchen",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "cafe-kor-budapest",
@@ -1924,13 +1982,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.708Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.729Z"
+    "updated_at": "2026-07-03T10:12:22.398Z",
+    "project_dir": "projects/cafe-kor",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "quan-non-budapest",
@@ -1957,13 +2019,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.710Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.733Z"
+    "updated_at": "2026-07-03T10:12:22.436Z",
+    "project_dir": "projects/quan-non",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "fanatico-budapest",
@@ -1990,13 +2056,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.713Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.737Z"
+    "updated_at": "2026-07-03T10:12:22.474Z",
+    "project_dir": "projects/fanatico",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "tilos-a-tilos-budapest",
@@ -2023,13 +2093,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.714Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.742Z"
+    "updated_at": "2026-07-03T10:12:22.510Z",
+    "project_dir": "projects/tilos-a-tilos",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "fermento-pizzeria-budapest",
@@ -2056,13 +2130,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.728Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.746Z"
+    "updated_at": "2026-07-03T10:12:22.548Z",
+    "project_dir": "projects/fermento-pizzeria",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "okiko-sushi-thai-bar-budapest",

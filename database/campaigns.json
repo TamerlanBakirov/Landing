@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-02",
+  "last_reset": "2026-07-03",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -311,6 +311,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Hair-Moni számára",
       "to": "sigyi@freemail.hu"
+    },
+    {
+      "lead_id": "qui-budapest",
+      "business_name": "Quí",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:23.753Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Quí számára",
+      "to": "quibudapest@gmail.com"
+    },
+    {
+      "lead_id": "szeraj-torok-etterem-budapest",
+      "business_name": "Szeráj Török Étterem",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:24.796Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Szeráj Török Étterem számára",
+      "to": "szerajrestaurant2000@gmail.com"
+    },
+    {
+      "lead_id": "toth-kocsma-budapest",
+      "business_name": "Tóth Kocsma",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:25.664Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Tóth Kocsma számára",
+      "to": "tothkocsma@gmail.com"
+    },
+    {
+      "lead_id": "csarnok-vendeglo-budapest",
+      "business_name": "Csarnok Vendéglő",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:26.440Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Csarnok Vendéglő számára",
+      "to": "csarnokvendeglo@gmail.com"
+    },
+    {
+      "lead_id": "terv-presszo-budapest",
+      "business_name": "Terv Presszó",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:27.163Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Terv Presszó számára",
+      "to": "tervpresszo@gmail.com"
+    },
+    {
+      "lead_id": "parasztkonyha-budapest",
+      "business_name": "Parasztkonyha",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:28.065Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Parasztkonyha számára",
+      "to": "parasztkonyha.budapest@gmail.com"
+    },
+    {
+      "lead_id": "belvarosi-lugas-etterem-budapest",
+      "business_name": "Belvárosi Lugas Etterem",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:28.852Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Belvárosi Lugas Etterem számára",
+      "to": "lugasetterem@freemail.hu"
+    },
+    {
+      "lead_id": "tulipano-restaurant-budapest",
+      "business_name": "Tulipano Restaurant",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:29.705Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Tulipano Restaurant számára",
+      "to": "restaurant.tulipano@gmail.com"
+    },
+    {
+      "lead_id": "spraneats-drinks-budapest",
+      "business_name": "Spráneats & Drinks",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:30.589Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Spráneats & Drinks számára",
+      "to": "sanddbt@gmail.com"
+    },
+    {
+      "lead_id": "tulipan-bisztro-budapest",
+      "business_name": "Tulipán Bisztró",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-03T10:12:31.447Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Tulipán Bisztró számára",
+      "to": "tulipanbisztro@gmail.com"
     }
   ]
 }

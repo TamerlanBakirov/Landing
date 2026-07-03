@@ -1,0 +1,14 @@
+{
+  "business_name": "Fanatico",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-03T10:11:32.714Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
