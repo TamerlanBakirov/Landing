@@ -1,0 +1,14 @@
+{
+  "business_name": "Café Kör",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-03T10:10:44.756Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

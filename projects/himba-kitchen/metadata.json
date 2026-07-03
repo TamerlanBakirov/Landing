@@ -1,0 +1,14 @@
+{
+  "business_name": "Himba Kitchen",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-03T10:10:20.635Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
