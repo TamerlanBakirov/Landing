@@ -13,9 +13,9 @@ const config = loadConfig();
 // ════════════════════════════════════════════════════════════════
 const UNSPLASH = 'https://images.unsplash.com/';
 
-function heroUrl(id) { return `${UNSPLASH}${id}?w=1200&q=55&auto=format&fit=crop&h=675`; }
-function aboutUrl(id) { return `${UNSPLASH}${id}?w=700&q=60&auto=format&fit=crop&h=525`; }
-function galleryUrl(id) { return `${UNSPLASH}${id}?w=500&q=55&auto=format&fit=crop&h=375`; }
+function heroUrl(id) { return `${UNSPLASH}${id}?w=1600&q=72&auto=format&fit=crop&h=900`; }
+function aboutUrl(id) { return `${UNSPLASH}${id}?w=900&q=74&auto=format&fit=crop&h=675`; }
+function galleryUrl(id) { return `${UNSPLASH}${id}?w=720&q=72&auto=format&fit=crop&h=540`; }
 
 const photoCache = new Map();
 
@@ -31,17 +31,29 @@ async function prefetchPhotos(category, city, projectDir) {
   // Hero: reuse a previously generated hero.png if present (saves an API
   // call/cost), else generate a bespoke AI image, else Unsplash fallback.
   // Delete hero.png to force a fresh AI hero on the next build.
+  // The AI hero is a ~2MB PNG; embedded as-is it alone makes the page ~3MB
+  // heavier. Keep the PNG on disk (Remotion needs it) but embed a compressed
+  // JPEG so pages load fast even on mobile data.
+  async function embedHero(pngBuf) {
+    try {
+      const jpeg = await sharp(pngBuf).resize({ width: 1600, withoutEnlargement: true }).jpeg({ quality: 80 }).toBuffer();
+      photoCache.set(hero, `data:image/jpeg;base64,${jpeg.toString('base64')}`);
+    } catch (e) {
+      photoCache.set(hero, `data:image/png;base64,${pngBuf.toString('base64')}`);
+    }
+  }
+
   if (!photoCache.has(hero)) {
     if (heroFile && existsSync(heroFile)) {
-      const buf = readFileSync(heroFile);
-      photoCache.set(hero, `data:image/png;base64,${buf.toString('base64')}`);
+      await embedHero(readFileSync(heroFile));
       console.log(`[Builder] Reusing existing hero image for ${category}`);
     } else {
       try {
         const aiHero = await generateHeroImage(category, city);
         if (aiHero) {
-          photoCache.set(hero, aiHero);
-          if (heroFile) writeFileSync(heroFile, Buffer.from(aiHero.split(',')[1], 'base64'));
+          const pngBuf = Buffer.from(aiHero.split(',')[1], 'base64');
+          if (heroFile) writeFileSync(heroFile, pngBuf);
+          await embedHero(pngBuf);
           console.log(`[Builder] AI hero image generated for ${category} in ${city}`);
         }
       } catch (err) {
@@ -577,6 +589,10 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     @keyframes floatA { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-22px) rotate(10deg); } }
     @keyframes floatB { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(18px); } }
     @keyframes floatC { 0%, 100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(60deg) translateY(-14px); } }
+    /* Drifting particle field behind the hero content (canvas, desktop only) */
+    .hero-particles { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+    /* Inner wrapper that tilts in 3D toward the cursor */
+    .hero-3d { transform-style: preserve-3d; transition: transform 0.35s ease-out; will-change: transform; }
     .hero-content { position: relative; z-index: 3; text-align: center; max-width: 800px; transition: transform 0.1s linear; }
     @keyframes heroIn { from { opacity: 0; transform: translateY(34px); } to { opacity: 1; transform: translateY(0); } }
     .hero-badge {
@@ -649,11 +665,21 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .section { padding: 100px 0; }
     .section-header { text-align: center; margin-bottom: 64px; }
     .section-label {
-      display: inline-block; font-size: 13px; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 2px; color: var(--accent); margin-bottom: 16px; background: var(--accent-light);
+      display: table; margin: 0 auto 16px; font-size: 13px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 2px; color: var(--accent); background: var(--accent-light);
       padding: 6px 16px; border-radius: 50px;
     }
-    .section-title { font-size: clamp(32px, 4vw, 44px); font-weight: 800; color: #111827; line-height: 1.2; letter-spacing: -1px; }
+    /* Left-aligned contexts (e.g. about) keep the label at the left edge */
+    .about-text .section-label { margin-left: 0; }
+    .section-title { font-size: clamp(32px, 4vw, 44px); font-weight: 800; color: #111827; line-height: 1.2; letter-spacing: -1px; position: relative; display: inline-block; padding-bottom: 14px; }
+    /* Animated gradient underline: hidden only while JS reveal is pending,
+       with the same 3s force-visible safety net as .reveal. */
+    .section-title::after {
+      content: ''; position: absolute; left: 30%; right: 30%; bottom: 0; height: 4px; border-radius: 4px;
+      background: ${cat.accentGrad}; transition: transform 0.8s cubic-bezier(0.4,0,0.2,1) 0.35s;
+    }
+    .js .section-title::after { transform: scaleX(0); animation: revealSafety 0.01s linear 3s forwards; }
+    .js .visible .section-title::after { transform: scaleX(1); animation: none; }
     .section-desc { font-size: 18px; color: #6b7280; max-width: 600px; margin: 16px auto 0; }
 
     /* ═══ SERVICES ═══ */
@@ -681,9 +707,11 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     .service-icon-wrap {
       width: 64px; height: 64px; border-radius: 16px; background: var(--accent-light);
       display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent);
-      transition: transform 0.4s;
+      animation: iconFloat 3.5s ease-in-out infinite;
     }
-    .service-card:hover .service-icon-wrap { transform: scale(1.1) rotate(-5deg); }
+    @keyframes iconFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    .service-icon-wrap svg { transition: transform 0.4s; }
+    .service-card:hover .service-icon-wrap svg { transform: scale(1.18) rotate(-6deg); }
     .service-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 12px; color: #111827; }
     .service-card p { font-size: 15px; color: #6b7280; line-height: 1.7; }
 
@@ -710,14 +738,15 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     }
     .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
     .gallery-item:hover img { transform: scale(1.08); }
-    .gallery-item::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.5), transparent 60%); opacity: 0; transition: opacity 0.3s; }
+    .gallery-item:hover { box-shadow: 0 18px 50px rgba(0,0,0,0.18); }
+    .gallery-item::after { content: ''; position: absolute; inset: 0; border-radius: 16px; background: linear-gradient(to top, rgba(0,0,0,0.5), transparent 60%); box-shadow: inset 0 0 0 3px var(--accent); opacity: 0; transition: opacity 0.3s; }
     .gallery-item:hover::after { opacity: 1; }
     .gallery-cap { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px; color: #fff; font-weight: 600; font-size: 15px; z-index: 2; transform: translateY(10px); opacity: 0; transition: all 0.3s; }
     .gallery-item:hover .gallery-cap { transform: translateY(0); opacity: 1; }
 
     /* ═══ ABOUT ═══ */
     .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
-    .about-img-wrap { position: relative; border-radius: 24px; overflow: hidden; aspect-ratio: 4/3; box-shadow: 0 20px 60px rgba(0,0,0,0.12); }
+    .about-img-wrap { position: relative; border-radius: 24px; overflow: hidden; aspect-ratio: 4/3; box-shadow: 0 20px 60px rgba(0,0,0,0.12); outline: 3px solid var(--accent-light); outline-offset: 14px; }
     .about-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s; }
     .about-img-wrap:hover img { transform: scale(1.05); }
     .about-badge { position: absolute; bottom: 24px; left: 24px; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 16px 24px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
@@ -869,7 +898,9 @@ function generateHTML(lead, diagnosis, logoDataUri) {
     <div class="hero-shape hs-ring" data-depth="34"><span></span></div>
     <div class="hero-shape hs-dots" data-depth="-26"><span></span></div>
     <div class="hero-shape hs-diamond" data-depth="48"><span></span></div>
+    <canvas class="hero-particles" id="heroParticles"></canvas>
     <div class="hero-content">
+      <div class="hero-3d" id="hero3d">
       <div class="hero-badge"><span>${cat.icon} ${esc(lead.city)} | ${esc(lead.category)}</span></div>
       <h1>${esc(lead.name)}</h1>
       <p class="hero-sub" ${L({ hu: subHu, en: subEn })}>${esc(subHu)}</p>
@@ -883,6 +914,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
           <div class="hero-stat-num"><span class="count" data-target="${s.num}">${s.num}</span>${s.suffix}</div>
           <div class="hero-stat-label" ${L(s)}>${s.hu}</div>
         </div>`).join('')}
+      </div>
       </div>
     </div>
   </section>
@@ -942,7 +974,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
             ${UI.aboutFeatures.map(f => `<li><span class="about-check">✓</span> <span ${L(f)}>${esc(f.hu)}</span></li>`).join('')}
           </ul>
         </div>
-        <div class="about-img-wrap reveal reveal-delay-2">
+        <div class="about-img-wrap tilt reveal reveal-delay-2">
           <img src="${src(aboutUrl(photos.gallery[0].id))}" alt="${esc(lead.name)}" loading="lazy">
           <div class="about-badge">
             <div class="about-badge-num">${cat.stats[2].num}${cat.stats[2].suffix}</div>
@@ -994,7 +1026,7 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       </div>
       <div class="testimonials-grid">
         ${cat.testimonials.map((t, i) => `
-        <div class="testimonial-card reveal reveal-delay-${i + 1}">
+        <div class="testimonial-card tilt reveal reveal-delay-${i + 1}">
           <div class="testimonial-stars">★★★★★</div>
           <p class="testimonial-text" ${L({ hu: t.hu, en: t.en })}>${esc(t.hu)}</p>
           <div class="testimonial-author">
@@ -1160,10 +1192,11 @@ function generateHTML(lead, diagnosis, logoDataUri) {
       if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
     });
 
-    // Mouse-reactive parallax: orbs + floating 3D shapes (depth per element)
+    // Mouse-reactive parallax: orbs + floating 3D shapes + hero content tilt
     var hero = document.getElementById('hero');
     var orbs = document.querySelectorAll('.hero-orb');
     var shapes = document.querySelectorAll('.hero-shape');
+    var hero3d = document.getElementById('hero3d');
     if (hero && window.matchMedia('(hover: hover)').matches) {
       hero.addEventListener('mousemove', function (e) {
         var cx = e.clientX / window.innerWidth - 0.5;
@@ -1174,8 +1207,52 @@ function generateHTML(lead, diagnosis, logoDataUri) {
           var d = parseFloat(shapes[si].getAttribute('data-depth')) || 20;
           shapes[si].style.transform = 'translate(' + (cx * d) + 'px,' + (cy * d) + 'px)';
         }
+        if (hero3d) hero3d.style.transform = 'perspective(1200px) rotateX(' + (-cy * 3.5) + 'deg) rotateY(' + (cx * 3.5) + 'deg)';
+      });
+      hero.addEventListener('mouseleave', function () {
+        if (hero3d) hero3d.style.transform = '';
       });
     }
+
+    // Drifting particle field in the hero (desktop + motion-ok only)
+    (function () {
+      if (!window.matchMedia('(hover: hover)').matches) return;
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var cv = document.getElementById('heroParticles');
+      if (!cv || !hero) return;
+      var ctx = cv.getContext('2d');
+      if (!ctx) return;
+      var W = 0, H = 0, ps = [];
+      function resize() { W = cv.width = hero.offsetWidth; H = cv.height = hero.offsetHeight; }
+      resize();
+      window.addEventListener('resize', resize);
+      for (var i = 0; i < 42; i++) {
+        ps.push({
+          x: Math.random() * 2000, y: Math.random() * 1400,
+          r: Math.random() * 2 + 0.7, s: Math.random() * 0.4 + 0.12,
+          p: Math.random() * 6.28
+        });
+      }
+      function tick() {
+        if (window.scrollY < window.innerHeight) {
+          ctx.clearRect(0, 0, W, H);
+          ctx.fillStyle = '#ffffff';
+          var t = performance.now() / 1600;
+          for (var i = 0; i < ps.length; i++) {
+            var o = ps[i];
+            o.y -= o.s;
+            if (o.y < -5) { o.y = H + 5; o.x = Math.random() * W; }
+            ctx.globalAlpha = 0.12 + 0.3 * Math.abs(Math.sin(o.p + t));
+            ctx.beginPath();
+            ctx.arc(o.x % (W || 1), o.y, o.r, 0, 6.283);
+            ctx.fill();
+          }
+          ctx.globalAlpha = 1;
+        }
+        requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    })();
 
     // 3D tilt on cards + pointer-tracking glare (pointer devices only)
     if (window.matchMedia('(hover: hover)').matches) {

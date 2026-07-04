@@ -185,15 +185,17 @@ function generateAuditReport(lead, analysis) {
       delivery_days: pkg.delivery_days,
       roi_estimate: `With a modern website, ${lead.name} could see up to ${conversionIncrease}% more customer inquiries.`
     },
-    outreach_message: generateOutreachMessage(lead, analysis, conversionIncrease, packageRecommendation)
+    outreach_message: generateOutreachMessage(lead)
   };
 }
 
-function generateOutreachMessage(lead, analysis, conversionIncrease, packageName) {
-  const pkg = config.pricing.packages[0];
+// Exported so the pitcher always composes emails from the CURRENT template
+// instead of the snapshot stored in an older diagnosis file.
+export function generateOutreachMessage(lead) {
   const catHu = categoryHu(lead.category);
   const slug = slugify(lead.name);
   const previewUrl = `${config.agency.site_base_url}/${slug}/`;
+  const portfolioUrl = config.agency.site_base_url.replace(/\/projects\/?$/, '/');
   const agency = config.agency.name;
 
   const benefits = [
@@ -215,12 +217,13 @@ Miért érdemes?
 Amikor valaki ${catHu} szolgáltatást keres ${lead.city}-ban, az Önök vállalkozása ma még nem jelenik meg a Google találatai között. Egy modern weboldal ezen változtat:
 - ${benefits.join('\n- ')}
 
-A teljes weboldal ára mindössze €${pkg.price}.
+Ha tetszik az előnézet, egyszerűen válaszoljon erre az e-mailre, és 24 órán belül küldjük személyre szabott ajánlatunkat. Az előnézet megtekintése semmilyen kötelezettséggel nem jár.
 
-Érdekli? Egyszerűen válaszoljon erre az e-mailre, és megbeszéljük a részleteket – kötelezettség nélkül.
+További munkáink: ${portfolioUrl}
 
 Üdvözlettel,
 ${agency}
+Weboldalak magyar vállalkozásoknak
 ${config.agency.owner_email}`;
 
   return {
@@ -229,16 +232,17 @@ ${config.agency.owner_email}`;
     preview_url: previewUrl,
     body_hu,
     body_html_hu: renderHtmlEmail({
-      lead, catHu, previewUrl, price: pkg.price, benefits,
+      lead, catHu, previewUrl, portfolioUrl, benefits,
       agency, ownerEmail: config.agency.owner_email
     }),
-    body_en: `Dear ${lead.name} team,\n\nWe build modern, mobile-friendly websites for Hungarian businesses — and we've already prepared a free preview for ${lead.name}.\n\nSee how your new website could look: ${previewUrl}\n\nWhen someone searches for ${lead.category} services in ${lead.city}, your business doesn't currently show up on Google. A modern website changes that.\n\nThe complete website costs just €${pkg.price}.\n\nInterested? Simply reply to this email and we'll discuss the details — no obligation.\n\nBest regards,\n${agency}\n${config.agency.owner_email}`
+    body_en: `Dear ${lead.name} team,\n\nWe build modern, mobile-friendly websites for Hungarian businesses — and we've already prepared a free preview for ${lead.name}.\n\nSee how your new website could look: ${previewUrl}\n\nWhen someone searches for ${lead.category} services in ${lead.city}, your business doesn't currently show up on Google. A modern website changes that.\n\nIf you like the preview, simply reply to this email and we'll send you a personalized quote within 24 hours — no obligation.\n\nOur portfolio: ${portfolioUrl}\n\nBest regards,\n${agency}\n${config.agency.owner_email}`
   };
 }
 
-// Clean sales-oriented HTML email: hook → preview button (+ video injected
-// below it) → why it matters + benefits → price → reply CTA → signature.
-function renderHtmlEmail({ lead, catHu, previewUrl, price, benefits, agency, ownerEmail }) {
+// Professional HTML email: branded header → hook → preview button (+ video
+// injected below it) → why it matters + benefits → reply CTA (no price;
+// pricing is discussed after they respond) → portfolio → signature.
+function renderHtmlEmail({ lead, catHu, previewUrl, portfolioUrl, benefits, agency, ownerEmail }) {
   const benefitRows = benefits.map(b =>
     `<tr><td style="padding:6px 0;font-size:15px;color:#374151;">
        <span style="color:#16a34a;font-weight:bold;">✓</span>&nbsp;&nbsp;${b}
@@ -249,8 +253,12 @@ function renderHtmlEmail({ lead, catHu, previewUrl, price, benefits, agency, own
 <html lang="hu"><body style="margin:0;padding:0;background:#f4f5f7;font-family:Arial,Helvetica,sans-serif;color:#1f2937;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f5f7;padding:24px 0;">
     <tr><td align="center">
-      <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;">
-        <tr><td style="padding:36px 38px 12px;">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:14px;overflow:hidden;max-width:600px;box-shadow:0 4px 24px rgba(15,23,42,0.08);">
+        <tr><td style="background:linear-gradient(135deg,#0f172a,#1e3a8a);padding:22px 38px;">
+          <span style="font-size:19px;font-weight:bold;color:#ffffff;letter-spacing:0.5px;">Pixel <span style="color:#60a5fa;">&amp;</span> Co.</span>
+          <span style="float:right;font-size:12px;color:#94a3b8;padding-top:6px;">Weboldalak magyar vállalkozásoknak</span>
+        </td></tr>
+        <tr><td style="padding:34px 38px 12px;">
           <p style="font-size:16px;line-height:1.6;margin:0 0 18px;">Kedves <strong>${lead.name}</strong> csapata!</p>
           <p style="font-size:15px;line-height:1.65;margin:0 0 22px;color:#374151;">Modern, mobilbarát weboldalakat készítünk magyarországi vállalkozásoknak – és a <strong>${lead.name}</strong> számára már el is készítettünk egy <strong>ingyenes előnézetet</strong>.</p>
           <p style="font-size:15px;line-height:1.6;margin:0 0 18px;color:#374151;">Tekintse meg, hogyan nézne ki az Önök új weboldala:</p>
@@ -260,14 +268,14 @@ function renderHtmlEmail({ lead, catHu, previewUrl, price, benefits, agency, own
           <p style="font-size:16px;font-weight:bold;line-height:1.5;margin:14px 0 10px;color:#111827;">Miért érdemes?</p>
           <p style="font-size:15px;line-height:1.65;margin:0 0 14px;color:#374151;">Amikor valaki <strong>${catHu}</strong> szolgáltatást keres ${lead.city}-ban, az Önök vállalkozása ma még nem jelenik meg a Google találatai között. Egy modern weboldal ezen változtat:</p>
           <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 22px;">${benefitRows}</table>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 24px;background:#f0f7ff;border-radius:12px;">
-            <tr><td style="padding:18px 22px;font-size:16px;color:#111827;">A teljes weboldal ára mindössze <strong style="font-size:20px;color:#2563eb;">€${price}</strong></td></tr>
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 24px;background:#f0f7ff;border-left:4px solid #2563eb;border-radius:10px;">
+            <tr><td style="padding:18px 22px;font-size:15px;line-height:1.6;color:#111827;">Ha tetszik az előnézet, egyszerűen <strong>válaszoljon erre az e-mailre</strong>, és 24 órán belül küldjük <strong>személyre szabott ajánlatunkat</strong>. Az előnézet megtekintése semmilyen kötelezettséggel nem jár.</td></tr>
           </table>
-          <p style="font-size:15px;line-height:1.65;margin:0 0 26px;color:#374151;">Érdekli? Egyszerűen <strong>válaszoljon erre az e-mailre</strong>, és megbeszéljük a részleteket – kötelezettség nélkül.</p>
-          <p style="font-size:15px;line-height:1.5;margin:0;color:#111827;">Üdvözlettel,<br><strong>${agency}</strong><br><a href="mailto:${ownerEmail}" style="color:#2563eb;text-decoration:none;">${ownerEmail}</a></p>
+          <p style="font-size:14px;line-height:1.6;margin:0 0 26px;color:#6b7280;">További munkáinkat itt tekintheti meg: <a href="${portfolioUrl}" target="_blank" style="color:#2563eb;text-decoration:none;font-weight:bold;">referenciáink →</a></p>
+          <p style="font-size:15px;line-height:1.6;margin:0;color:#111827;">Üdvözlettel,<br><strong>${agency}</strong><br><span style="font-size:13px;color:#6b7280;">Weboldalak magyar vállalkozásoknak</span><br><a href="mailto:${ownerEmail}" style="color:#2563eb;text-decoration:none;font-size:14px;">${ownerEmail}</a></p>
         </td></tr>
       </table>
-      <p style="font-size:12px;color:#9ca3af;margin:16px 0 0;">${agency}</p>
+      <p style="font-size:12px;color:#9ca3af;margin:16px 0 0;">${agency} · Ha nem szeretne több üzenetet kapni, válaszoljon a "leiratkozás" szóval.</p>
     </td></tr>
   </table>
 </body></html>`;

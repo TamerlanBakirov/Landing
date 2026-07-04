@@ -59,7 +59,7 @@ function ensureBrowser() {
   }
 }
 
-export async function filmForLead(lead) {
+export async function filmForLead(lead, opts = {}) {
   console.log(`[Filmmaker] Rendering promo video for: ${lead.name}`);
   logAction('filmmaker', 'render_start', { name: lead.name });
   ensureBrowser();
@@ -72,7 +72,10 @@ export async function filmForLead(lead) {
   } catch (err) {
     console.error(`[Filmmaker] HTML refresh with video failed: ${err.message}`);
   }
-  updateLead(lead.name, lead.city, { stage: 'filmed', has_video: true });
+  // keepStage: re-rendering an already-pitched lead's video must not move
+  // its pipeline stage back to 'filmed'.
+  if (opts.keepStage) updateLead(lead.name, lead.city, { has_video: true });
+  else updateLead(lead.name, lead.city, { stage: 'filmed', has_video: true });
   console.log(`[Filmmaker] ${lead.name}: promo.mp4 + posters ready`);
   logAction('filmmaker', 'render_complete', { name: lead.name });
 }
