@@ -1945,17 +1945,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.707Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-03T10:12:22.362Z",
+    "updated_at": "2026-07-04T09:30:04.181Z",
     "project_dir": "projects/himba-kitchen",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:04.178Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "cafe-kor-budapest",
@@ -1982,17 +1985,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.708Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-03T10:12:22.398Z",
+    "updated_at": "2026-07-04T09:30:04.991Z",
     "project_dir": "projects/cafe-kor",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:04.988Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "quan-non-budapest",
@@ -2019,17 +2025,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.710Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-03T10:12:22.436Z",
+    "updated_at": "2026-07-04T09:30:05.923Z",
     "project_dir": "projects/quan-non",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:05.921Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "fanatico-budapest",
@@ -2056,17 +2065,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.713Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-03T10:12:22.474Z",
+    "updated_at": "2026-07-04T09:30:06.773Z",
     "project_dir": "projects/fanatico",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:06.770Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "tilos-a-tilos-budapest",
@@ -2093,17 +2105,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.714Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-03T10:12:22.510Z",
+    "updated_at": "2026-07-04T09:30:07.742Z",
     "project_dir": "projects/tilos-a-tilos",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:07.739Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "fermento-pizzeria-budapest",
@@ -2130,17 +2145,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.728Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-03T10:12:22.548Z",
+    "updated_at": "2026-07-04T09:30:08.739Z",
     "project_dir": "projects/fermento-pizzeria",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:08.736Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "okiko-sushi-thai-bar-budapest",
@@ -2167,13 +2185,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.731Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.750Z"
+    "updated_at": "2026-07-04T09:30:11.039Z",
+    "project_dir": "projects/okiko-sushi-thai-bar",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:11.037Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "aranyszarvas-budapest",
@@ -2266,13 +2291,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.768Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.763Z"
+    "updated_at": "2026-07-04T09:30:12.127Z",
+    "project_dir": "projects/fuge-bolt-es-kavezo",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:12.124Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "viet-nam-food-budapest",
@@ -2299,13 +2331,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.791Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.767Z"
+    "updated_at": "2026-07-04T09:30:13.126Z",
+    "project_dir": "projects/viet-nam-food",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:13.123Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "black-dog-cinema-budapest",
@@ -2332,13 +2371,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.806Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.774Z"
+    "updated_at": "2026-07-04T09:30:14.115Z",
+    "project_dir": "projects/black-dog-cinema",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90,
+    "pitched_at": "2026-07-04T09:30:14.112Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "csiga-cafe-budapest",
@@ -2365,13 +2411,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.811Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.778Z"
+    "updated_at": "2026-07-04T09:30:02.982Z",
+    "project_dir": "projects/csiga-cafe",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "java-caffe-budapest",
@@ -2398,13 +2448,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.820Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.783Z"
+    "updated_at": "2026-07-04T09:30:03.015Z",
+    "project_dir": "projects/java-caffe",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "bocelli-pizzeria-italia-budapest",
@@ -2431,13 +2485,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.829Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.787Z"
+    "updated_at": "2026-07-04T09:30:03.048Z",
+    "project_dir": "projects/bocelli-pizzeria-italia",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "oishi-sushi-synagogue-budapest",
@@ -2464,13 +2522,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.846Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.791Z"
+    "updated_at": "2026-07-04T09:30:03.080Z",
+    "project_dir": "projects/oishi-sushi-synagogue",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "feher-hajo-etterem-budapest",
@@ -2497,13 +2559,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.854Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.795Z"
+    "updated_at": "2026-07-04T09:30:03.111Z",
+    "project_dir": "projects/feher-hajo-etterem",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "salve-budapest",
@@ -2530,13 +2596,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.861Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.800Z"
+    "updated_at": "2026-07-04T09:30:03.146Z",
+    "project_dir": "projects/salve",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "curj-pho-budapest",
@@ -2563,13 +2633,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.882Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.804Z"
+    "updated_at": "2026-07-04T09:30:03.179Z",
+    "project_dir": "projects/curj-pho",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "margaret-s-restaurant-pub-budapest",
@@ -2596,13 +2670,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.890Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:57.808Z"
+    "updated_at": "2026-07-04T09:30:03.212Z",
+    "project_dir": "projects/margaret-s-restaurant-pub",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "blackstart-budapest",
@@ -15110,5 +15188,71 @@
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
     "updated_at": "2026-07-02T10:03:58.811Z"
+  },
+  {
+    "id": "smile-line-budapest",
+    "name": "Smile Line",
+    "city": "Budapest",
+    "country": "Hungary",
+    "category": "beauty salon",
+    "address": "Szlovák út 129 Budapest",
+    "website": "",
+    "email": "slszalon@gmail.com",
+    "phone": "+36 30 900 8252;+36 70 272 1771",
+    "rating": 0,
+    "reviews": 0,
+    "opening_hours": "",
+    "place_id": "12478343949",
+    "screenshot": null,
+    "social_links": [],
+    "has_social_media": false,
+    "website_issues": [
+      "No website exists",
+      "Missing online presence entirely",
+      "No way for customers to find info online",
+      "No contact form for online inquiries",
+      "No SEO - invisible in search results",
+      "No mobile presence"
+    ],
+    "stage": "diagnosed",
+    "score": 85,
+    "retries": 0,
+    "created_at": "2026-07-04T09:14:35.085Z",
+    "diagnosis_score": 70,
+    "recommended_package": "Weboldal csomag",
+    "updated_at": "2026-07-04T09:25:05.958Z"
+  },
+  {
+    "id": "auto-digital-szeged",
+    "name": "Auto Digital",
+    "city": "Szeged",
+    "country": "Hungary",
+    "category": "auto repair",
+    "address": "",
+    "website": "",
+    "email": "autodigitalkft@gmail.com",
+    "phone": "",
+    "rating": 0,
+    "reviews": 0,
+    "opening_hours": "Mo-Fr 08:00-17:00; PH off",
+    "place_id": "13985820892",
+    "screenshot": null,
+    "social_links": [],
+    "has_social_media": false,
+    "website_issues": [
+      "No website exists",
+      "Missing online presence entirely",
+      "No way for customers to find info online",
+      "No contact form for online inquiries",
+      "No SEO - invisible in search results",
+      "No mobile presence"
+    ],
+    "stage": "diagnosed",
+    "score": 80,
+    "retries": 0,
+    "created_at": "2026-07-04T09:17:54.121Z",
+    "diagnosis_score": 70,
+    "recommended_package": "Weboldal csomag",
+    "updated_at": "2026-07-04T09:25:05.991Z"
   }
 ]
