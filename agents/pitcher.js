@@ -1,4 +1,5 @@
 import { loadJSON, saveJSON, updateLead, logAction, loadConfig, slugify, getLeadsByStage } from '../lib/state.js';
+import { generateOutreachMessage } from './diagnoser.js';
 import { loadEnv } from '../lib/env.js';
 import { existsSync } from 'fs';
 import { createTransport } from 'nodemailer';
@@ -71,12 +72,12 @@ function isDuplicate(log, lead) {
 }
 
 function generateEmailContent(lead, diagnosis) {
-  const outreach = diagnosis?.outreach_message || {};
-  const pkg = diagnosis?.recommendation || {};
+  // Always compose from the current template — the outreach_message snapshot
+  // in an older diagnosis file may carry outdated copy (e.g. pricing).
+  const outreach = generateOutreachMessage(lead);
 
   const slug = slugify(lead.name);
   const previewUrl = `${config.agency.site_base_url}/${slug}/`;
-  const pricePkg = config.pricing.packages[0];
 
   const subject = outreach.subject_hu || `Ingyenes weboldal előnézet - ${lead.name}`;
   const body = outreach.body_hu || `Kedves ${lead.name} csapata!
@@ -85,9 +86,7 @@ function generateEmailContent(lead, diagnosis) {
 
 Készítettem Önöknek egy kész weboldal-előnézetet. Tekintse meg itt: Minta weboldal megtekintése (${previewUrl})
 
-A teljes weboldal mindössze €${pricePkg.price}, és tartalmazza: ${pricePkg.features.slice(0, 4).join(', ')}.
-
-Ha tetszik, vagy bármilyen kérdése van, egyszerűen válaszoljon erre az e-mailre - mindent e-mailben megbeszélünk.
+Ha tetszik az előnézet, egyszerűen válaszoljon erre az e-mailre, és 24 órán belül küldjük személyre szabott ajánlatunkat - kötelezettség nélkül.
 
 Üdvözlettel,
 ${config.agency.name}

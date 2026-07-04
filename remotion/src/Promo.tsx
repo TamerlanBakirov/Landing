@@ -132,7 +132,7 @@ const SceneBenefits: React.FC = () => {
   );
 };
 
-const SceneOffer: React.FC<{ price: string; hasLogo: boolean }> = ({ price, hasLogo }) => {
+const SceneOffer: React.FC<{ price: string; hasLogo: boolean }> = ({ hasLogo }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 12 } });
@@ -140,10 +140,10 @@ const SceneOffer: React.FC<{ price: string; hasLogo: boolean }> = ({ price, hasL
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", gap: 30 }}>
       <div style={{ ...fadeUp(frame, 0), color: "rgba(255,255,255,0.7)", fontFamily: font, fontWeight: 600, fontSize: 38 }}>
-        A teljes weboldal mindössze
+        Az Ön weboldala már kész
       </div>
-      <div style={{ fontFamily: font, fontWeight: 900, fontSize: 150, letterSpacing: -4, color: GOLD, lineHeight: 1, transform: `scale(${interpolate(pop, [0, 1], [0.6, 1])})`, textShadow: "0 10px 40px rgba(251,191,36,0.4)" }}>
-        €{price}
+      <div style={{ fontFamily: font, fontWeight: 900, fontSize: 86, letterSpacing: -2, color: GOLD, lineHeight: 1.15, textAlign: "center", transform: `scale(${interpolate(pop, [0, 1], [0.6, 1])})`, textShadow: "0 10px 40px rgba(251,191,36,0.4)" }}>
+        Válaszoljon,<br />és élesítjük!
       </div>
       <div style={{ background: `linear-gradient(135deg, ${ACCENT}, ${ACCENT2})`, color: "#fff", fontFamily: font, fontWeight: 800, fontSize: 40, padding: "24px 64px", borderRadius: 60, boxShadow: "0 16px 50px rgba(37,99,235,0.55)", marginTop: 14, transform: `scale(${pulse})`, opacity: interpolate(frame, [18, 32], [0, 1], { extrapolateRight: "clamp" }) }}>
         Nézze meg az ingyenes mintát →
