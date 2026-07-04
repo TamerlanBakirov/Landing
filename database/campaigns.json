@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-03",
+  "last_reset": "2026-07-04",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -411,6 +411,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Tulipán Bisztró számára",
       "to": "tulipanbisztro@gmail.com"
+    },
+    {
+      "lead_id": "himba-kitchen-budapest",
+      "business_name": "Himba Kitchen",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:04.178Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Himba Kitchen számára",
+      "to": "himbakitchen@gmail.com"
+    },
+    {
+      "lead_id": "cafe-kor-budapest",
+      "business_name": "Café Kör",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:04.988Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Café Kör számára",
+      "to": "cafekor@hotmail.com"
+    },
+    {
+      "lead_id": "quan-non-budapest",
+      "business_name": "Quán Nón",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:05.921Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Quán Nón számára",
+      "to": "quannonbudapest@gmail.com"
+    },
+    {
+      "lead_id": "fanatico-budapest",
+      "business_name": "Fanatico",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:06.770Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Fanatico számára",
+      "to": "info@fanatico.hu"
+    },
+    {
+      "lead_id": "tilos-a-tilos-budapest",
+      "business_name": "Tilos a Tilos",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:07.739Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Tilos a Tilos számára",
+      "to": "info@tilosatilos.com"
+    },
+    {
+      "lead_id": "fermento-pizzeria-budapest",
+      "business_name": "Fermento Pizzéria",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:08.736Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Fermento Pizzéria számára",
+      "to": "info@fermento.hu"
+    },
+    {
+      "lead_id": "okiko-sushi-thai-bar-budapest",
+      "business_name": "Okiko Sushi Thai Bar",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:11.036Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Okiko Sushi Thai Bar számára",
+      "to": "okikorestaurant@gmail.com"
+    },
+    {
+      "lead_id": "fuge-bolt-es-kavezo-budapest",
+      "business_name": "Füge bolt és kávézó",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:12.124Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Füge bolt és kávézó számára",
+      "to": "info@fugebolt.hu"
+    },
+    {
+      "lead_id": "viet-nam-food-budapest",
+      "business_name": "Viet Nam Food",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:13.123Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Viet Nam Food számára",
+      "to": "hienminafood@gmail.com"
+    },
+    {
+      "lead_id": "black-dog-cinema-budapest",
+      "business_name": "Black Dog Cinema",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-04T09:30:14.112Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Black Dog Cinema számára",
+      "to": "blackdogcinemabp@gmail.com"
     }
   ]
 }

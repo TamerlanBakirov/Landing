@@ -1,0 +1,14 @@
+{
+  "business_name": "Java Caffé",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-04T09:27:40.248Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

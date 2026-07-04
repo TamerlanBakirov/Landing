@@ -1,0 +1,14 @@
+{
+  "business_name": "Csiga Café",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-04T09:27:16.545Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
