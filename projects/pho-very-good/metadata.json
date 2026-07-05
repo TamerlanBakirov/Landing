@@ -1,0 +1,14 @@
+{
+  "business_name": "Pho Very Good",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-05T09:47:25.259Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

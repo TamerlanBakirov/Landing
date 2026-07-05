@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-04",
+  "last_reset": "2026-07-05",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -511,6 +511,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Black Dog Cinema számára",
       "to": "blackdogcinemabp@gmail.com"
+    },
+    {
+      "lead_id": "csiga-cafe-budapest",
+      "business_name": "Csiga Café",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:48.340Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Csiga Café számára",
+      "to": "cafecsiga@gmail.com"
+    },
+    {
+      "lead_id": "java-caffe-budapest",
+      "business_name": "Java Caffé",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:50.016Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Java Caffé számára",
+      "to": "javacaffe@gmail.com"
+    },
+    {
+      "lead_id": "bocelli-pizzeria-italia-budapest",
+      "business_name": "Bocelli Pizzeria Italia",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:51.459Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Bocelli Pizzeria Italia számára",
+      "to": "Info@bocelli.hu"
+    },
+    {
+      "lead_id": "oishi-sushi-synagogue-budapest",
+      "business_name": "Oishi Sushi Synagogue",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:52.877Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Oishi Sushi Synagogue számára",
+      "to": "yaomin8818685@gmail.com"
+    },
+    {
+      "lead_id": "feher-hajo-etterem-budapest",
+      "business_name": "Fehér Hajó Étterem",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:54.414Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Fehér Hajó Étterem számára",
+      "to": "feherhajogastro@gmail.com"
+    },
+    {
+      "lead_id": "salve-budapest",
+      "business_name": "Salve",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:56.238Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Salve számára",
+      "to": "salvebudapest@gmail.com"
+    },
+    {
+      "lead_id": "curj-pho-budapest",
+      "business_name": "CuRj-Pho",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:57.780Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a CuRj-Pho számára",
+      "to": "curjpho@gmail.com"
+    },
+    {
+      "lead_id": "margaret-s-restaurant-pub-budapest",
+      "business_name": "Margaret's Restaurant & Pub",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:51:59.157Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Margaret's Restaurant & Pub számára",
+      "to": "margarets@wasabi.hu"
+    },
+    {
+      "lead_id": "pho-very-good-budapest",
+      "business_name": "Pho Very Good",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:52:00.548Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Pho Very Good számára",
+      "to": "phoverygood@gmail.com"
+    },
+    {
+      "lead_id": "kispiac-bisztro-budapest",
+      "business_name": "Kispiac Bisztró",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-05T09:52:02.696Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kispiac Bisztró számára",
+      "to": "kispiacbisztro@t-online.hu"
     }
   ]
 }
