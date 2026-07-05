@@ -1,0 +1,14 @@
+{
+  "business_name": "La Bodeguita del Medio",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-05T09:48:59.492Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
