@@ -1,0 +1,14 @@
+{
+  "business_name": "VegaCity",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-06T11:42:40.015Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

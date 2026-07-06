@@ -1,0 +1,14 @@
+{
+  "business_name": "Tao",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-06T11:43:04.494Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

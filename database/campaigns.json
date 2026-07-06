@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-05",
+  "last_reset": "2026-07-06",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -631,6 +631,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Kispiac Bisztró számára",
       "to": "kispiacbisztro@t-online.hu"
+    },
+    {
+      "lead_id": "paul-s-bistro-budapest",
+      "business_name": "Paul's Bistro",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:30.639Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Paul's Bistro számára",
+      "to": "szilijucus@gmail.com"
+    },
+    {
+      "lead_id": "bor-la-bor-budapest",
+      "business_name": "Bor La'Bor",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:31.657Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Bor La'Bor számára",
+      "to": "borlabor777@gmail.com"
+    },
+    {
+      "lead_id": "la-bodeguita-del-medio-budapest",
+      "business_name": "La Bodeguita del Medio",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:32.696Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a La Bodeguita del Medio számára",
+      "to": "bodeguita@bodeguita.hu"
+    },
+    {
+      "lead_id": "lialina-etterem-es-klub-budapest",
+      "business_name": "Lialina Étterem és Klub",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:33.738Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Lialina Étterem és Klub számára",
+      "to": "lialina.etterem@hotmail.com"
+    },
+    {
+      "lead_id": "ennmann-budapest",
+      "business_name": "Ennmann",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:35.113Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Ennmann számára",
+      "to": "ennmann.budapest@gmail.com"
+    },
+    {
+      "lead_id": "halaszbastya-budapest",
+      "business_name": "Halászbástya",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:35.963Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Halászbástya számára",
+      "to": "info@halaszbastya.eu"
+    },
+    {
+      "lead_id": "coffee-inn-budapest",
+      "business_name": "Coffee Inn",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:37.165Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Coffee Inn számára",
+      "to": "coffeeinnbudapest@gmail.com"
+    },
+    {
+      "lead_id": "sutierdo-budapest",
+      "business_name": "Sütierdő",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:38.343Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sütierdő számára",
+      "to": "sutierdo1@gmail.com"
+    },
+    {
+      "lead_id": "budapest-bakery-cafe-budapest",
+      "business_name": "Budapest Bakery & Cafe",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:39.331Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Budapest Bakery & Cafe számára",
+      "to": "budapest.bakery.cafe@gmail.com"
+    },
+    {
+      "lead_id": "sao-food-bar-budapest",
+      "business_name": "Sáo food & bar",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-06T11:43:40.454Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sáo food & bar számára",
+      "to": "sao.foodandbar@gmail.com"
     }
   ]
 }
