@@ -1,0 +1,14 @@
+{
+  "business_name": "Park vendéglő",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-06T11:38:59.949Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
