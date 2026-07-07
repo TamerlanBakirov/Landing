@@ -1,0 +1,14 @@
+{
+  "business_name": "Kedvencem",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-07T10:35:21.376Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
