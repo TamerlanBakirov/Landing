@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-06",
+  "last_reset": "2026-07-07",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -741,6 +741,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Sáo food & bar számára",
       "to": "sao.foodandbar@gmail.com"
+    },
+    {
+      "lead_id": "park-vendeglo-budapest",
+      "business_name": "Park vendéglő",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:20.871Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Park vendéglő számára",
+      "to": "parkvendeglobuda@gmail.com"
+    },
+    {
+      "lead_id": "polpetti-budapest",
+      "business_name": "Polpetti",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:22.048Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Polpetti számára",
+      "to": "kkmanufaktura2022@gmail.com"
+    },
+    {
+      "lead_id": "govinda-vega-sarok-budapest",
+      "business_name": "Govinda Vega Sarok",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:23.402Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Govinda Vega Sarok számára",
+      "to": "govindavegasarok@gmail.com"
+    },
+    {
+      "lead_id": "oliva-etterem-budapest",
+      "business_name": "Oliva Étterem",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:24.690Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Oliva Étterem számára",
+      "to": "olivaetterem2021@gmail.com"
+    },
+    {
+      "lead_id": "for-sale-pub-budapest",
+      "business_name": "For Sale Pub",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:25.988Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a For Sale Pub számára",
+      "to": "forsalepub2@gmail.com"
+    },
+    {
+      "lead_id": "flatyesz-bisztro-budapest",
+      "business_name": "Flatyesz Bisztró",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:27.179Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Flatyesz Bisztró számára",
+      "to": "flatyesz.bisztro@gmail.com"
+    },
+    {
+      "lead_id": "hai-nam-pho-bisztro-budapest",
+      "business_name": "Hai Nam Pho Bisztró",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:28.404Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Hai Nam Pho Bisztró számára",
+      "to": "hainam.hun@gmail.com"
+    },
+    {
+      "lead_id": "pottyos-kifozde-budapest",
+      "business_name": "Pöttyös kifőzde",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:29.604Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Pöttyös kifőzde számára",
+      "to": "pottyoskifozde@gmail.com"
+    },
+    {
+      "lead_id": "nella-valle-pizzeria-huvosvolgy-budapest",
+      "business_name": "Nella Valle Pizzeria Hűvösvölgy",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:30.823Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Nella Valle Pizzeria Hűvösvölgy számára",
+      "to": "info@nellavalle.hu"
+    },
+    {
+      "lead_id": "vegacity-budapest",
+      "business_name": "VegaCity",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-07T10:37:31.959Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a VegaCity számára",
+      "to": "info@vegacity.hu"
     }
   ]
 }

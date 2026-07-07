@@ -1,0 +1,14 @@
+{
+  "business_name": "Repeta",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-07T10:34:10.176Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
