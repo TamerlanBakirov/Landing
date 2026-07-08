@@ -2452,20 +2452,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.811Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:48.343Z",
+    "updated_at": "2026-07-08T12:18:46.157Z",
     "project_dir": "projects/csiga-cafe",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:48.340Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:46.155Z"
   },
   {
     "id": "java-caffe-budapest",
@@ -2492,20 +2493,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.820Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:50.019Z",
+    "updated_at": "2026-07-08T12:18:47.148Z",
     "project_dir": "projects/java-caffe",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:50.016Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:47.146Z"
   },
   {
     "id": "bocelli-pizzeria-italia-budapest",
@@ -2532,20 +2534,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.829Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:51.463Z",
+    "updated_at": "2026-07-08T12:18:48.066Z",
     "project_dir": "projects/bocelli-pizzeria-italia",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:51.460Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:48.064Z"
   },
   {
     "id": "oishi-sushi-synagogue-budapest",
@@ -2572,20 +2575,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.846Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:52.880Z",
+    "updated_at": "2026-07-08T12:18:49.248Z",
     "project_dir": "projects/oishi-sushi-synagogue",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:52.877Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:49.246Z"
   },
   {
     "id": "feher-hajo-etterem-budapest",
@@ -2612,20 +2616,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.854Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:54.417Z",
+    "updated_at": "2026-07-08T12:18:50.603Z",
     "project_dir": "projects/feher-hajo-etterem",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:54.414Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:50.600Z"
   },
   {
     "id": "salve-budapest",
@@ -2652,20 +2657,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.861Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:56.241Z",
+    "updated_at": "2026-07-08T12:18:51.644Z",
     "project_dir": "projects/salve",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:56.239Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:51.641Z"
   },
   {
     "id": "curj-pho-budapest",
@@ -2692,20 +2698,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.882Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:57.783Z",
+    "updated_at": "2026-07-08T12:18:52.689Z",
     "project_dir": "projects/curj-pho",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:57.781Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:52.686Z"
   },
   {
     "id": "margaret-s-restaurant-pub-budapest",
@@ -2732,20 +2739,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.890Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:51:59.160Z",
+    "updated_at": "2026-07-08T12:18:53.551Z",
     "project_dir": "projects/margaret-s-restaurant-pub",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:51:59.158Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:53.549Z"
   },
   {
     "id": "blackstart-budapest",
@@ -2805,20 +2813,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.941Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:52:00.551Z",
+    "updated_at": "2026-07-08T12:18:54.514Z",
     "project_dir": "projects/pho-very-good",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:52:00.548Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:54.511Z"
   },
   {
     "id": "kispiac-bisztro-budapest",
@@ -2845,20 +2854,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:01.946Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-05T09:52:02.699Z",
+    "updated_at": "2026-07-08T12:18:55.358Z",
     "project_dir": "projects/kispiac-bisztro",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-05T09:52:02.697Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-08T12:18:55.356Z"
   },
   {
     "id": "paul-s-bistro-budapest",
