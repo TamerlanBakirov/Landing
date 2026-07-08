@@ -1,0 +1,14 @@
+{
+  "business_name": "Kahwa",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-08T09:35:08.542Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

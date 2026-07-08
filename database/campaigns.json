@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-07",
+  "last_reset": "2026-07-08",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -851,6 +851,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a VegaCity számára",
       "to": "info@vegacity.hu"
+    },
+    {
+      "lead_id": "tao-budapest",
+      "business_name": "Tao",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:07.374Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Tao számára",
+      "to": "taobudapest@gmail.com"
+    },
+    {
+      "lead_id": "andrassy-100-budapest",
+      "business_name": "Andrássy 100",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:08.973Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Andrássy 100 számára",
+      "to": "vbvkft@a100.hu"
+    },
+    {
+      "lead_id": "sorbarka-budapest",
+      "business_name": "Sörbárka",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:10.599Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sörbárka számára",
+      "to": "sorbarkapub@gmail.com"
+    },
+    {
+      "lead_id": "mennyei-kurtoskalacs-budapest",
+      "business_name": "Mennyei Kürtőskalács",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:12.026Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Mennyei Kürtőskalács számára",
+      "to": "saskurtos@gmail.com"
+    },
+    {
+      "lead_id": "europa-cafe-budapest",
+      "business_name": "Európa Café",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:13.546Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Európa Café számára",
+      "to": "lazar30mihaly@gmail.com"
+    },
+    {
+      "lead_id": "repeta-budapest",
+      "business_name": "Repeta",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:15.085Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Repeta számára",
+      "to": "info@cba-vorosvar.hu"
+    },
+    {
+      "lead_id": "evezos-sorkert-budapest",
+      "business_name": "Evezős Sörkert",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:16.537Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Evezős Sörkert számára",
+      "to": "info@evezossorkert.hu"
+    },
+    {
+      "lead_id": "leander-terasz-budapest",
+      "business_name": "Leander Terasz",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:18.034Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Leander Terasz számára",
+      "to": "leanderterasz@gmail.com"
+    },
+    {
+      "lead_id": "kedvencem-budapest",
+      "business_name": "Kedvencem",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:19.632Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kedvencem számára",
+      "to": "rendeles@la-gunaetteremzuglo.hu"
+    },
+    {
+      "lead_id": "muvhaz-budapest",
+      "business_name": "Művház",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-08T09:39:21.060Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Művház számára",
+      "to": "muvhazkavezo@gmail.com"
     }
   ]
 }

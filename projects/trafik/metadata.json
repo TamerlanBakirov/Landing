@@ -1,0 +1,14 @@
+{
+  "business_name": "Trafik",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-08T09:36:34.863Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
