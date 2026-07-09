@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-08",
+  "last_reset": "2026-07-09",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -961,6 +961,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Művház számára",
       "to": "muvhazkavezo@gmail.com"
+    },
+    {
+      "lead_id": "serpenyo-etelbar-budapest",
+      "business_name": "Serpenyő Ételbár",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:42.665Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Serpenyő Ételbár számára",
+      "to": "serpenyoetkezde@gmail.com"
+    },
+    {
+      "lead_id": "bartok-reggel-delben-este-budapest",
+      "business_name": "Bartók - reggel.délben.este",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:44.602Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Bartók - reggel.délben.este számára",
+      "to": "bartokbisztro@gmail.com"
+    },
+    {
+      "lead_id": "klasszik-by-manetti-budapest",
+      "business_name": "Klasszik by Manetti",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:46.691Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Klasszik by Manetti számára",
+      "to": "zoltan.gasparr@gmail.com"
+    },
+    {
+      "lead_id": "queen-bee-budapest",
+      "business_name": "Queen Bee",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:48.326Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Queen Bee számára",
+      "to": "queenbeethecoffeebar@gmail.com"
+    },
+    {
+      "lead_id": "kahwa-budapest",
+      "business_name": "Kahwa",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:49.934Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kahwa számára",
+      "to": "kahwabudapest@gmail.com"
+    },
+    {
+      "lead_id": "a39-info-bistro-budapest",
+      "business_name": "A39 Info Bistro",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:51.384Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a A39 Info Bistro számára",
+      "to": "info39bistro@gmail.com"
+    },
+    {
+      "lead_id": "il-mulino-budapest",
+      "business_name": "Il Mulino",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:53.068Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Il Mulino számára",
+      "to": "ilmulinobistro@gmail.com"
+    },
+    {
+      "lead_id": "nem-adom-fel-cafe-bar-budapest",
+      "business_name": "Nem Adom Fel Cafe & Bar",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:54.593Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Nem Adom Fel Cafe & Bar számára",
+      "to": "info@nemadomfelkavezo.hu"
+    },
+    {
+      "lead_id": "trafik-budapest",
+      "business_name": "Trafik",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:56.059Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Trafik számára",
+      "to": "trafiktrafoo@gmail.com"
+    },
+    {
+      "lead_id": "co-phi-cafe-budapest",
+      "business_name": "Co'phi Cafe",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:57.731Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Co'phi Cafe számára",
+      "to": "hello.cophi@gmail.com"
     }
   ]
 }
