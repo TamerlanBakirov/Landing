@@ -1,0 +1,14 @@
+{
+  "business_name": "SEED",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-09T10:34:16.903Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

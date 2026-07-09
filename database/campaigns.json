@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-08",
+  "last_reset": "2026-07-09",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -560,7 +560,8 @@
       "sent_at": "2026-07-05T09:51:48.340Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Csiga Café számára",
-      "to": "cafecsiga@gmail.com"
+      "to": "cafecsiga@gmail.com",
+      "follow_up_sent": "2026-07-08T12:18:46.155Z"
     },
     {
       "lead_id": "java-caffe-budapest",
@@ -570,7 +571,8 @@
       "sent_at": "2026-07-05T09:51:50.016Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Java Caffé számára",
-      "to": "javacaffe@gmail.com"
+      "to": "javacaffe@gmail.com",
+      "follow_up_sent": "2026-07-08T12:18:47.146Z"
     },
     {
       "lead_id": "bocelli-pizzeria-italia-budapest",
@@ -580,7 +582,8 @@
       "sent_at": "2026-07-05T09:51:51.459Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Bocelli Pizzeria Italia számára",
-      "to": "Info@bocelli.hu"
+      "to": "Info@bocelli.hu",
+      "follow_up_sent": "2026-07-08T12:18:48.064Z"
     },
     {
       "lead_id": "oishi-sushi-synagogue-budapest",
@@ -590,7 +593,8 @@
       "sent_at": "2026-07-05T09:51:52.877Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Oishi Sushi Synagogue számára",
-      "to": "yaomin8818685@gmail.com"
+      "to": "yaomin8818685@gmail.com",
+      "follow_up_sent": "2026-07-08T12:18:49.246Z"
     },
     {
       "lead_id": "feher-hajo-etterem-budapest",
@@ -600,7 +604,8 @@
       "sent_at": "2026-07-05T09:51:54.414Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Fehér Hajó Étterem számára",
-      "to": "feherhajogastro@gmail.com"
+      "to": "feherhajogastro@gmail.com",
+      "follow_up_sent": "2026-07-08T12:18:50.600Z"
     },
     {
       "lead_id": "salve-budapest",
@@ -610,7 +615,8 @@
       "sent_at": "2026-07-05T09:51:56.238Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Salve számára",
-      "to": "salvebudapest@gmail.com"
+      "to": "salvebudapest@gmail.com",
+      "follow_up_sent": "2026-07-08T12:18:51.641Z"
     },
     {
       "lead_id": "curj-pho-budapest",
@@ -620,7 +626,8 @@
       "sent_at": "2026-07-05T09:51:57.780Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a CuRj-Pho számára",
-      "to": "curjpho@gmail.com"
+      "to": "curjpho@gmail.com",
+      "follow_up_sent": "2026-07-08T12:18:52.686Z"
     },
     {
       "lead_id": "margaret-s-restaurant-pub-budapest",
@@ -630,7 +637,8 @@
       "sent_at": "2026-07-05T09:51:59.157Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Margaret's Restaurant & Pub számára",
-      "to": "margarets@wasabi.hu"
+      "to": "margarets@wasabi.hu",
+      "follow_up_sent": "2026-07-08T12:18:53.549Z"
     },
     {
       "lead_id": "pho-very-good-budapest",
@@ -640,7 +648,8 @@
       "sent_at": "2026-07-05T09:52:00.548Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Pho Very Good számára",
-      "to": "phoverygood@gmail.com"
+      "to": "phoverygood@gmail.com",
+      "follow_up_sent": "2026-07-08T12:18:54.511Z"
     },
     {
       "lead_id": "kispiac-bisztro-budapest",
@@ -650,7 +659,8 @@
       "sent_at": "2026-07-05T09:52:02.696Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Kispiac Bisztró számára",
-      "to": "kispiacbisztro@t-online.hu"
+      "to": "kispiacbisztro@t-online.hu",
+      "follow_up_sent": "2026-07-08T12:18:55.356Z"
     },
     {
       "lead_id": "paul-s-bistro-budapest",
@@ -951,6 +961,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Művház számára",
       "to": "muvhazkavezo@gmail.com"
+    },
+    {
+      "lead_id": "serpenyo-etelbar-budapest",
+      "business_name": "Serpenyő Ételbár",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:42.665Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Serpenyő Ételbár számára",
+      "to": "serpenyoetkezde@gmail.com"
+    },
+    {
+      "lead_id": "bartok-reggel-delben-este-budapest",
+      "business_name": "Bartók - reggel.délben.este",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:44.602Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Bartók - reggel.délben.este számára",
+      "to": "bartokbisztro@gmail.com"
+    },
+    {
+      "lead_id": "klasszik-by-manetti-budapest",
+      "business_name": "Klasszik by Manetti",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:46.691Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Klasszik by Manetti számára",
+      "to": "zoltan.gasparr@gmail.com"
+    },
+    {
+      "lead_id": "queen-bee-budapest",
+      "business_name": "Queen Bee",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:48.326Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Queen Bee számára",
+      "to": "queenbeethecoffeebar@gmail.com"
+    },
+    {
+      "lead_id": "kahwa-budapest",
+      "business_name": "Kahwa",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:49.934Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kahwa számára",
+      "to": "kahwabudapest@gmail.com"
+    },
+    {
+      "lead_id": "a39-info-bistro-budapest",
+      "business_name": "A39 Info Bistro",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:51.384Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a A39 Info Bistro számára",
+      "to": "info39bistro@gmail.com"
+    },
+    {
+      "lead_id": "il-mulino-budapest",
+      "business_name": "Il Mulino",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:53.068Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Il Mulino számára",
+      "to": "ilmulinobistro@gmail.com"
+    },
+    {
+      "lead_id": "nem-adom-fel-cafe-bar-budapest",
+      "business_name": "Nem Adom Fel Cafe & Bar",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:54.593Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Nem Adom Fel Cafe & Bar számára",
+      "to": "info@nemadomfelkavezo.hu"
+    },
+    {
+      "lead_id": "trafik-budapest",
+      "business_name": "Trafik",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:56.059Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Trafik számára",
+      "to": "trafiktrafoo@gmail.com"
+    },
+    {
+      "lead_id": "co-phi-cafe-budapest",
+      "business_name": "Co'phi Cafe",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-09T10:36:57.731Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Co'phi Cafe számára",
+      "to": "hello.cophi@gmail.com"
     }
   ]
 }
