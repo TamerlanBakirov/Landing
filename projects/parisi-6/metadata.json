@@ -1,0 +1,14 @@
+{
+  "business_name": "Parisi 6",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-10T10:27:53.231Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
