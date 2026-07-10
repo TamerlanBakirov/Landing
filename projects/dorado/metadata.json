@@ -1,0 +1,14 @@
+{
+  "business_name": "Dorado",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-10T10:28:17.742Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

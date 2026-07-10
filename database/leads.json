@@ -4868,17 +4868,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.244Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:05.425Z",
+    "updated_at": "2026-07-10T10:32:26.067Z",
     "project_dir": "projects/heureka",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:26.064Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "torokmez-budapest",
@@ -4905,17 +4908,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.248Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:05.452Z",
+    "updated_at": "2026-07-10T10:32:27.065Z",
     "project_dir": "projects/torokmez",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:27.062Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "mon-cheri-budapest",
@@ -4942,17 +4948,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.254Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:05.482Z",
+    "updated_at": "2026-07-10T10:32:28.035Z",
     "project_dir": "projects/mon-cheri",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:28.032Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "ilham-pasa-torok-bufeje-budapest",
@@ -4979,17 +4988,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.325Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:05.510Z",
+    "updated_at": "2026-07-10T10:32:29.108Z",
     "project_dir": "projects/ilham-pasa-torok-bufeje",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:29.105Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "art-cafe-budapest",
@@ -5049,17 +5061,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.515Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:05.537Z",
+    "updated_at": "2026-07-10T10:32:30.017Z",
     "project_dir": "projects/paxos-etterem",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:30.014Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "mitzi-budapest",
@@ -5086,17 +5101,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.585Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:05.566Z",
+    "updated_at": "2026-07-10T10:32:31.197Z",
     "project_dir": "projects/mitzi",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:31.194Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "pizza-and-beer-budapest",
@@ -5123,17 +5141,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.597Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-09T10:36:40.593Z",
+    "updated_at": "2026-07-10T10:32:32.026Z",
     "project_dir": "projects/pizza-and-beer",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:32.023Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "dosamosa-budapest",
@@ -5160,17 +5181,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.608Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-09T10:36:40.628Z",
+    "updated_at": "2026-07-10T10:32:32.991Z",
     "project_dir": "projects/dosamosa",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:32.988Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "the-annam-cafe-budapest",
@@ -5197,17 +5221,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.626Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-09T10:36:40.664Z",
+    "updated_at": "2026-07-10T10:32:34.028Z",
     "project_dir": "projects/the-annam-cafe",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:34.025Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "romai-fagyizo-cukraszda-budapest",
@@ -5234,17 +5261,20 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "checked",
+    "stage": "pitched",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.638Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-09T10:36:40.697Z",
+    "updated_at": "2026-07-10T10:32:34.903Z",
     "project_dir": "projects/romai-fagyizo-cukraszda",
     "has_video": true,
     "checker_confidence": 96,
-    "spam_score": 90
+    "spam_score": 90,
+    "pitched_at": "2026-07-10T10:32:34.900Z",
+    "pitch_channel": "email_sent",
+    "email_sent": true
   },
   {
     "id": "colosseum-budapest",
@@ -5567,13 +5597,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.994Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.141Z"
+    "updated_at": "2026-07-10T10:32:24.578Z",
+    "project_dir": "projects/parisi-6",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "dorado-budapest",
@@ -5600,13 +5634,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.998Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.145Z"
+    "updated_at": "2026-07-10T10:32:24.606Z",
+    "project_dir": "projects/dorado",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "dorothy-s-presso-budapest",
@@ -5633,13 +5671,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.028Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.150Z"
+    "updated_at": "2026-07-10T10:32:24.632Z",
+    "project_dir": "projects/dorothy-s-presso",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "tokmag-vegan-street-food-budapest",
@@ -5666,13 +5708,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.050Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.156Z"
+    "updated_at": "2026-07-10T10:32:24.658Z",
+    "project_dir": "projects/tokmag-vegan-street-food",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "hollandi-cukraszda-budapest",
@@ -5699,13 +5745,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.057Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.160Z"
+    "updated_at": "2026-07-10T10:32:24.687Z",
+    "project_dir": "projects/hollandi-cukraszda",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "marczika-kavezo-budapest",
@@ -5732,13 +5782,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.093Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.164Z"
+    "updated_at": "2026-07-10T10:32:24.713Z",
+    "project_dir": "projects/marczika-kavezo",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "mon-cafe-budapest",
@@ -5798,13 +5852,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.195Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.173Z"
+    "updated_at": "2026-07-10T10:32:24.744Z",
+    "project_dir": "projects/k-point-restaurant-cafe",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "ignac-a-nyul-budapest",
@@ -5897,13 +5955,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.360Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.191Z"
+    "updated_at": "2026-07-10T10:32:24.771Z",
+    "project_dir": "projects/palmakert-falatozo",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "meringa-cukraszda-budapest",
@@ -5930,13 +5992,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.373Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.195Z"
+    "updated_at": "2026-07-10T10:32:24.800Z",
+    "project_dir": "projects/meringa-cukraszda",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "cukorka-kavehaz-es-grillterasz-budapest",
@@ -5963,13 +6029,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.390Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.199Z"
+    "updated_at": "2026-07-10T10:32:24.825Z",
+    "project_dir": "projects/cukorka-kavehaz-es-grillterasz",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "egyel-jot-budapest",
@@ -5996,13 +6066,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.395Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.206Z"
+    "updated_at": "2026-07-10T10:32:24.853Z",
+    "project_dir": "projects/egyel-jot",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "kaj-alom-budapest",
@@ -6029,13 +6103,17 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "diagnosed",
+    "stage": "checked",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.400Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-01T15:01:58.210Z"
+    "updated_at": "2026-07-10T10:32:24.878Z",
+    "project_dir": "projects/kaj-alom",
+    "has_video": true,
+    "checker_confidence": 96,
+    "spam_score": 90
   },
   {
     "id": "volgy-bistro-budapest",
