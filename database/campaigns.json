@@ -890,7 +890,8 @@
       "sent_at": "2026-07-08T09:39:07.374Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Tao számára",
-      "to": "taobudapest@gmail.com"
+      "to": "taobudapest@gmail.com",
+      "follow_up_sent": "2026-07-11T11:50:47.886Z"
     },
     {
       "lead_id": "andrassy-100-budapest",
@@ -900,7 +901,8 @@
       "sent_at": "2026-07-08T09:39:08.973Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Andrássy 100 számára",
-      "to": "vbvkft@a100.hu"
+      "to": "vbvkft@a100.hu",
+      "follow_up_sent": "2026-07-11T11:50:48.836Z"
     },
     {
       "lead_id": "sorbarka-budapest",
@@ -910,7 +912,8 @@
       "sent_at": "2026-07-08T09:39:10.599Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Sörbárka számára",
-      "to": "sorbarkapub@gmail.com"
+      "to": "sorbarkapub@gmail.com",
+      "follow_up_sent": "2026-07-11T11:50:49.733Z"
     },
     {
       "lead_id": "mennyei-kurtoskalacs-budapest",
@@ -920,7 +923,8 @@
       "sent_at": "2026-07-08T09:39:12.026Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Mennyei Kürtőskalács számára",
-      "to": "saskurtos@gmail.com"
+      "to": "saskurtos@gmail.com",
+      "follow_up_sent": "2026-07-11T11:50:50.530Z"
     },
     {
       "lead_id": "europa-cafe-budapest",
@@ -930,7 +934,8 @@
       "sent_at": "2026-07-08T09:39:13.546Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Európa Café számára",
-      "to": "lazar30mihaly@gmail.com"
+      "to": "lazar30mihaly@gmail.com",
+      "follow_up_sent": "2026-07-11T11:50:51.211Z"
     },
     {
       "lead_id": "repeta-budapest",
@@ -940,7 +945,8 @@
       "sent_at": "2026-07-08T09:39:15.085Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Repeta számára",
-      "to": "info@cba-vorosvar.hu"
+      "to": "info@cba-vorosvar.hu",
+      "follow_up_sent": "2026-07-11T11:50:52.006Z"
     },
     {
       "lead_id": "evezos-sorkert-budapest",
@@ -950,7 +956,8 @@
       "sent_at": "2026-07-08T09:39:16.537Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Evezős Sörkert számára",
-      "to": "info@evezossorkert.hu"
+      "to": "info@evezossorkert.hu",
+      "follow_up_sent": "2026-07-11T11:50:52.829Z"
     },
     {
       "lead_id": "leander-terasz-budapest",
@@ -960,7 +967,8 @@
       "sent_at": "2026-07-08T09:39:18.034Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Leander Terasz számára",
-      "to": "leanderterasz@gmail.com"
+      "to": "leanderterasz@gmail.com",
+      "follow_up_sent": "2026-07-11T11:50:53.594Z"
     },
     {
       "lead_id": "kedvencem-budapest",
@@ -970,7 +978,8 @@
       "sent_at": "2026-07-08T09:39:19.632Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Kedvencem számára",
-      "to": "rendeles@la-gunaetteremzuglo.hu"
+      "to": "rendeles@la-gunaetteremzuglo.hu",
+      "follow_up_sent": "2026-07-11T11:50:54.308Z"
     },
     {
       "lead_id": "muvhaz-budapest",
@@ -980,7 +989,8 @@
       "sent_at": "2026-07-08T09:39:21.060Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Művház számára",
-      "to": "muvhazkavezo@gmail.com"
+      "to": "muvhazkavezo@gmail.com",
+      "follow_up_sent": "2026-07-11T11:50:55.036Z"
     },
     {
       "lead_id": "serpenyo-etelbar-budapest",

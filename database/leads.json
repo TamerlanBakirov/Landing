@@ -3847,20 +3847,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.661Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:07.377Z",
+    "updated_at": "2026-07-11T11:50:47.890Z",
     "project_dir": "projects/tao",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:07.374Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:47.886Z"
   },
   {
     "id": "biwako-2-budapest",
@@ -3920,20 +3921,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.692Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:08.975Z",
+    "updated_at": "2026-07-11T11:50:48.839Z",
     "project_dir": "projects/andrassy-100",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:08.973Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:48.836Z"
   },
   {
     "id": "planet-budapest-etterem-budapest",
@@ -3993,20 +3995,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.729Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:10.602Z",
+    "updated_at": "2026-07-11T11:50:49.736Z",
     "project_dir": "projects/sorbarka",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:10.599Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:49.733Z"
   },
   {
     "id": "mennyei-kurtoskalacs-budapest",
@@ -4033,20 +4036,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.736Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:12.028Z",
+    "updated_at": "2026-07-11T11:50:50.533Z",
     "project_dir": "projects/mennyei-kurtoskalacs",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:12.026Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:50.530Z"
   },
   {
     "id": "europa-cafe-budapest",
@@ -4073,20 +4077,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.741Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:13.548Z",
+    "updated_at": "2026-07-11T11:50:51.214Z",
     "project_dir": "projects/europa-cafe",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:13.546Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:51.211Z"
   },
   {
     "id": "repeta-budapest",
@@ -4113,20 +4118,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.762Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:15.088Z",
+    "updated_at": "2026-07-11T11:50:52.009Z",
     "project_dir": "projects/repeta",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:15.086Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:52.006Z"
   },
   {
     "id": "evezos-sorkert-budapest",
@@ -4153,20 +4159,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.799Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:16.540Z",
+    "updated_at": "2026-07-11T11:50:52.832Z",
     "project_dir": "projects/evezos-sorkert",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:16.538Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:52.829Z"
   },
   {
     "id": "leander-terasz-budapest",
@@ -4193,20 +4200,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.802Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:18.037Z",
+    "updated_at": "2026-07-11T11:50:53.597Z",
     "project_dir": "projects/leander-terasz",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:18.035Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:53.594Z"
   },
   {
     "id": "kedvencem-budapest",
@@ -4233,20 +4241,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.819Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:19.635Z",
+    "updated_at": "2026-07-11T11:50:54.311Z",
     "project_dir": "projects/kedvencem",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:19.633Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:54.308Z"
   },
   {
     "id": "muvhaz-budapest",
@@ -4273,20 +4282,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:02.823Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-08T09:39:21.062Z",
+    "updated_at": "2026-07-11T11:50:55.039Z",
     "project_dir": "projects/muvhaz",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-08T09:39:21.060Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-11T11:50:55.036Z"
   },
   {
     "id": "serpenyo-etelbar-budapest",
