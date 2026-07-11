@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-10",
+  "last_reset": "2026-07-11",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -780,7 +780,8 @@
       "sent_at": "2026-07-07T10:37:20.871Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Park vendéglő számára",
-      "to": "parkvendeglobuda@gmail.com"
+      "to": "parkvendeglobuda@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:49.660Z"
     },
     {
       "lead_id": "polpetti-budapest",
@@ -790,7 +791,8 @@
       "sent_at": "2026-07-07T10:37:22.048Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Polpetti számára",
-      "to": "kkmanufaktura2022@gmail.com"
+      "to": "kkmanufaktura2022@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:50.743Z"
     },
     {
       "lead_id": "govinda-vega-sarok-budapest",
@@ -800,7 +802,8 @@
       "sent_at": "2026-07-07T10:37:23.402Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Govinda Vega Sarok számára",
-      "to": "govindavegasarok@gmail.com"
+      "to": "govindavegasarok@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:51.739Z"
     },
     {
       "lead_id": "oliva-etterem-budapest",
@@ -810,7 +813,8 @@
       "sent_at": "2026-07-07T10:37:24.690Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Oliva Étterem számára",
-      "to": "olivaetterem2021@gmail.com"
+      "to": "olivaetterem2021@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:52.905Z"
     },
     {
       "lead_id": "for-sale-pub-budapest",
@@ -820,7 +824,8 @@
       "sent_at": "2026-07-07T10:37:25.988Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a For Sale Pub számára",
-      "to": "forsalepub2@gmail.com"
+      "to": "forsalepub2@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:53.871Z"
     },
     {
       "lead_id": "flatyesz-bisztro-budapest",
@@ -830,7 +835,8 @@
       "sent_at": "2026-07-07T10:37:27.179Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Flatyesz Bisztró számára",
-      "to": "flatyesz.bisztro@gmail.com"
+      "to": "flatyesz.bisztro@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:54.707Z"
     },
     {
       "lead_id": "hai-nam-pho-bisztro-budapest",
@@ -840,7 +846,8 @@
       "sent_at": "2026-07-07T10:37:28.404Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Hai Nam Pho Bisztró számára",
-      "to": "hainam.hun@gmail.com"
+      "to": "hainam.hun@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:55.681Z"
     },
     {
       "lead_id": "pottyos-kifozde-budapest",
@@ -850,7 +857,8 @@
       "sent_at": "2026-07-07T10:37:29.604Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Pöttyös kifőzde számára",
-      "to": "pottyoskifozde@gmail.com"
+      "to": "pottyoskifozde@gmail.com",
+      "follow_up_sent": "2026-07-10T13:09:56.761Z"
     },
     {
       "lead_id": "nella-valle-pizzeria-huvosvolgy-budapest",
@@ -860,7 +868,8 @@
       "sent_at": "2026-07-07T10:37:30.823Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Nella Valle Pizzeria Hűvösvölgy számára",
-      "to": "info@nellavalle.hu"
+      "to": "info@nellavalle.hu",
+      "follow_up_sent": "2026-07-10T13:09:57.798Z"
     },
     {
       "lead_id": "vegacity-budapest",
@@ -870,7 +879,8 @@
       "sent_at": "2026-07-07T10:37:31.959Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a VegaCity számára",
-      "to": "info@vegacity.hu"
+      "to": "info@vegacity.hu",
+      "follow_up_sent": "2026-07-10T13:09:59.042Z"
     },
     {
       "lead_id": "tao-budapest",
@@ -1171,6 +1181,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Római Fagyizó Cukrászda számára",
       "to": "krisztina463@gmail.com"
+    },
+    {
+      "lead_id": "colosseum-budapest",
+      "business_name": "Colosseum",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:22.533Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Colosseum számára",
+      "to": "ishmondialcompany@gmail.com"
+    },
+    {
+      "lead_id": "seed-budapest",
+      "business_name": "SEED",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:24.192Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a SEED számára",
+      "to": "seedcoffeebudapest@gmail.com"
+    },
+    {
+      "lead_id": "kelly-s-wok-budapest",
+      "business_name": "Kelly's Wok",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:25.576Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kelly's Wok számára",
+      "to": "jialing59420@gmail.com"
+    },
+    {
+      "lead_id": "budai-ketto-budapest",
+      "business_name": "Budai Kettő",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:26.833Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Budai Kettő számára",
+      "to": "juranyigastro@gmail.com"
+    },
+    {
+      "lead_id": "toscana-club-budapest",
+      "business_name": "Toscana Club",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:28.183Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Toscana Club számára",
+      "to": "toscanaclub.budapest@gmail.com"
+    },
+    {
+      "lead_id": "restro-puskin-budapest",
+      "business_name": "Restro Puskin",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:29.608Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Restro Puskin számára",
+      "to": "restropuskin@gmail.com"
+    },
+    {
+      "lead_id": "csillaghegyi-megallo-budapest",
+      "business_name": "Csillaghegyi Megálló",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:30.951Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Csillaghegyi Megálló számára",
+      "to": "info@csillaghegyimegallo.hu"
+    },
+    {
+      "lead_id": "edison-jupiter-budapest",
+      "business_name": "Edison&Jupiter",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:32.187Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Edison&Jupiter számára",
+      "to": "hello@edisonjupiter.com"
+    },
+    {
+      "lead_id": "parisi-6-budapest",
+      "business_name": "Parisi 6",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:33.477Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Parisi 6 számára",
+      "to": "parisi6@outlook.com"
+    },
+    {
+      "lead_id": "dorado-budapest",
+      "business_name": "Dorado",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-11T09:00:34.795Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Dorado számára",
+      "to": "doradokave@gmail.com"
     }
   ]
 }

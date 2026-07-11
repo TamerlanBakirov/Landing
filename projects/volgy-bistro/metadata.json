@@ -1,0 +1,14 @@
+{
+  "business_name": "Völgy Bistro",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-11T08:55:52.838Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
