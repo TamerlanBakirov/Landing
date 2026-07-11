@@ -1,0 +1,14 @@
+{
+  "business_name": "Bagetto",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-11T08:57:29.838Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
