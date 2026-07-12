@@ -1,0 +1,14 @@
+{
+  "business_name": "La Trattoria",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-12T09:13:18.452Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
