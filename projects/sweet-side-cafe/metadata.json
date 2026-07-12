@@ -1,0 +1,14 @@
+{
+  "business_name": "Sweet side café",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-12T09:11:38.987Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

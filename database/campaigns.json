@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-11",
+  "last_reset": "2026-07-12",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -1291,6 +1291,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Dorado számára",
       "to": "doradokave@gmail.com"
+    },
+    {
+      "lead_id": "dorothy-s-presso-budapest",
+      "business_name": "Dorothy's Presso",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:25.067Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Dorothy's Presso számára",
+      "to": "info@ozkantin.hu"
+    },
+    {
+      "lead_id": "tokmag-vegan-street-food-budapest",
+      "business_name": "Tökmag Vegan Street Food",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:26.195Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Tökmag Vegan Street Food számára",
+      "to": "hello@tokmagveganstreetfood.hu"
+    },
+    {
+      "lead_id": "hollandi-cukraszda-budapest",
+      "business_name": "Hollandi Cukrászda",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:27.270Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Hollandi Cukrászda számára",
+      "to": "hollandicukraszda@gmail.com"
+    },
+    {
+      "lead_id": "marczika-kavezo-budapest",
+      "business_name": "Marczika Kávézó",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:28.316Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Marczika Kávézó számára",
+      "to": "marczika@parkcatering.hu"
+    },
+    {
+      "lead_id": "k-point-restaurant-cafe-budapest",
+      "business_name": "K Point Restaurant & Cafe",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:29.329Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a K Point Restaurant & Cafe számára",
+      "to": "talentkft.hu@gmail.com"
+    },
+    {
+      "lead_id": "palmakert-falatozo-budapest",
+      "business_name": "Pálmakert Falatozó",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:30.570Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Pálmakert Falatozó számára",
+      "to": "palmakertfalatozokft@gmail.com"
+    },
+    {
+      "lead_id": "meringa-cukraszda-budapest",
+      "business_name": "Meringa Cukrászda",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:31.416Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Meringa Cukrászda számára",
+      "to": "meringacukraszat@gmail.com"
+    },
+    {
+      "lead_id": "cukorka-kavehaz-es-grillterasz-budapest",
+      "business_name": "Cukorka Kávéház és Grillterasz",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:32.355Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Cukorka Kávéház és Grillterasz számára",
+      "to": "hauserreka@repeatclean.hu"
+    },
+    {
+      "lead_id": "egyel-jot-budapest",
+      "business_name": "Egyél Jót",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:33.278Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Egyél Jót számára",
+      "to": "csordasmargit@hotmail.com"
+    },
+    {
+      "lead_id": "kaj-alom-budapest",
+      "business_name": "Kaj-Álom",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-12T09:15:34.090Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kaj-Álom számára",
+      "to": "kajalomkft@gmail.com"
     }
   ]
 }
