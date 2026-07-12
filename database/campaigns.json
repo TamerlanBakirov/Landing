@@ -1000,7 +1000,8 @@
       "sent_at": "2026-07-09T10:36:42.665Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Serpenyő Ételbár számára",
-      "to": "serpenyoetkezde@gmail.com"
+      "to": "serpenyoetkezde@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:49.789Z"
     },
     {
       "lead_id": "bartok-reggel-delben-este-budapest",
@@ -1010,7 +1011,8 @@
       "sent_at": "2026-07-09T10:36:44.602Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Bartók - reggel.délben.este számára",
-      "to": "bartokbisztro@gmail.com"
+      "to": "bartokbisztro@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:51.311Z"
     },
     {
       "lead_id": "klasszik-by-manetti-budapest",
@@ -1020,7 +1022,8 @@
       "sent_at": "2026-07-09T10:36:46.691Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Klasszik by Manetti számára",
-      "to": "zoltan.gasparr@gmail.com"
+      "to": "zoltan.gasparr@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:52.388Z"
     },
     {
       "lead_id": "queen-bee-budapest",
@@ -1030,7 +1033,8 @@
       "sent_at": "2026-07-09T10:36:48.326Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Queen Bee számára",
-      "to": "queenbeethecoffeebar@gmail.com"
+      "to": "queenbeethecoffeebar@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:53.730Z"
     },
     {
       "lead_id": "kahwa-budapest",
@@ -1040,7 +1044,8 @@
       "sent_at": "2026-07-09T10:36:49.934Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Kahwa számára",
-      "to": "kahwabudapest@gmail.com"
+      "to": "kahwabudapest@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:54.959Z"
     },
     {
       "lead_id": "a39-info-bistro-budapest",
@@ -1050,7 +1055,8 @@
       "sent_at": "2026-07-09T10:36:51.384Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a A39 Info Bistro számára",
-      "to": "info39bistro@gmail.com"
+      "to": "info39bistro@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:56.214Z"
     },
     {
       "lead_id": "il-mulino-budapest",
@@ -1060,7 +1066,8 @@
       "sent_at": "2026-07-09T10:36:53.068Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Il Mulino számára",
-      "to": "ilmulinobistro@gmail.com"
+      "to": "ilmulinobistro@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:57.600Z"
     },
     {
       "lead_id": "nem-adom-fel-cafe-bar-budapest",
@@ -1070,7 +1077,8 @@
       "sent_at": "2026-07-09T10:36:54.593Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Nem Adom Fel Cafe & Bar számára",
-      "to": "info@nemadomfelkavezo.hu"
+      "to": "info@nemadomfelkavezo.hu",
+      "follow_up_sent": "2026-07-12T11:56:58.601Z"
     },
     {
       "lead_id": "trafik-budapest",
@@ -1080,7 +1088,8 @@
       "sent_at": "2026-07-09T10:36:56.059Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Trafik számára",
-      "to": "trafiktrafoo@gmail.com"
+      "to": "trafiktrafoo@gmail.com",
+      "follow_up_sent": "2026-07-12T11:56:59.507Z"
     },
     {
       "lead_id": "co-phi-cafe-budapest",
@@ -1090,7 +1099,8 @@
       "sent_at": "2026-07-09T10:36:57.731Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Co'phi Cafe számára",
-      "to": "hello.cophi@gmail.com"
+      "to": "hello.cophi@gmail.com",
+      "follow_up_sent": "2026-07-12T11:57:00.769Z"
     },
     {
       "lead_id": "heureka-budapest",
