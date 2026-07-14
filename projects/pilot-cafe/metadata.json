@@ -1,0 +1,14 @@
+{
+  "business_name": "Pilot Cafe",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-14T09:13:08.181Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

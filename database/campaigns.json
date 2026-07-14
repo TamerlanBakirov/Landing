@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-13",
+  "last_reset": "2026-07-14",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -1511,6 +1511,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Édes Szelet számára",
       "to": "edesszelet@gmail.com"
+    },
+    {
+      "lead_id": "jokenyer-budapest",
+      "business_name": "Jókenyér",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:50.308Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Jókenyér számára",
+      "to": "oriaskiflipekseg@gmail.com"
+    },
+    {
+      "lead_id": "retek-bisztro-budapest",
+      "business_name": "Retek Bisztró",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:51.624Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Retek Bisztró számára",
+      "to": "retek@retekbisztro.hu"
+    },
+    {
+      "lead_id": "mishto-cafe-deli-budapest",
+      "business_name": "Mishto Café & Deli",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:53.337Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Mishto Café & Deli számára",
+      "to": "hello@mish.to"
+    },
+    {
+      "lead_id": "barlang-budapest",
+      "business_name": "Barlang",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:54.797Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Barlang számára",
+      "to": "barlangcoffee@gmail.com"
+    },
+    {
+      "lead_id": "sweet-side-cafe-budapest",
+      "business_name": "Sweet side café",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:56.305Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sweet side café számára",
+      "to": "sweetsidebudapest@gmail.com"
+    },
+    {
+      "lead_id": "sakura-ramen-budapest",
+      "business_name": "Sakura Ramen",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:57.903Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sakura Ramen számára",
+      "to": "sakuraramenbp@163.com"
+    },
+    {
+      "lead_id": "lashka-budapest",
+      "business_name": "Lashka",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:59.259Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Lashka számára",
+      "to": "info@lashka.hu"
+    },
+    {
+      "lead_id": "fahej-kavezo-budapest",
+      "business_name": "Fahéj Kávézó",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:16:00.823Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Fahéj Kávézó számára",
+      "to": "info@kervend.hu"
+    },
+    {
+      "lead_id": "la-trattoria-budapest",
+      "business_name": "La Trattoria",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:16:02.389Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a La Trattoria számára",
+      "to": "norbertjanosi83@gmail.com"
+    },
+    {
+      "lead_id": "nor-ma-budapest",
+      "business_name": "Nor/ma",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:16:03.863Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Nor/ma számára",
+      "to": "normapekseg@gmail.com"
     }
   ]
 }
