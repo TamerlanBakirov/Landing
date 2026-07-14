@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-13",
+  "last_reset": "2026-07-14",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -1110,7 +1110,8 @@
       "sent_at": "2026-07-10T10:32:26.064Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Heuréka számára",
-      "to": "vendimari@gmail.com"
+      "to": "vendimari@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:02.387Z"
     },
     {
       "lead_id": "torokmez-budapest",
@@ -1120,7 +1121,8 @@
       "sent_at": "2026-07-10T10:32:27.061Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Törökméz számára",
-      "to": "hello@torokmez.hu"
+      "to": "hello@torokmez.hu",
+      "follow_up_sent": "2026-07-13T13:21:03.334Z"
     },
     {
       "lead_id": "mon-cheri-budapest",
@@ -1130,7 +1132,8 @@
       "sent_at": "2026-07-10T10:32:28.031Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Mon Chéri számára",
-      "to": "moncheribudapest@gmail.com"
+      "to": "moncheribudapest@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:04.386Z"
     },
     {
       "lead_id": "ilham-pasa-torok-bufeje-budapest",
@@ -1140,7 +1143,8 @@
       "sent_at": "2026-07-10T10:32:29.105Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Ilham pasa török büféje számára",
-      "to": "ilhampasa.bufe@gmail.com"
+      "to": "ilhampasa.bufe@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:05.299Z"
     },
     {
       "lead_id": "paxos-etterem-budapest",
@@ -1150,7 +1154,8 @@
       "sent_at": "2026-07-10T10:32:30.014Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Paxos étterem számára",
-      "to": "elbana00099@gmail.com"
+      "to": "elbana00099@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:06.280Z"
     },
     {
       "lead_id": "mitzi-budapest",
@@ -1160,7 +1165,8 @@
       "sent_at": "2026-07-10T10:32:31.194Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Mitzi számára",
-      "to": "mitzibudapest@gmail.com"
+      "to": "mitzibudapest@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:07.394Z"
     },
     {
       "lead_id": "pizza-and-beer-budapest",
@@ -1170,7 +1176,8 @@
       "sent_at": "2026-07-10T10:32:32.022Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Pizza and Beer számára",
-      "to": "pizzaandbeerbar@gmail.com"
+      "to": "pizzaandbeerbar@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:08.385Z"
     },
     {
       "lead_id": "dosamosa-budapest",
@@ -1180,7 +1187,8 @@
       "sent_at": "2026-07-10T10:32:32.988Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a DosaMosa számára",
-      "to": "dosamosa8@gmail.com"
+      "to": "dosamosa8@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:09.422Z"
     },
     {
       "lead_id": "the-annam-cafe-budapest",
@@ -1190,7 +1198,8 @@
       "sent_at": "2026-07-10T10:32:34.025Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a The AnNam Cafe számára",
-      "to": "Theannamcafe.kft@gmail.com"
+      "to": "Theannamcafe.kft@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:10.319Z"
     },
     {
       "lead_id": "romai-fagyizo-cukraszda-budapest",
@@ -1200,7 +1209,8 @@
       "sent_at": "2026-07-10T10:32:34.900Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Római Fagyizó Cukrászda számára",
-      "to": "krisztina463@gmail.com"
+      "to": "krisztina463@gmail.com",
+      "follow_up_sent": "2026-07-13T13:21:11.308Z"
     },
     {
       "lead_id": "colosseum-budapest",
@@ -1501,6 +1511,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Édes Szelet számára",
       "to": "edesszelet@gmail.com"
+    },
+    {
+      "lead_id": "jokenyer-budapest",
+      "business_name": "Jókenyér",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:50.308Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Jókenyér számára",
+      "to": "oriaskiflipekseg@gmail.com"
+    },
+    {
+      "lead_id": "retek-bisztro-budapest",
+      "business_name": "Retek Bisztró",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:51.624Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Retek Bisztró számára",
+      "to": "retek@retekbisztro.hu"
+    },
+    {
+      "lead_id": "mishto-cafe-deli-budapest",
+      "business_name": "Mishto Café & Deli",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:53.337Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Mishto Café & Deli számára",
+      "to": "hello@mish.to"
+    },
+    {
+      "lead_id": "barlang-budapest",
+      "business_name": "Barlang",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:54.797Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Barlang számára",
+      "to": "barlangcoffee@gmail.com"
+    },
+    {
+      "lead_id": "sweet-side-cafe-budapest",
+      "business_name": "Sweet side café",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:56.305Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sweet side café számára",
+      "to": "sweetsidebudapest@gmail.com"
+    },
+    {
+      "lead_id": "sakura-ramen-budapest",
+      "business_name": "Sakura Ramen",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:57.903Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sakura Ramen számára",
+      "to": "sakuraramenbp@163.com"
+    },
+    {
+      "lead_id": "lashka-budapest",
+      "business_name": "Lashka",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:15:59.259Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Lashka számára",
+      "to": "info@lashka.hu"
+    },
+    {
+      "lead_id": "fahej-kavezo-budapest",
+      "business_name": "Fahéj Kávézó",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:16:00.823Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Fahéj Kávézó számára",
+      "to": "info@kervend.hu"
+    },
+    {
+      "lead_id": "la-trattoria-budapest",
+      "business_name": "La Trattoria",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:16:02.389Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a La Trattoria számára",
+      "to": "norbertjanosi83@gmail.com"
+    },
+    {
+      "lead_id": "nor-ma-budapest",
+      "business_name": "Nor/ma",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-14T09:16:03.863Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Nor/ma számára",
+      "to": "normapekseg@gmail.com"
     }
   ]
 }

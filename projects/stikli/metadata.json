@@ -1,0 +1,14 @@
+{
+  "business_name": "Stikli",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-14T09:11:36.559Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
