@@ -1220,7 +1220,8 @@
       "sent_at": "2026-07-11T09:00:22.533Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Colosseum számára",
-      "to": "ishmondialcompany@gmail.com"
+      "to": "ishmondialcompany@gmail.com",
+      "follow_up_sent": "2026-07-14T12:08:19.905Z"
     },
     {
       "lead_id": "seed-budapest",
@@ -1230,7 +1231,8 @@
       "sent_at": "2026-07-11T09:00:24.192Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a SEED számára",
-      "to": "seedcoffeebudapest@gmail.com"
+      "to": "seedcoffeebudapest@gmail.com",
+      "follow_up_sent": "2026-07-14T12:08:21.015Z"
     },
     {
       "lead_id": "kelly-s-wok-budapest",
@@ -1240,7 +1242,8 @@
       "sent_at": "2026-07-11T09:00:25.576Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Kelly's Wok számára",
-      "to": "jialing59420@gmail.com"
+      "to": "jialing59420@gmail.com",
+      "follow_up_sent": "2026-07-14T12:08:22.101Z"
     },
     {
       "lead_id": "budai-ketto-budapest",
@@ -1250,7 +1253,8 @@
       "sent_at": "2026-07-11T09:00:26.833Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Budai Kettő számára",
-      "to": "juranyigastro@gmail.com"
+      "to": "juranyigastro@gmail.com",
+      "follow_up_sent": "2026-07-14T12:08:22.989Z"
     },
     {
       "lead_id": "toscana-club-budapest",
@@ -1260,7 +1264,8 @@
       "sent_at": "2026-07-11T09:00:28.183Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Toscana Club számára",
-      "to": "toscanaclub.budapest@gmail.com"
+      "to": "toscanaclub.budapest@gmail.com",
+      "follow_up_sent": "2026-07-14T12:08:24.521Z"
     },
     {
       "lead_id": "restro-puskin-budapest",
@@ -1270,7 +1275,8 @@
       "sent_at": "2026-07-11T09:00:29.608Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Restro Puskin számára",
-      "to": "restropuskin@gmail.com"
+      "to": "restropuskin@gmail.com",
+      "follow_up_sent": "2026-07-14T12:08:25.453Z"
     },
     {
       "lead_id": "csillaghegyi-megallo-budapest",
@@ -1280,7 +1286,8 @@
       "sent_at": "2026-07-11T09:00:30.951Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Csillaghegyi Megálló számára",
-      "to": "info@csillaghegyimegallo.hu"
+      "to": "info@csillaghegyimegallo.hu",
+      "follow_up_sent": "2026-07-14T12:08:26.443Z"
     },
     {
       "lead_id": "edison-jupiter-budapest",
@@ -1290,7 +1297,8 @@
       "sent_at": "2026-07-11T09:00:32.187Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Edison&Jupiter számára",
-      "to": "hello@edisonjupiter.com"
+      "to": "hello@edisonjupiter.com",
+      "follow_up_sent": "2026-07-14T12:08:27.284Z"
     },
     {
       "lead_id": "parisi-6-budapest",
@@ -1300,7 +1308,8 @@
       "sent_at": "2026-07-11T09:00:33.477Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Parisi 6 számára",
-      "to": "parisi6@outlook.com"
+      "to": "parisi6@outlook.com",
+      "follow_up_sent": "2026-07-14T12:08:28.513Z"
     },
     {
       "lead_id": "dorado-budapest",
@@ -1310,7 +1319,8 @@
       "sent_at": "2026-07-11T09:00:34.795Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Dorado számára",
-      "to": "doradokave@gmail.com"
+      "to": "doradokave@gmail.com",
+      "follow_up_sent": "2026-07-14T12:08:29.511Z"
     },
     {
       "lead_id": "dorothy-s-presso-budapest",

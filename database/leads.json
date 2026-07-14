@@ -5341,20 +5341,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.706Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:22.536Z",
+    "updated_at": "2026-07-14T12:08:19.909Z",
     "project_dir": "projects/colosseum",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:22.533Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:19.905Z"
   },
   {
     "id": "seed-budapest",
@@ -5381,20 +5382,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.728Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:24.195Z",
+    "updated_at": "2026-07-14T12:08:21.019Z",
     "project_dir": "projects/seed",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:24.193Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:21.015Z"
   },
   {
     "id": "kelly-s-wok-budapest",
@@ -5421,20 +5423,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.776Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:25.579Z",
+    "updated_at": "2026-07-14T12:08:22.105Z",
     "project_dir": "projects/kelly-s-wok",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:25.577Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:22.101Z"
   },
   {
     "id": "budai-ketto-budapest",
@@ -5461,20 +5464,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.780Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:26.836Z",
+    "updated_at": "2026-07-14T12:08:22.993Z",
     "project_dir": "projects/budai-ketto",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:26.833Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:22.989Z"
   },
   {
     "id": "toscana-club-budapest",
@@ -5501,20 +5505,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.834Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:28.186Z",
+    "updated_at": "2026-07-14T12:08:24.525Z",
     "project_dir": "projects/toscana-club",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:28.184Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:24.521Z"
   },
   {
     "id": "restro-puskin-budapest",
@@ -5541,20 +5546,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.876Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:29.611Z",
+    "updated_at": "2026-07-14T12:08:25.457Z",
     "project_dir": "projects/restro-puskin",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:29.609Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:25.453Z"
   },
   {
     "id": "csillaghegyi-megallo-budapest",
@@ -5581,20 +5587,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.965Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:30.954Z",
+    "updated_at": "2026-07-14T12:08:26.447Z",
     "project_dir": "projects/csillaghegyi-megallo",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:30.951Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:26.443Z"
   },
   {
     "id": "edison-jupiter-budapest",
@@ -5621,20 +5628,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.978Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:32.190Z",
+    "updated_at": "2026-07-14T12:08:27.288Z",
     "project_dir": "projects/edison-jupiter",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:32.187Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:27.284Z"
   },
   {
     "id": "parisi-6-budapest",
@@ -5661,20 +5669,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.994Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:33.481Z",
+    "updated_at": "2026-07-14T12:08:28.516Z",
     "project_dir": "projects/parisi-6",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:33.478Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:28.513Z"
   },
   {
     "id": "dorado-budapest",
@@ -5701,20 +5710,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:03.998Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-11T09:00:34.798Z",
+    "updated_at": "2026-07-14T12:08:29.514Z",
     "project_dir": "projects/dorado",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-11T09:00:34.795Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-14T12:08:29.511Z"
   },
   {
     "id": "dorothy-s-presso-budapest",
