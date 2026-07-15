@@ -1,0 +1,14 @@
+{
+  "business_name": "All Day Coffee",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-15T09:18:42.085Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

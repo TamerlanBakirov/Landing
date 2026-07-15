@@ -1,0 +1,14 @@
+{
+  "business_name": "Ben The Goose Coffe Bar",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-15T09:21:30.557Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

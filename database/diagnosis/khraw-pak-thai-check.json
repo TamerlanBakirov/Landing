@@ -1,0 +1,26 @@
+{
+  "business_name": "Khraw Pak Thai",
+  "city": "Budapest",
+  "checked_at": "2026-07-15T09:22:43.548Z",
+  "confidence": 96,
+  "spam_score": 90,
+  "passed": true,
+  "issues": [
+    {
+      "field": "grammar",
+      "severity": "minor",
+      "message": "Multiple consecutive spaces found"
+    },
+    {
+      "field": "grammar",
+      "severity": "minor",
+      "message": "Excessive capitalization detected"
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "warnings": 0,
+    "minor": 2,
+    "total": 2
+  }
+}

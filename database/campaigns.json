@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-14",
+  "last_reset": "2026-07-15",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -1621,6 +1621,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Nor/ma számára",
       "to": "normapekseg@gmail.com"
+    },
+    {
+      "lead_id": "sis-bro-boutique-cafe-budapest",
+      "business_name": "Sis & Bro Boutique Café",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:45.445Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Sis & Bro Boutique Café számára",
+      "to": "sisandbrokft@gmail.com"
+    },
+    {
+      "lead_id": "garden-79-restaurant-bar-budapest",
+      "business_name": "Garden 79 Restaurant & Bar",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:46.956Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Garden 79 Restaurant & Bar számára",
+      "to": "info.gardeninnbudapest@hilton.com"
+    },
+    {
+      "lead_id": "jin-galbi-restaurant-budapest",
+      "business_name": "Jin Galbi Restaurant",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:48.520Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Jin Galbi Restaurant számára",
+      "to": "jingalbi.hu@gmail.com"
+    },
+    {
+      "lead_id": "rozmaring-etterem-es-pizzeria-budapest",
+      "business_name": "Rozmaring Étterem és Pizzéria",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:50.063Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Rozmaring Étterem és Pizzéria számára",
+      "to": "rozmaringbagolyvar@gmail.com"
+    },
+    {
+      "lead_id": "the-dam-n-good-place-budapest",
+      "business_name": "The DAM_n Good Place",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:51.641Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a The DAM_n Good Place számára",
+      "to": "damngoodplace@gmail.com"
+    },
+    {
+      "lead_id": "nosh-budapest",
+      "business_name": "Nosh",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:53.062Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Nosh számára",
+      "to": "info@noshcoffee.hu"
+    },
+    {
+      "lead_id": "pokito-budapest",
+      "business_name": "Pokito",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:54.486Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Pokito számára",
+      "to": "hello@pokito.co"
+    },
+    {
+      "lead_id": "kredenc-cafe-delicatesse-budapest",
+      "business_name": "Kredenc Cafe & Delicatesse",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:56.487Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kredenc Cafe & Delicatesse számára",
+      "to": "kredenc.cafe@gmail.com"
+    },
+    {
+      "lead_id": "coffee-works-budapest",
+      "business_name": "Coffee Works",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:58.077Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Coffee Works számára",
+      "to": "coffeeworksbp@gmail.com"
+    },
+    {
+      "lead_id": "aranypinty-budapest",
+      "business_name": "Aranypinty",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-15T09:22:59.687Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Aranypinty számára",
+      "to": "hello@aranypinty.hu"
     }
   ]
 }
