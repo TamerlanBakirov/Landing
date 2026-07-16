@@ -6260,20 +6260,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.414Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:22.031Z",
+    "updated_at": "2026-07-16T12:19:07.978Z",
     "project_dir": "projects/volgy-bistro",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:22.028Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:07.975Z"
   },
   {
     "id": "la-panna-sutemeny-budapest",
@@ -6300,20 +6301,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.427Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:23.314Z",
+    "updated_at": "2026-07-16T12:19:08.773Z",
     "project_dir": "projects/la-panna-sutemeny",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:23.312Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:08.770Z"
   },
   {
     "id": "sweetie-shop-budapest",
@@ -6340,20 +6342,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.438Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:24.561Z",
+    "updated_at": "2026-07-16T12:19:09.491Z",
     "project_dir": "projects/sweetie-shop",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:24.558Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:09.488Z"
   },
   {
     "id": "nass-cukraszda-budapest",
@@ -6380,20 +6383,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.449Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:25.805Z",
+    "updated_at": "2026-07-16T12:19:10.391Z",
     "project_dir": "projects/nass-cukraszda",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:25.802Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:10.388Z"
   },
   {
     "id": "bagetto-budapest",
@@ -6420,20 +6424,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.489Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:27.149Z",
+    "updated_at": "2026-07-16T12:19:11.048Z",
     "project_dir": "projects/bagetto",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:27.146Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:11.045Z"
   },
   {
     "id": "pulled-chicken-bistro-budapest",
@@ -6460,20 +6465,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.497Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:28.364Z",
+    "updated_at": "2026-07-16T12:19:11.740Z",
     "project_dir": "projects/pulled-chicken-bistro",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:28.361Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:11.737Z"
   },
   {
     "id": "anyu-konyha-budapest",
@@ -6500,20 +6506,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.505Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:29.872Z",
+    "updated_at": "2026-07-16T12:19:12.462Z",
     "project_dir": "projects/anyu-konyha",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:29.869Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:12.459Z"
   },
   {
     "id": "menzay-bufe-budapest",
@@ -6540,20 +6547,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.517Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:31.100Z",
+    "updated_at": "2026-07-16T12:19:13.218Z",
     "project_dir": "projects/menzay-bufe",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:31.098Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:13.215Z"
   },
   {
     "id": "pauza-etterem-es-kavezo-budapest",
@@ -6580,20 +6588,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.523Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:32.159Z",
+    "updated_at": "2026-07-16T12:19:14.065Z",
     "project_dir": "projects/pauza-etterem-es-kavezo",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:32.156Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:14.062Z"
   },
   {
     "id": "edes-szelet-budapest",
@@ -6620,20 +6629,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.605Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-13T10:34:33.477Z",
+    "updated_at": "2026-07-16T12:19:14.758Z",
     "project_dir": "projects/edes-szelet",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-13T10:34:33.475Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-16T12:19:14.755Z"
   },
   {
     "id": "jokenyer-budapest",
