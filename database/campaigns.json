@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-15",
+  "last_reset": "2026-07-16",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -1731,6 +1731,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Aranypinty számára",
       "to": "hello@aranypinty.hu"
+    },
+    {
+      "lead_id": "trabant-60-budapest",
+      "business_name": "Trabant '60",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:30.807Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Trabant '60 számára",
+      "to": "office@urbanbetyar.com"
+    },
+    {
+      "lead_id": "marischka-budapest",
+      "business_name": "Marischka",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:32.305Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Marischka számára",
+      "to": "info@marischka.hu"
+    },
+    {
+      "lead_id": "wombat-coffeshop-budapest",
+      "business_name": "Wömbät Coffeshop",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:33.823Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Wömbät Coffeshop számára",
+      "to": "wombatcoffeeshop@gmail.com"
+    },
+    {
+      "lead_id": "olee-s-pizza-budapest",
+      "business_name": "Olee’s Pizza",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:35.342Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Olee’s Pizza számára",
+      "to": "olivernapoli76@gmail.com"
+    },
+    {
+      "lead_id": "chez-hanna-budapest",
+      "business_name": "Chez Hanna",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:36.850Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Chez Hanna számára",
+      "to": "richard.siklosi@gmail.com"
+    },
+    {
+      "lead_id": "la-piccola-napoli-budapest",
+      "business_name": "La Piccola Napoli",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:38.434Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a La Piccola Napoli számára",
+      "to": "piccola.pizzeria2000@gmail.com"
+    },
+    {
+      "lead_id": "stikli-budapest",
+      "business_name": "Stikli",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:40.025Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Stikli számára",
+      "to": "stiklibudapest@gmail.com"
+    },
+    {
+      "lead_id": "just-cantine-budapest",
+      "business_name": "Just Cantine",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:41.629Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Just Cantine számára",
+      "to": "koncsekeszter@gmail.com"
+    },
+    {
+      "lead_id": "majdnem-cafe-more-budapest",
+      "business_name": "Majdnem Café & More",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:43.172Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Majdnem Café & More számára",
+      "to": "majdnemcafe@gmail.com"
+    },
+    {
+      "lead_id": "cafe-bene-budapest",
+      "business_name": "Cafe Bene",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-16T09:27:44.919Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Cafe Bene számára",
+      "to": "barista@cafebene.hu"
     }
   ]
 }

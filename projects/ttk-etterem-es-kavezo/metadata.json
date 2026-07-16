@@ -1,0 +1,14 @@
+{
+  "business_name": "TTK étterem és kávézó",
+  "city": "Budapest",
+  "category": "restaurant",
+  "generated_at": "2026-07-16T09:25:05.709Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
