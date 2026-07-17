@@ -1,0 +1,14 @@
+{
+  "business_name": "AutoPont24",
+  "city": "Budapest",
+  "category": "auto repair",
+  "generated_at": "2026-07-17T09:18:55.751Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
