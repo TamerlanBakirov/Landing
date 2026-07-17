@@ -1550,7 +1550,8 @@
       "sent_at": "2026-07-14T09:15:50.308Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Jókenyér számára",
-      "to": "oriaskiflipekseg@gmail.com"
+      "to": "oriaskiflipekseg@gmail.com",
+      "follow_up_sent": "2026-07-17T12:06:30.288Z"
     },
     {
       "lead_id": "retek-bisztro-budapest",
@@ -1560,7 +1561,8 @@
       "sent_at": "2026-07-14T09:15:51.624Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Retek Bisztró számára",
-      "to": "retek@retekbisztro.hu"
+      "to": "retek@retekbisztro.hu",
+      "follow_up_sent": "2026-07-17T12:06:31.089Z"
     },
     {
       "lead_id": "mishto-cafe-deli-budapest",
@@ -1570,7 +1572,8 @@
       "sent_at": "2026-07-14T09:15:53.337Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Mishto Café & Deli számára",
-      "to": "hello@mish.to"
+      "to": "hello@mish.to",
+      "follow_up_sent": "2026-07-17T12:06:31.694Z"
     },
     {
       "lead_id": "barlang-budapest",
@@ -1580,7 +1583,8 @@
       "sent_at": "2026-07-14T09:15:54.797Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Barlang számára",
-      "to": "barlangcoffee@gmail.com"
+      "to": "barlangcoffee@gmail.com",
+      "follow_up_sent": "2026-07-17T12:06:32.543Z"
     },
     {
       "lead_id": "sweet-side-cafe-budapest",
@@ -1590,7 +1594,8 @@
       "sent_at": "2026-07-14T09:15:56.305Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Sweet side café számára",
-      "to": "sweetsidebudapest@gmail.com"
+      "to": "sweetsidebudapest@gmail.com",
+      "follow_up_sent": "2026-07-17T12:06:33.167Z"
     },
     {
       "lead_id": "sakura-ramen-budapest",
@@ -1600,7 +1605,8 @@
       "sent_at": "2026-07-14T09:15:57.903Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Sakura Ramen számára",
-      "to": "sakuraramenbp@163.com"
+      "to": "sakuraramenbp@163.com",
+      "follow_up_sent": "2026-07-17T12:06:37.053Z"
     },
     {
       "lead_id": "lashka-budapest",
@@ -1610,7 +1616,8 @@
       "sent_at": "2026-07-14T09:15:59.259Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Lashka számára",
-      "to": "info@lashka.hu"
+      "to": "info@lashka.hu",
+      "follow_up_sent": "2026-07-17T12:06:37.737Z"
     },
     {
       "lead_id": "fahej-kavezo-budapest",
@@ -1620,7 +1627,8 @@
       "sent_at": "2026-07-14T09:16:00.823Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Fahéj Kávézó számára",
-      "to": "info@kervend.hu"
+      "to": "info@kervend.hu",
+      "follow_up_sent": "2026-07-17T12:06:38.422Z"
     },
     {
       "lead_id": "la-trattoria-budapest",
@@ -1630,7 +1638,8 @@
       "sent_at": "2026-07-14T09:16:02.389Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a La Trattoria számára",
-      "to": "norbertjanosi83@gmail.com"
+      "to": "norbertjanosi83@gmail.com",
+      "follow_up_sent": "2026-07-17T12:06:39.147Z"
     },
     {
       "lead_id": "nor-ma-budapest",
@@ -1640,7 +1649,8 @@
       "sent_at": "2026-07-14T09:16:03.863Z",
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Nor/ma számára",
-      "to": "normapekseg@gmail.com"
+      "to": "normapekseg@gmail.com",
+      "follow_up_sent": "2026-07-17T12:06:40.048Z"
     },
     {
       "lead_id": "sis-bro-boutique-cafe-budapest",

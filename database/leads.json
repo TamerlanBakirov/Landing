@@ -6670,20 +6670,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.610Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:15:50.312Z",
+    "updated_at": "2026-07-17T12:06:30.291Z",
     "project_dir": "projects/jokenyer",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:15:50.309Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:30.288Z"
   },
   {
     "id": "retek-bisztro-budapest",
@@ -6710,20 +6711,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.628Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:15:51.627Z",
+    "updated_at": "2026-07-17T12:06:31.092Z",
     "project_dir": "projects/retek-bisztro",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:15:51.624Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:31.089Z"
   },
   {
     "id": "mishto-cafe-deli-budapest",
@@ -6750,20 +6752,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.636Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:15:53.340Z",
+    "updated_at": "2026-07-17T12:06:31.698Z",
     "project_dir": "projects/mishto-cafe-deli",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:15:53.337Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:31.694Z"
   },
   {
     "id": "barlang-budapest",
@@ -6790,20 +6793,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.687Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:15:54.800Z",
+    "updated_at": "2026-07-17T12:06:32.546Z",
     "project_dir": "projects/barlang",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:15:54.798Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:32.543Z"
   },
   {
     "id": "sweet-side-cafe-budapest",
@@ -6830,20 +6834,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.731Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:15:56.308Z",
+    "updated_at": "2026-07-17T12:06:33.170Z",
     "project_dir": "projects/sweet-side-cafe",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:15:56.305Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:33.167Z"
   },
   {
     "id": "sakura-ramen-budapest",
@@ -6870,20 +6875,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:04.795Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:15:57.906Z",
+    "updated_at": "2026-07-17T12:06:37.056Z",
     "project_dir": "projects/sakura-ramen",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:15:57.904Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:37.053Z"
   },
   {
     "id": "pho-74-budapest",
@@ -6943,20 +6949,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.036Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:15:59.263Z",
+    "updated_at": "2026-07-17T12:06:37.740Z",
     "project_dir": "projects/lashka",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:15:59.260Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:37.737Z"
   },
   {
     "id": "fahej-kavezo-budapest",
@@ -6983,20 +6990,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.047Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:16:00.826Z",
+    "updated_at": "2026-07-17T12:06:38.425Z",
     "project_dir": "projects/fahej-kavezo",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:16:00.823Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:38.422Z"
   },
   {
     "id": "la-trattoria-budapest",
@@ -7023,20 +7031,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.079Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:16:02.392Z",
+    "updated_at": "2026-07-17T12:06:39.150Z",
     "project_dir": "projects/la-trattoria",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:16:02.390Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:39.147Z"
   },
   {
     "id": "nor-ma-budapest",
@@ -7063,20 +7072,21 @@
       "No SEO - invisible in search results",
       "No mobile presence"
     ],
-    "stage": "pitched",
+    "stage": "followed_up",
     "score": 85,
     "retries": 0,
     "created_at": "2026-06-28T11:40:05.151Z",
     "diagnosis_score": 70,
     "recommended_package": "Weboldal csomag",
-    "updated_at": "2026-07-14T09:16:03.866Z",
+    "updated_at": "2026-07-17T12:06:40.051Z",
     "project_dir": "projects/nor-ma",
     "has_video": true,
     "checker_confidence": 96,
     "spam_score": 90,
     "pitched_at": "2026-07-14T09:16:03.863Z",
     "pitch_channel": "email_sent",
-    "email_sent": true
+    "email_sent": true,
+    "followed_up_at": "2026-07-17T12:06:40.048Z"
   },
   {
     "id": "fofoto-budapest",
