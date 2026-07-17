@@ -1,0 +1,14 @@
+{
+  "business_name": "Gyurkóczi Motor és Robogó Szerviz",
+  "city": "Budapest",
+  "category": "auto repair",
+  "generated_at": "2026-07-17T09:21:15.469Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

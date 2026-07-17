@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-16",
+  "last_reset": "2026-07-17",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -1841,6 +1841,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a Cafe Bene számára",
       "to": "barista@cafebene.hu"
+    },
+    {
+      "lead_id": "pilot-cafe-budapest",
+      "business_name": "Pilot Cafe",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:17.763Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Pilot Cafe számára",
+      "to": "info@pilotcafe.hu"
+    },
+    {
+      "lead_id": "tosti-budapest",
+      "business_name": "Tosti",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:19.259Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Tosti számára",
+      "to": "tostibudapest@gmail.com"
+    },
+    {
+      "lead_id": "falu-budapest",
+      "business_name": "Falu",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:20.708Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Falu számára",
+      "to": "faludelikat@gmail.com"
+    },
+    {
+      "lead_id": "kicsi-japan-dining-budapest",
+      "business_name": "Kicsi Japán Dining",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:22.365Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Kicsi Japán Dining számára",
+      "to": "kicsijapanbp@gmail.com"
+    },
+    {
+      "lead_id": "lin-mester-konyhaja-budapest",
+      "business_name": "Lin Mester Konyhája",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:23.758Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Lin Mester Konyhája számára",
+      "to": "linmesterkonyha@gmail.com"
+    },
+    {
+      "lead_id": "blokk-bbq-budapest",
+      "business_name": "Blokk BBQ",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:25.402Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Blokk BBQ számára",
+      "to": "hello@blokkbbq.hu"
+    },
+    {
+      "lead_id": "levant-lebanese-bistro-budapest",
+      "business_name": "Levant Lebanese Bistro",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:26.491Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Levant Lebanese Bistro számára",
+      "to": "levantbudapest@gmail.com"
+    },
+    {
+      "lead_id": "deszka-budapest",
+      "business_name": "Deszka",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:27.947Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Deszka számára",
+      "to": "ianddevents2022@gmail.com"
+    },
+    {
+      "lead_id": "winestone-budapest",
+      "business_name": "Winestone",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:29.488Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Winestone számára",
+      "to": "h6565-sb@accor.com"
+    },
+    {
+      "lead_id": "all-day-coffee-budapest",
+      "business_name": "All Day Coffee",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-17T09:21:31.176Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a All Day Coffee számára",
+      "to": "innerbud.hu@gmail.com"
     }
   ]
 }
