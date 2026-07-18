@@ -1,9 +1,10 @@
 name: Follow-up Reminders
 
+# Automatic runs are PAUSED (owner request: stop all outreach emails).
+# To resume, restore the schedule trigger:
+#   schedule:
+#     - cron: '0 11 * * *'
 on:
-  schedule:
-    # Every day at 11:00 UTC (13:00 Budapest) — after the morning pipeline
-    - cron: '0 11 * * *'
   workflow_dispatch:
 
 permissions:
