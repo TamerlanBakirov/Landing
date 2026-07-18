@@ -1,0 +1,14 @@
+{
+  "business_name": "Mercedes Electronic",
+  "city": "Budapest",
+  "category": "auto repair",
+  "generated_at": "2026-07-18T08:44:57.779Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

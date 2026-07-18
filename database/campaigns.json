@@ -1,6 +1,6 @@
 {
   "sent_today": 10,
-  "last_reset": "2026-07-17",
+  "last_reset": "2026-07-18",
   "messages": [
     {
       "lead_id": "erzsebet-dental-medical-budapest",
@@ -1951,6 +1951,106 @@
       "status": "sent",
       "subject": "Ingyenes weboldal előnézet a All Day Coffee számára",
       "to": "innerbud.hu@gmail.com"
+    },
+    {
+      "lead_id": "k30-art-cafe-budapest",
+      "business_name": "K30 Art Cafe",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:15.327Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a K30 Art Cafe számára",
+      "to": "info@k30artcafe.hu"
+    },
+    {
+      "lead_id": "goat-bistro-budapest",
+      "business_name": "Goat Bistro",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:16.648Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Goat Bistro számára",
+      "to": "doppioitaliankitchenbp@gmail.com"
+    },
+    {
+      "lead_id": "khraw-pak-thai-budapest",
+      "business_name": "Khraw Pak Thai",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:18.075Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Khraw Pak Thai számára",
+      "to": "flexnfresh2023@gmail.com"
+    },
+    {
+      "lead_id": "pagony-cafe-dio-budapest",
+      "business_name": "Pagony Café-Dió",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:19.584Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Pagony Café-Dió számára",
+      "to": "diokavezo@pagony.hu"
+    },
+    {
+      "lead_id": "rubin-grill-cafe-budapest",
+      "business_name": "Rubin Grill & Café",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:21.042Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Rubin Grill & Café számára",
+      "to": "vendeglatas.admin@hotelrubin.hu"
+    },
+    {
+      "lead_id": "ph-st-budapest",
+      "business_name": "Phở ST",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:22.559Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Phở ST számára",
+      "to": "PhoST.rest.hu@gmail.com"
+    },
+    {
+      "lead_id": "ben-the-goose-coffe-bar-budapest",
+      "business_name": "Ben The Goose Coffe Bar",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:23.885Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Ben The Goose Coffe Bar számára",
+      "to": "benthegoose.coffee@gmail.com"
+    },
+    {
+      "lead_id": "bubci-cafe-budapest",
+      "business_name": "Bubci Café",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:25.474Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Bubci Café számára",
+      "to": "bubci.info@gmail.com"
+    },
+    {
+      "lead_id": "negro-mangalica-budapest",
+      "business_name": "Negro Mangalica",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:26.984Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Negro Mangalica számára",
+      "to": "hello@negromangalica.hu"
+    },
+    {
+      "lead_id": "baby-bamboo-restaurant-budapest",
+      "business_name": "Baby Bamboo Restaurant",
+      "city": "Budapest",
+      "channel": "email",
+      "sent_at": "2026-07-18T08:49:28.407Z",
+      "status": "sent",
+      "subject": "Ingyenes weboldal előnézet a Baby Bamboo Restaurant számára",
+      "to": "babybambookft@gmail.com"
     }
   ]
 }

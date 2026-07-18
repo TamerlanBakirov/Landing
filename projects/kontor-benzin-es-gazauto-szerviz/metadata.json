@@ -1,0 +1,14 @@
+{
+  "business_name": "Kontor benzin és gázautó szerviz",
+  "city": "Budapest",
+  "category": "auto repair",
+  "generated_at": "2026-07-18T08:45:44.772Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
