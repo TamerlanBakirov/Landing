@@ -1,0 +1,14 @@
+{
+  "business_name": "Fitness-M",
+  "city": "Budapest",
+  "category": "gym",
+  "generated_at": "2026-07-18T08:47:17.500Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}

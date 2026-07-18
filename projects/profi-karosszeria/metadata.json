@@ -1,0 +1,14 @@
+{
+  "business_name": "Profi Karosszéria",
+  "city": "Budapest",
+  "category": "auto repair",
+  "generated_at": "2026-07-18T08:45:21.154Z",
+  "files": [
+    "index.html"
+  ],
+  "languages": [
+    "hu",
+    "en"
+  ],
+  "recommended_package": "Weboldal csomag"
+}
